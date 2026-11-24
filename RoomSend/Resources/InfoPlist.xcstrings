@@ -1,0 +1,126 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "NSPhotoLibraryAddUsageDescription": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend adds the photos and videos you receive to your library."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend ajoute à ta photothèque les photos et vidéos que tu reçois."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend legt empfangene Fotos und Videos in deiner Mediathek ab."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend añade a tu fototeca las fotos y vídeos que recibes."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend aggiunge alla tua libreria le foto e i video che ricevi."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O RoomSend adiciona à tua fototeca as fotos e vídeos que recebes."
+          }
+        }
+      }
+    },
+    "NSLocalNetworkUsageDescription": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend finds the devices on your Wi-Fi to send them files."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend trouve les appareils de ton Wi-Fi pour leur envoyer des fichiers."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend findet die Geräte in deinem WLAN, um ihnen Dateien zu senden."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend encuentra los dispositivos de tu Wi-Fi para enviarles archivos."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend trova i dispositivi della tua Wi-Fi per inviare loro dei file."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O RoomSend encontra os dispositivos da tua Wi-Fi para lhes enviar ficheiros."
+          }
+        }
+      }
+    },
+    "CFBundleDisplayName": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

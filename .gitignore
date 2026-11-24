@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# Python
+__pycache__/
+
+# Local state of the screenshot tools: identities and private keys of the fake test devices
+**/.state/
+
+# The website's source is shared on request, not published here
+site/
+
+# Link to the deployed Netlify site
+.netlify/

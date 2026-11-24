@@ -1,0 +1,5886 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "tab.room": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Room"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pièce"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Raum"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sala"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stanza"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sala"
+          }
+        }
+      }
+    },
+    "tab.history": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "History"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historique"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verlauf"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historial"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cronologia"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histórico"
+          }
+        }
+      }
+    },
+    "tab.settings": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réglages"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostazioni"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
+          }
+        }
+      }
+    },
+    "room.identity.shuffle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New name"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouveau nom"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neuer Name"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuevo nombre"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuovo nome"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novo nome"
+          }
+        }
+      }
+    },
+    "room.refresh": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Look again"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chercher à nouveau"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erneut suchen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar de nuevo"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerca di nuovo"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Procurar de novo"
+          }
+        }
+      }
+    },
+    "room.status.failed": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wi-Fi unavailable"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wi-Fi indisponible"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WLAN nicht verfügbar"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wi-Fi no disponible"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wi-Fi non disponibile"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wi-Fi indisponível"
+          }
+        }
+      }
+    },
+    "room.status.hidden": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hidden from the others"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invisible pour les autres"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Für andere unsichtbar"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invisible para los demás"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invisibile agli altri"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invisível para os outros"
+          }
+        }
+      }
+    },
+    "room.status.listening": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listening on this Wi-Fi"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À l'écoute sur ce Wi-Fi"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empfangsbereit in diesem WLAN"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escuchando en este Wi-Fi"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In ascolto su questo Wi-Fi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À escuta neste Wi-Fi"
+          }
+        }
+      }
+    },
+    "room.status.starting": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Joining the Wi-Fi"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion au Wi-Fi"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbindung mit dem WLAN"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectando al Wi-Fi"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connessione al Wi-Fi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A ligar ao Wi-Fi"
+          }
+        }
+      }
+    },
+    "room.nearby.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In the room"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dans la pièce"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Im Raum"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En la sala"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nella stanza"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na sala"
+          }
+        }
+      }
+    },
+    "room.nearby.empty.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nobody yet"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personne pour l'instant"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noch niemand"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nadie por ahora"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancora nessuno"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ninguém por agora"
+          }
+        }
+      }
+    },
+    "room.nearby.empty.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open RoomSend or LocalSend on another device on this Wi-Fi."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvre RoomSend ou LocalSend sur un autre appareil du même Wi-Fi."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öffne RoomSend oder LocalSend auf einem anderen Gerät im selben WLAN."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre RoomSend o LocalSend en otro dispositivo del mismo Wi-Fi."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri RoomSend o LocalSend su un altro dispositivo della stessa Wi-Fi."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre o RoomSend ou o LocalSend noutro dispositivo da mesma Wi-Fi."
+          }
+        }
+      }
+    },
+    "room.device.secure %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · encrypted"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · chiffré"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · verschlüsselt"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · cifrado"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · cifrato"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · encriptado"
+          }
+        }
+      }
+    },
+    "room.device.open %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · not encrypted"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · non chiffré"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · unverschlüsselt"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · sin cifrar"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · non cifrato"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · sem encriptação"
+          }
+        }
+      }
+    },
+    "source.photos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotos"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotos"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foto"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotos"
+          }
+        }
+      }
+    },
+    "source.files": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Files"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fichiers"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dateien"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archivos"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ficheiros"
+          }
+        }
+      }
+    },
+    "source.text": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texte"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texto"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Testo"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texto"
+          }
+        }
+      }
+    },
+    "source.paste": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coller"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einfügen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pegar"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incolla"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colar"
+          }
+        }
+      }
+    },
+    "text.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A message"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un message"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eine Nachricht"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un mensaje"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un messaggio"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uma mensagem"
+          }
+        }
+      }
+    },
+    "text.placeholder": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Type what to send"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écris ce que tu veux envoyer"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schreib, was du senden willst"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escribe lo que quieres enviar"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scrivi cosa vuoi inviare"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escreve o que queres enviar"
+          }
+        }
+      }
+    },
+    "text.next": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suivant"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weiter"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siguiente"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avanti"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seguinte"
+          }
+        }
+      }
+    },
+    "send.summary.text": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A message"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un message"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eine Nachricht"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un mensaje"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un messaggio"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uma mensagem"
+          }
+        }
+      }
+    },
+    "send.progress %lld %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sending %1$lld of %2$lld"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Envoi %1$lld sur %2$lld"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sende %1$lld von %2$lld"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviando %1$lld de %2$lld"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invio %1$lld di %2$lld"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A enviar %1$lld de %2$lld"
+          }
+        }
+      }
+    },
+    "send.done %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sent to %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Envoyé à %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An %@ gesendet"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviado a %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inviato a %@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviado para %@"
+          }
+        }
+      }
+    },
+    "send.done.everyone": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sent to the whole room"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Envoyé à toute la pièce"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An den ganzen Raum gesendet"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviado a toda la sala"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inviato a tutta la stanza"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviado para a sala toda"
+          }
+        }
+      }
+    },
+    "send.size.caption %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ in all"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ en tout"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ insgesamt"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ en total"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ in tutto"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ no total"
+          }
+        }
+      }
+    },
+    "send.noRecipient": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nobody to send to yet. Open RoomSend or LocalSend on another device on this Wi-Fi."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personne à qui envoyer pour l'instant. Ouvre RoomSend ou LocalSend sur un autre appareil du même Wi-Fi."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noch niemand zum Senden. Öffne RoomSend oder LocalSend auf einem anderen Gerät im selben WLAN."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todavía no hay a quién enviar. Abre RoomSend o LocalSend en otro dispositivo del mismo Wi-Fi."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancora nessuno a cui inviare. Apri RoomSend o LocalSend su un altro dispositivo della stessa Wi-Fi."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ainda não há a quem enviar. Abre o RoomSend ou o LocalSend noutro dispositivo da mesma Wi-Fi."
+          }
+        }
+      }
+    },
+    "send.size": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Size"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taille"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Größe"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamaño"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dimensione"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamanho"
+          }
+        }
+      }
+    },
+    "send.security": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encryption"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiffrement"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verschlüsselung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cifrado"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cifratura"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encriptação"
+          }
+        }
+      }
+    },
+    "send.security.https": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HTTPS, certificate checked"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HTTPS, certificat vérifié"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HTTPS, Zertifikat geprüft"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HTTPS, certificado verificado"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HTTPS, certificato verificato"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HTTPS, certificado verificado"
+          }
+        }
+      }
+    },
+    "send.security.http": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "None, plain HTTP"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun, HTTP simple"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine, einfaches HTTP"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ninguno, HTTP simple"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna, HTTP semplice"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma, HTTP simples"
+          }
+        }
+      }
+    },
+    "send.cancel": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annulla"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        }
+      }
+    },
+    "send.action": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Send"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Envoyer"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Senden"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviar"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invia"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviar"
+          }
+        }
+      }
+    },
+    "send.done.action": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminé"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fertig"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listo"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fine"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Concluído"
+          }
+        }
+      }
+    },
+    "send.retry": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try again"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réessayer"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erneut versuchen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reintentar"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riprova"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tentar de novo"
+          }
+        }
+      }
+    },
+    "error.unreachable": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The device didn't answer."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'appareil n'a pas répondu."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das Gerät hat nicht geantwortet."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El dispositivo no ha respondido."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il dispositivo non ha risposto."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O dispositivo não respondeu."
+          }
+        }
+      }
+    },
+    "error.rejected": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The device declined."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'appareil a refusé."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das Gerät hat abgelehnt."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El dispositivo lo ha rechazado."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il dispositivo ha rifiutato."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O dispositivo recusou."
+          }
+        }
+      }
+    },
+    "error.pinRequired": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This device asks for a PIN, which RoomSend doesn't support yet."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cet appareil demande un code PIN, que RoomSend ne gère pas encore."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dieses Gerät verlangt eine PIN."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este dispositivo pide un PIN."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo dispositivo chiede un PIN."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este dispositivo pede um PIN."
+          }
+        }
+      }
+    },
+    "error.busy": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The device is busy with another transfer."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'appareil est occupé par un autre transfert."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das Gerät ist mit einer anderen Übertragung beschäftigt."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El dispositivo está ocupado con otra transferencia."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il dispositivo è occupato con un altro trasferimento."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O dispositivo está ocupado com outra transferência."
+          }
+        }
+      }
+    },
+    "error.invalidResponse": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The device sent an unexpected answer."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'appareil a renvoyé une réponse inattendue."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das Gerät hat unerwartet geantwortet."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El dispositivo ha dado una respuesta inesperada."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il dispositivo ha dato una risposta inattesa."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O dispositivo deu uma resposta inesperada."
+          }
+        }
+      }
+    },
+    "error.receiver %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The device ran into an error (%lld)."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'appareil a rencontré une erreur (%lld)."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fehler auf dem Gerät (%lld)."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error en el dispositivo (%lld)."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Errore sul dispositivo (%lld)."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erro no dispositivo (%lld)."
+          }
+        }
+      }
+    },
+    "history.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "History"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historique"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verlauf"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historial"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cronologia"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histórico"
+          }
+        }
+      }
+    },
+    "history.empty.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing sent yet"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rien d'envoyé pour l'instant"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noch nichts gesendet"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada enviado todavía"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancora niente inviato"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada enviado ainda"
+          }
+        }
+      }
+    },
+    "history.empty.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What you send shows up here."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tes envois apparaîtront ici."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was du sendest, erscheint hier."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lo que envíes aparecerá aquí."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ciò che invii apparirà qui."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O que enviares aparece aqui."
+          }
+        }
+      }
+    },
+    "settings.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réglages"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostazioni"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
+          }
+        }
+      }
+    },
+    "settings.identity.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This is how the others see you."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "C'est ainsi que les autres te voient."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "So sehen dich die anderen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Así te ven los demás."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Così ti vedono gli altri."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "É assim que os outros te veem."
+          }
+        }
+      }
+    },
+    "settings.visible": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visible on this Wi-Fi"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visible sur ce Wi-Fi"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In diesem WLAN sichtbar"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visible en este Wi-Fi"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visibile su questa Wi-Fi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visível nesta Wi-Fi"
+          }
+        }
+      }
+    },
+    "settings.visible.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nearby devices can see you and send to you."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les appareils proches te voient et peuvent t'envoyer."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geräte in der Nähe sehen dich und können dir senden."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los dispositivos cercanos te ven y pueden enviarte."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I dispositivi vicini ti vedono e possono inviarti."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Os dispositivos próximos veem-te e podem enviar-te."
+          }
+        }
+      }
+    },
+    "settings.about": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À propos"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Info"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Información"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Info"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sobre"
+          }
+        }
+      }
+    },
+    "settings.fingerprint": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fingerprint"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empreinte"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fingerabdruck"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Huella"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impronta"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impressão digital"
+          }
+        }
+      }
+    },
+    "settings.protocol": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protocol"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protocole"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protokoll"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protocolo"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protocollo"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protocolo"
+          }
+        }
+      }
+    },
+    "settings.version": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versión"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versione"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versão"
+          }
+        }
+      }
+    },
+    "settings.language": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Langue"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprache"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lingua"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma"
+          }
+        }
+      }
+    },
+    "settings.language.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Applies to the whole app at once. Auto follows the iPhone."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "S'applique tout de suite à toute l'app. Auto suit l'iPhone."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gilt sofort für die ganze App. Auto folgt dem iPhone."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se aplica al instante a toda la app. Auto sigue al iPhone."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vale subito per tutta l'app. Auto segue l'iPhone."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aplica-se de imediato a toda a app. Auto segue o iPhone."
+          }
+        }
+      }
+    },
+    "alias.adjectives": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calm,Swift,Bright,Clever,Gentle,Lucky,Brave,Sunny,Quiet,Happy,Bold,Witty"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calme,Rapide,Brillant,Malin,Doux,Chanceux,Brave,Joyeux,Discret,Vif,Sage,Fier"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ruhige,Flinke,Helle,Kluge,Sanfte,Glückliche,Mutige,Sonnige,Stille,Fröhliche,Kühne,Witzige"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tranquila,Rápida,Brillante,Lista,Dulce,Afortunada,Valiente,Alegre,Discreta,Viva,Sabia,Orgullosa"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calma,Rapida,Brillante,Furba,Dolce,Fortunata,Coraggiosa,Allegra,Discreta,Vivace,Saggia,Fiera"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calma,Rápida,Brilhante,Esperta,Doce,Sortuda,Corajosa,Alegre,Discreta,Viva,Sábia,Orgulhosa"
+          }
+        }
+      }
+    },
+    "alias.nouns": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kiwi,Mango,Lemon,Melon,Fig,Plum,Peach,Lime,Cherry,Apricot,Coconut,Papaya"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kiwi,Citron,Melon,Abricot,Ananas,Litchi,Raisin,Coco,Marron,Pamplemousse,Avocat,Brugnon"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kiwi,Mango,Zitrone,Melone,Feige,Pflaume,Birne,Limette,Kirsche,Aprikose,Papaya,Banane"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fresa,Pera,Ciruela,Cereza,Lima,Papaya,Naranja,Uva,Mandarina,Banana,Guayaba,Piña"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fragola,Pera,Prugna,Ciliegia,Mela,Papaya,Arancia,Banana,Albicocca,Pesca,Noce,Castagna"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manga,Pera,Ameixa,Cereja,Maçã,Papaia,Laranja,Banana,Uva,Lima,Goiaba,Castanha"
+          }
+        }
+      }
+    },
+    "alias.format %@ %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ %2$@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%2$@ %1$@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ %2$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%2$@ %1$@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%2$@ %1$@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%2$@ %1$@"
+          }
+        }
+      }
+    },
+    "file.photo %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photo %lld"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photo %lld"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foto %lld"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foto %lld"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foto %lld"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foto %lld"
+          }
+        }
+      }
+    },
+    "room.add": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add by address"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter par adresse"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per Adresse hinzufügen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir por dirección"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi per indirizzo"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adicionar por endereço"
+          }
+        }
+      }
+    },
+    "room.favorite": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favorite"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favori"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favorit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favorito"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preferito"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favorito"
+          }
+        }
+      }
+    },
+    "room.makeFavorite": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add to favorites"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter aux favoris"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zu Favoriten"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir a favoritos"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi ai preferiti"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adicionar aos favoritos"
+          }
+        }
+      }
+    },
+    "room.unfavorite": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove from favorites"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retirer des favoris"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aus Favoriten entfernen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar de favoritos"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rimuovi dai preferiti"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remover dos favoritos"
+          }
+        }
+      }
+    },
+    "add.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add a device"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter un appareil"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gerät hinzufügen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir un dispositivo"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi un dispositivo"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adicionar um dispositivo"
+          }
+        }
+      }
+    },
+    "add.placeholder": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "192.168.1.20"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "192.168.1.20"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "192.168.1.20"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "192.168.1.20"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "192.168.1.20"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "192.168.1.20"
+          }
+        }
+      }
+    },
+    "add.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On RoomSend, it is shown at the top of this same window."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sur RoomSend, elle s'affiche en haut de cette même fenêtre."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In RoomSend steht sie oben in genau diesem Fenster."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En RoomSend aparece arriba en esta misma ventana."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Su RoomSend compare in alto in questa stessa finestra."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No RoomSend, aparece no topo desta mesma janela."
+          }
+        }
+      }
+    },
+    "add.yours": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your address"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ton adresse"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deine Adresse"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu dirección"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il tuo indirizzo"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O teu endereço"
+          }
+        }
+      }
+    },
+    "add.yours.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To add you, the other person types it in LocalSend or RoomSend."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pour t'ajouter, l'autre la tape dans LocalSend ou RoomSend."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Um dich hinzuzufügen, gibt die andere Person sie in LocalSend oder RoomSend ein."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para añadirte, la otra persona la escribe en LocalSend o RoomSend."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per aggiungerti, l'altra persona lo digita in LocalSend o RoomSend."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para te adicionar, a outra pessoa escreve-o no LocalSend ou no RoomSend."
+          }
+        }
+      }
+    },
+    "add.yours.none": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connect to a Wi-Fi to get an address."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connecte-toi à un Wi-Fi pour avoir une adresse."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbinde dich mit einem WLAN, um eine Adresse zu bekommen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conéctate a un Wi-Fi para tener una dirección."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connettiti a una Wi-Fi per avere un indirizzo."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liga-te a uma Wi-Fi para teres um endereço."
+          }
+        }
+      }
+    },
+    "add.theirs": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The other device's address"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'adresse de l'autre appareil"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adresse des anderen Geräts"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La dirección del otro dispositivo"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'indirizzo dell'altro dispositivo"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O endereço do outro dispositivo"
+          }
+        }
+      }
+    },
+    "add.notFound": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No LocalSend device answered at this address."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun appareil LocalSend n'a répondu à cette adresse."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unter dieser Adresse hat kein LocalSend-Gerät geantwortet."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ningún dispositivo LocalSend ha respondido en esta dirección."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun dispositivo LocalSend ha risposto a questo indirizzo."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhum dispositivo LocalSend respondeu neste endereço."
+          }
+        }
+      }
+    },
+    "add.action": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hinzufügen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adicionar"
+          }
+        }
+      }
+    },
+    "add.searching": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Searching…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recherche…"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suche…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando…"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricerca…"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A procurar…"
+          }
+        }
+      }
+    },
+    "send.everyone": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The whole room"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toute la pièce"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der ganze Raum"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toda la sala"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutta la stanza"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A sala toda"
+          }
+        }
+      }
+    },
+    "send.to": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para"
+          }
+        }
+      }
+    },
+    "send.progress.bytes %@ %@ %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To %1$@ · %2$@ of %3$@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vers %1$@ · %2$@ sur %3$@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An %1$@ · %2$@ von %3$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A %1$@ · %2$@ de %3$@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A %1$@ · %2$@ di %3$@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para %1$@ · %2$@ de %3$@"
+          }
+        }
+      }
+    },
+    "send.pin.ask %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ asks for a PIN"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ demande un code PIN"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ verlangt eine PIN"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ pide un PIN"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ chiede un PIN"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ pede um PIN"
+          }
+        }
+      }
+    },
+    "send.pin.wrong %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wrong PIN for %@, try again"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code PIN refusé par %@, réessaie"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN von %@ abgelehnt, versuch es erneut"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ ha rechazado el PIN, inténtalo de nuevo"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN rifiutato da %@, riprova"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN recusado por %@, tenta de novo"
+          }
+        }
+      }
+    },
+    "send.pin.label": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code PIN"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN"
+          }
+        }
+      }
+    },
+    "send.pin.placeholder": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "123456"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "123456"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "123456"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "123456"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "123456"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "123456"
+          }
+        }
+      }
+    },
+    "send.stop": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrêter"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stopp"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detener"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interrompi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parar"
+          }
+        }
+      }
+    },
+    "error.cancelled": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stopped."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrêté."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gestoppt."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detenido."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interrotto."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parado."
+          }
+        }
+      }
+    },
+    "share.action": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share by link"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partager par lien"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per Link teilen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compartir por enlace"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condividi con link"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partilhar por ligação"
+          }
+        }
+      }
+    },
+    "share.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share by link"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partager par lien"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per Link teilen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compartir por enlace"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condividi con link"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partilhar por ligação"
+          }
+        }
+      }
+    },
+    "share.code": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "QR code of the link"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "QR code du lien"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "QR-Code des Links"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Código QR del enlace"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Codice QR del link"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Código QR da ligação"
+          }
+        }
+      }
+    },
+    "share.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open it in a browser on the same Wi-Fi. The link works while RoomSend stays open."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvre-le dans un navigateur du même Wi-Fi. Le lien marche tant que RoomSend reste ouvert."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öffne ihn in einem Browser im selben WLAN. Der Link funktioniert, solange RoomSend geöffnet bleibt."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ábrelo en un navegador del mismo Wi-Fi. El enlace funciona mientras RoomSend siga abierto."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aprilo in un browser della stessa Wi-Fi. Il link funziona finché RoomSend resta aperto."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre-a num navegador da mesma Wi-Fi. A ligação funciona enquanto o RoomSend estiver aberto."
+          }
+        }
+      }
+    },
+    "share.unavailable": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connect to a Wi-Fi to share by link."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connecte-toi à un Wi-Fi pour partager par lien."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbinde dich mit einem WLAN, um per Link zu teilen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conéctate a un Wi-Fi para compartir por enlace."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connettiti a una Wi-Fi per condividere con un link."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liga-te a uma Wi-Fi para partilhar por ligação."
+          }
+        }
+      }
+    },
+    "share.failed": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The link could not start. Try again in a moment."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le lien n'a pas pu démarrer. Réessaie dans un instant."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Link konnte nicht starten. Versuch es gleich noch einmal."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El enlace no pudo iniciarse. Inténtalo de nuevo en un momento."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il link non è partito. Riprova tra un attimo."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O link não arrancou. Tenta de novo daqui a pouco."
+          }
+        }
+      }
+    },
+    "share.stop": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop sharing"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrêter le partage"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teilen beenden"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dejar de compartir"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interrompi la condivisione"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parar a partilha"
+          }
+        }
+      }
+    },
+    "share.page.title %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shared by %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partagé par %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geteilt von %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compartido por %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condiviso da %@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partilhado por %@"
+          }
+        }
+      }
+    },
+    "share.page.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap a file to download it."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Touche un fichier pour le télécharger."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tippe auf eine Datei, um sie zu laden."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca un archivo para descargarlo."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tocca un file per scaricarlo."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca num ficheiro para o descarregar."
+          }
+        }
+      }
+    },
+    "extension.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ready in RoomSend"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prêt dans RoomSend"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bereit in RoomSend"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listo en RoomSend"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pronto in RoomSend"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pronto no RoomSend"
+          }
+        }
+      }
+    },
+    "extension.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open RoomSend to choose who receives it."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvre RoomSend pour choisir à qui l'envoyer."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öffne RoomSend, um den Empfänger zu wählen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre RoomSend para elegir quién lo recibe."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri RoomSend per scegliere chi lo riceve."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre o RoomSend para escolher quem recebe."
+          }
+        }
+      }
+    },
+    "receive.from %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ is sending you"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ t'envoie"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ sendet dir"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ te envía"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ ti invia"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ está a enviar-te"
+          }
+        }
+      }
+    },
+    "receive.progress %lld %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Receiving %1$lld of %2$lld"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réception %1$lld sur %2$lld"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empfange %1$lld von %2$lld"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recibiendo %1$lld de %2$lld"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricezione %1$lld di %2$lld"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A receber %1$lld de %2$lld"
+          }
+        }
+      }
+    },
+    "receive.done %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Received from %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reçu de %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Von %@ empfangen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recibido de %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricevuto da %@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recebido de %@"
+          }
+        }
+      }
+    },
+    "receive.decline": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Decline"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refuser"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ablehnen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechazar"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rifiuta"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recusar"
+          }
+        }
+      }
+    },
+    "receive.accept": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accept"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accepter"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annehmen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aceptar"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accetta"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aceitar"
+          }
+        }
+      }
+    },
+    "receive.openFiles": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in Files"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir Fichiers"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In Dateien öffnen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir en Archivos"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri in File"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir em Ficheiros"
+          }
+        }
+      }
+    },
+    "receive.openPhotos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open in Photos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir Photos"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In Fotos öffnen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir en Fotos"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri in Foto"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir em Fotos"
+          }
+        }
+      }
+    },
+    "receive.copy": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copier"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopieren"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar"
+          }
+        }
+      }
+    },
+    "receive.more %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "and %lld more"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "et %lld de plus"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "und %lld weitere"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "y %lld más"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e altri %lld"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e mais %lld"
+          }
+        }
+      }
+    },
+    "history.sent %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sent · %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Envoyé · %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesendet · %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviado · %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inviato · %@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviado · %@"
+          }
+        }
+      }
+    },
+    "history.received %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Received · %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reçu · %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empfangen · %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recibido · %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricevuto · %@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recebido · %@"
+          }
+        }
+      }
+    },
+    "settings.name.placeholder": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your name"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ton nom"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein Name"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu nombre"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il tuo nome"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O teu nome"
+          }
+        }
+      }
+    },
+    "settings.receive": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Receiving"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réception"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empfang"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recepción"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricezione"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Receção"
+          }
+        }
+      }
+    },
+    "settings.quickSave": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accept automatically"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accepter automatiquement"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatisch annehmen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aceptar automáticamente"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accetta automaticamente"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aceitar automaticamente"
+          }
+        }
+      }
+    },
+    "settings.quickSave.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What is sent to you is saved without asking."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce qu'on t'envoie est enregistré sans te demander."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was man dir sendet, wird ohne Nachfrage gespeichert."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lo que te envían se guarda sin preguntarte."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ciò che ti inviano viene salvato senza chiedere."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O que te enviam é guardado sem perguntar."
+          }
+        }
+      }
+    },
+    "settings.photos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos to Photos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos dans Photos"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotos in Fotos"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotos en Fotos"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foto in Foto"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotos em Fotos"
+          }
+        }
+      }
+    },
+    "settings.photos.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Received photos and videos go to your library."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les photos et vidéos reçues vont dans ta photothèque."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empfangene Fotos und Videos landen in deiner Mediathek."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las fotos y vídeos recibidos van a tu fototeca."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le foto e i video ricevuti vanno nella tua libreria."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "As fotos e vídeos recebidos vão para a tua fototeca."
+          }
+        }
+      }
+    },
+    "settings.pin": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ask for a PIN"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demander un code PIN"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN verlangen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pedir un PIN"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiedi un PIN"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pedir um PIN"
+          }
+        }
+      }
+    },
+    "settings.pin.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Senders must type it before sending."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'expéditeur doit le taper avant d'envoyer."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Absender muss sie vor dem Senden eingeben."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quien envía debe escribirlo antes de enviar."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chi invia deve digitarlo prima di inviare."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quem envia tem de o escrever antes de enviar."
+          }
+        }
+      }
+    },
+    "settings.pin.code": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your PIN"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ton code"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deine PIN"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu PIN"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il tuo PIN"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O teu PIN"
+          }
+        }
+      }
+    },
+    "settings.network": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Network"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réseau"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Netzwerk"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Red"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rete"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rede"
+          }
+        }
+      }
+    },
+    "settings.encryption": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encryption"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiffrement"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verschlüsselung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cifrado"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cifratura"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encriptação"
+          }
+        }
+      }
+    },
+    "settings.encryption.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transfers to this iPhone use HTTPS."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les transferts vers cet iPhone passent en HTTPS."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Übertragungen zu diesem iPhone laufen über HTTPS."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las transferencias a este iPhone usan HTTPS."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I trasferimenti verso questo iPhone usano HTTPS."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "As transferências para este iPhone usam HTTPS."
+          }
+        }
+      }
+    },
+    "settings.scan": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan the network"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Balayer le réseau"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Netzwerk durchsuchen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explorar la red"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scansiona la rete"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pesquisar a rede"
+          }
+        }
+      }
+    },
+    "settings.scan.detail": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finds devices when the Wi-Fi blocks the usual search."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trouve les appareils quand le Wi-Fi bloque la recherche habituelle."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Findet Geräte, wenn das WLAN die übliche Suche blockiert."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encuentra dispositivos cuando el Wi-Fi bloquea la búsqueda habitual."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trova i dispositivi quando la Wi-Fi blocca la ricerca abituale."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encontra dispositivos quando a Wi-Fi bloqueia a pesquisa habitual."
+          }
+        }
+      }
+    },
+    "settings.port": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Port"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Port"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Port"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puerto"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Porta"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Porta"
+          }
+        }
+      }
+    },
+    "room.sendTo %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Send to %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Envoyer à %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An %@ senden"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviar a %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invia a %@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviar para %@"
+          }
+        }
+      }
+    },
+    "settings.appearance": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appearance"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apparence"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Darstellung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apariencia"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aspetto"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aspeto"
+          }
+        }
+      }
+    },
+    "settings.appearance.system": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auto"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auto"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auto"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auto"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auto"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auto"
+          }
+        }
+      }
+    },
+    "settings.appearance.light": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Light"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clair"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hell"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Claro"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiaro"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Claro"
+          }
+        }
+      }
+    },
+    "settings.appearance.dark": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dark"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sombre"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dunkel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oscuro"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scuro"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escuro"
+          }
+        }
+      }
+    },
+    "settings.privacy": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confidentialité"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datenschutz"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacidad"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacidade"
+          }
+        }
+      }
+    },
+    "settings.terms": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terms of Use"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conditions d'utilisation"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nutzungsbedingungen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condiciones de uso"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condizioni d'uso"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condições de utilização"
+          }
+        }
+      }
+    },
+    "legal.close": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fermer"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schliessen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiudi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fechar"
+          }
+        }
+      }
+    },
+    "legal.openSite": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read on the website"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lire sur le site"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auf der Website lesen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leer en el sitio web"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leggi sul sito"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ler no site"
+          }
+        }
+      }
+    },
+    "room.count %lld": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld device around"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld devices around"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld appareil autour"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld appareils autour"
+                }
+              }
+            }
+          }
+        },
+        "de": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Gerät in der Nähe"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Geräte in der Nähe"
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivo cerca"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivos cerca"
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivo vicino"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivi vicini"
+                }
+              }
+            }
+          }
+        },
+        "pt": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivo por perto"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivos por perto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "send.summary.photos %lld": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld photo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld photos"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld photo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld photos"
+                }
+              }
+            }
+          }
+        },
+        "de": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Foto"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Fotos"
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld foto"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld fotos"
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld foto"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld foto"
+                }
+              }
+            }
+          }
+        },
+        "pt": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld foto"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld fotos"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "send.summary.files %lld": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld file"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld files"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld fichier"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld fichiers"
+                }
+              }
+            }
+          }
+        },
+        "de": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Datei"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Dateien"
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld archivo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld archivos"
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld file"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld file"
+                }
+              }
+            }
+          }
+        },
+        "pt": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld ficheiro"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld ficheiros"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "send.devices %lld": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld device"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld devices"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld appareil"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld appareils"
+                }
+              }
+            }
+          }
+        },
+        "de": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Gerät"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Geräte"
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivos"
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivi"
+                }
+              }
+            }
+          }
+        },
+        "pt": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivos"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "send.summary.items %lld": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld item"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld items"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld élément"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld éléments"
+                }
+              }
+            }
+          }
+        },
+        "de": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Element"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Elemente"
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld elemento"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld elementos"
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld elemento"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld elementi"
+                }
+              }
+            }
+          }
+        },
+        "pt": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld elemento"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld elementos"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "legal.privacy.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy Policy"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Politique de confidentialité"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datenschutzerklärung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Política de privacidad"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informativa sulla privacy"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Política de privacidade"
+          }
+        }
+      }
+    },
+    "legal.privacy.updated": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last updated: 21 November 2026."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dernière mise à jour : 21 novembre 2026."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zuletzt aktualisiert: 21. November 2026."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Última actualización: 21 de noviembre de 2026."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ultimo aggiornamento: 21 novembre 2026."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Última atualização: 21 de novembro de 2026."
+          }
+        }
+      }
+    },
+    "legal.privacy.body": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend sends photos, files and text to the devices on the same local network. There is no account and no server: what you send goes straight from your device to the one you pick, and we receive none of it. This page describes what the app does with your data, then what this site records.\n\n## Who is responsible\n\nKiye Mateus, Geneva, Switzerland. For any question about your data: [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\n## What we receive from the app\n\nNothing. RoomSend contains no analytics, no advertising, no tracker and no third-party service. The app does not connect to the internet: it only talks to the devices on your local network. It asks for no account, no email address and no phone number.\n\nIf you agreed in iOS to share analytics with app developers, Apple may give us crash reports and overall statistics, without your identity. You set this in Settings, Privacy & Security, Analytics & Improvements.\n\n## What the devices on your network see\n\nTo be found, RoomSend announces on the local network your device's name (you can change it in Settings), its model (\"iPhone\"), its certificate fingerprint and the port it listens on. This follows the LocalSend protocol. Compatible devices on the same network see it as long as \"Visible on this Wi-Fi\" is on.\n\nWhen \"Scan the network\" is on, RoomSend also sends this information to every address of your subnet, to find the devices the usual search misses. On public Wi-Fi, turn off \"Visible on this Wi-Fi\" to stop being seen.\n\n## What you send and receive\n\nPhotos, files and text go directly from one device to the other over your local network, never through us or the internet. By default they are encrypted with HTTPS, and RoomSend checks that the other device's certificate matches the fingerprint it announced. If encryption is off on either device, the transfer uses plain HTTP, without encryption, and an open padlock shows it.\n\nWhat is sent to you is saved only once you accept it, unless you turn on \"Accept automatically\". You can also require a PIN. Received files go to the RoomSend folder of the Files app.\n\nThe receiving device keeps what you send it, and its owner does what they like with it: only send to devices you know.\n\n## Sharing by link\n\n\"Share by link\" serves the items you picked on a web page, over plain HTTP, without encryption or password. Anyone on the same network who opens the address can download them while sharing stays on. It stops when you tap \"Stop sharing\" or leave RoomSend.\n\n## The two permissions\n\n- Local network: to find the devices on your Wi-Fi and exchange with them. Without it, RoomSend can neither send nor receive.\n- Photos, add only: to put the photos and videos you receive into your library, if \"Photos to Photos\" is on. RoomSend cannot read your library. When you pick photos to send, the iOS picker hands it only the ones you tap.\n\n## What stays on your iPhone\n\n- Your device's name and your settings.\n- Your favorites: the name, fingerprint and local address of each device you starred.\n- The history of the last 200 transfers: direction, device, number of items, size and date. File names and contents are not part of it.\n- The device's certificate and private key, in the iOS keychain.\n- Items shared from another app, until RoomSend opens. They are deleted afterwards.\n\nNone of this is sent to us. It is part of your iPhone backups if you turned them on. Deleting the app erases its settings, history and files. iOS may keep the certificate in the keychain after deletion: it carries only the name \"RoomSend\". Photos saved to Photos stay there.\n\n## This site\n\nThe site is hosted by Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, United States. When you open a page, Netlify records in its technical logs your IP address, the page requested, the date and time, and what your browser sends (its type, your system). These logs serve to deliver the pages and protect the site from abuse. Without them, the page cannot be sent to you. Legal basis: our legitimate interest in running a safe site (Art. 6(1)(f) GDPR).\n\nUnder its contractual commitments, Netlify keeps traffic logs for 30 days online and up to 13 months in archive, and security logs for up to one year online and six years in archive. This data is processed in the United States. Netlify is certified under the EU-U.S. and Swiss-U.S. Data Privacy Framework, found adequate by the European Commission on 10 July 2023 and by the Swiss Federal Council on 14 August 2024.\n\nThe site uses no cookies, no analytics, and no fonts or scripts from other sites. It only keeps in your browser the language and appearance you choose, to give them back on your next visit. You erase them with the site's data, in your browser.\n\nIf you write to us, we use your address and message to answer you. They stay with our email provider for as long as your request needs.\n\n## Your rights\n\nYou can ask for access to your data, its correction or erasure, the restriction of its processing, object to it and ask for its portability (Art. 15 to 21 GDPR, Art. 25 to 32 Swiss FADP). Since the app sends us nothing, the only data we hold about you is any email you sent; for the site's logs, we pass your request on to Netlify. Write to [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\nNo automated decision is made about you. You can lodge a complaint with the Swiss Federal Data Protection and Information Commissioner (FDPIC) in Bern or, if you live in the European Union, with the data protection authority of your country.\n\n## Changes\n\nIf the app or the site change how they handle data, we update this page, here and in the app, with its date."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend envoie des photos, des fichiers et des textes aux appareils du même réseau local. Il n'y a ni compte ni serveur : ce que vous envoyez va directement de votre appareil à celui que vous choisissez, et nous n'en recevons rien. Cette page décrit ce que l'app fait de vos données, puis ce que ce site enregistre.\n\n## Qui est responsable\n\nKiye Mateus, Genève, Suisse. Pour toute question sur vos données : [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\n## Ce que nous recevons de l'app\n\nRien. RoomSend ne contient ni mesure d'audience, ni publicité, ni traceur, ni service tiers. L'app ne se connecte pas à Internet : elle ne parle qu'aux appareils de votre réseau local. Elle ne demande ni compte, ni adresse e-mail, ni numéro de téléphone.\n\nSi vous avez accepté dans iOS de partager vos analyses avec les développeurs, Apple peut nous fournir des rapports de plantage et des statistiques globales, sans votre identité. Ce choix se règle dans Réglages, Confidentialité et sécurité, Analyses et améliorations.\n\n## Ce que voient les appareils de votre réseau\n\nPour être trouvé, RoomSend annonce sur le réseau local le nom de votre appareil (modifiable dans Réglages), son modèle (« iPhone »), l'empreinte de son certificat et le port qu'il écoute. Ces informations suivent le protocole LocalSend. Les appareils compatibles du même réseau les voient tant que « Visible sur ce Wi-Fi » est activé.\n\nQuand « Balayer le réseau » est activé, RoomSend envoie aussi ces informations à chaque adresse de votre sous-réseau, pour trouver les appareils que la recherche habituelle ne voit pas. Sur un Wi-Fi public, désactivez « Visible sur ce Wi-Fi » pour ne plus être vu.\n\n## Ce que vous envoyez et recevez\n\nLes photos, fichiers et textes passent directement d'un appareil à l'autre sur votre réseau local, sans passer par nous ni par Internet. Par défaut, ils sont chiffrés en HTTPS, et RoomSend vérifie que le certificat de l'autre appareil correspond à l'empreinte qu'il a annoncée. Si le chiffrement est désactivé sur l'un des deux appareils, le transfert se fait en HTTP simple, sans chiffrement, et un cadenas ouvert le signale.\n\nCe qu'on vous envoie n'est enregistré qu'après votre accord, sauf si vous activez « Accepter automatiquement ». Vous pouvez aussi exiger un code PIN. Les fichiers reçus sont rangés dans le dossier RoomSend de l'app Fichiers.\n\nL'appareil qui reçoit garde ce que vous lui envoyez et en fait ce que son propriétaire veut : n'envoyez qu'à des appareils que vous connaissez.\n\n## Le partage par lien\n\n« Partager par lien » sert les éléments choisis sur une page web, en HTTP simple, sans chiffrement ni mot de passe. Toute personne du même réseau qui ouvre l'adresse peut les télécharger tant que le partage reste ouvert. Il s'arrête quand vous touchez « Arrêter le partage » ou quand vous quittez RoomSend.\n\n## Les deux autorisations\n\n- Réseau local : pour trouver les appareils de votre Wi-Fi et échanger avec eux. Sans elle, RoomSend ne peut ni envoyer ni recevoir.\n- Photos, en ajout seulement : pour ranger dans votre photothèque les photos et vidéos reçues, si « Photos dans Photos » est activé. RoomSend ne peut pas lire votre photothèque. Quand vous choisissez des photos à envoyer, le sélecteur d'iOS ne lui donne que celles que vous touchez.\n\n## Ce qui reste sur votre iPhone\n\n- Le nom de l'appareil et vos réglages.\n- Vos favoris : le nom, l'empreinte et l'adresse locale de chaque appareil mis en favori.\n- L'historique des 200 derniers transferts : le sens, l'appareil, le nombre d'éléments, la taille et la date. Ni le nom ni le contenu des fichiers n'y figurent.\n- Le certificat de l'appareil et sa clé privée, dans le trousseau d'iOS.\n- Les éléments partagés depuis une autre app, le temps que RoomSend s'ouvre. Ils sont effacés ensuite.\n\nRien de tout cela ne nous est transmis. Ces données font partie des sauvegardes de l'iPhone si vous les avez activées. Supprimer l'app efface ses réglages, son historique et ses fichiers. iOS peut garder le certificat dans le trousseau après la suppression : il ne porte que le nom « RoomSend ». Les photos rangées dans Photos y restent.\n\n## Ce site\n\nLe site est hébergé par Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, États-Unis. Quand vous ouvrez une page, Netlify enregistre dans ses journaux techniques votre adresse IP, la page demandée, la date et l'heure, et ce que votre navigateur envoie (son type, votre système). Ces journaux servent à livrer les pages et à protéger le site contre les abus. Sans eux, la page ne peut pas vous être envoyée. Base légale : notre intérêt légitime à faire fonctionner un site sûr (art. 6, par. 1, let. f RGPD).\n\nD'après ses engagements contractuels, Netlify garde les journaux de trafic 30 jours en ligne et jusqu'à 13 mois en archive, et les journaux de sécurité jusqu'à un an en ligne et six ans en archive. Ces données sont traitées aux États-Unis. Netlify est certifiée selon le Data Privacy Framework entre les États-Unis et l'Union européenne et entre les États-Unis et la Suisse, jugés adéquats par la Commission européenne le 10 juillet 2023 et par le Conseil fédéral le 14 août 2024.\n\nLe site n'utilise ni cookie, ni mesure d'audience, ni police ou script venus d'autres sites. Il garde seulement dans votre navigateur la langue et l'apparence que vous choisissez, pour vous les rendre à la visite suivante. Vous les effacez avec les données du site, dans votre navigateur.\n\nSi vous nous écrivez, nous utilisons votre adresse et votre message pour vous répondre. Ils restent chez notre fournisseur de messagerie le temps nécessaire pour traiter votre demande.\n\n## Vos droits\n\nVous pouvez demander l'accès à vos données, leur rectification ou leur effacement, la limitation de leur traitement, vous y opposer et demander leur portabilité (art. 15 à 21 RGPD, art. 25 à 32 LPD). Comme l'app ne nous envoie rien, nous ne détenons sur vous que vos éventuels e-mails ; pour les journaux du site, nous transmettons votre demande à Netlify. Écrivez à [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\nAucune décision automatisée n'est prise à votre sujet. Vous pouvez porter plainte auprès du Préposé fédéral à la protection des données et à la transparence (PFPDT), à Berne, ou, si vous vivez dans l'Union européenne, auprès de l'autorité de protection des données de votre pays.\n\n## Modifications\n\nSi l'app ou le site changent leur façon de traiter les données, nous mettons cette page à jour, ici et dans l'app, avec sa date."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend sendet Fotos, Dateien und Texte an die Geräte im selben lokalen Netzwerk. Es gibt weder ein Konto noch einen Server: Was Sie senden, geht direkt von Ihrem Gerät zu dem Gerät, das Sie wählen, und wir erhalten nichts davon. Diese Seite beschreibt, was die App mit Ihren Daten macht, und danach, was diese Website aufzeichnet.\n\n## Verantwortlich\n\nKiye Mateus, Genf, Schweiz. Für Fragen zu Ihren Daten: [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\n## Was wir von der App erhalten\n\nNichts. RoomSend enthält keine Reichweitenmessung, keine Werbung, keine Tracker und keine Dienste Dritter. Die App verbindet sich nicht mit dem Internet: Sie spricht nur mit den Geräten in Ihrem lokalen Netzwerk. Sie verlangt kein Konto, keine E-Mail-Adresse und keine Telefonnummer.\n\nWenn Sie in iOS zugestimmt haben, Analysedaten mit App-Entwicklern zu teilen, kann Apple uns Absturzberichte und Gesamtstatistiken ohne Ihre Identität liefern. Das stellen Sie unter Einstellungen, Datenschutz & Sicherheit, Analyse & Verbesserungen ein.\n\n## Was die Geräte in Ihrem Netzwerk sehen\n\nDamit es gefunden wird, gibt RoomSend im lokalen Netzwerk den Namen Ihres Geräts bekannt (in den Einstellungen änderbar), sein Modell („iPhone“), den Fingerabdruck seines Zertifikats und den Port, auf dem es lauscht. Das folgt dem LocalSend-Protokoll. Kompatible Geräte im selben Netzwerk sehen diese Angaben, solange „In diesem WLAN sichtbar“ aktiviert ist.\n\nIst „Netzwerk durchsuchen“ aktiviert, sendet RoomSend diese Angaben zusätzlich an jede Adresse Ihres Subnetzes, um Geräte zu finden, die die übliche Suche übersieht. In einem öffentlichen WLAN deaktivieren Sie „In diesem WLAN sichtbar“, um nicht mehr gesehen zu werden.\n\n## Was Sie senden und empfangen\n\nFotos, Dateien und Texte gehen über Ihr lokales Netzwerk direkt von einem Gerät zum anderen, nie über uns oder das Internet. Standardmässig sind sie per HTTPS verschlüsselt, und RoomSend prüft, ob das Zertifikat des anderen Geräts zum angekündigten Fingerabdruck passt. Ist die Verschlüsselung auf einem der beiden Geräte aus, läuft die Übertragung über einfaches HTTP, ohne Verschlüsselung, und ein offenes Schloss zeigt das an.\n\nWas man Ihnen sendet, wird erst gespeichert, wenn Sie es annehmen, ausser Sie aktivieren „Automatisch annehmen“. Sie können auch eine PIN verlangen. Empfangene Dateien landen im Ordner RoomSend der App Dateien.\n\nDas empfangende Gerät behält, was Sie ihm senden, und sein Besitzer macht damit, was er will: Senden Sie nur an Geräte, die Sie kennen.\n\n## Teilen per Link\n\n„Per Link teilen“ stellt die gewählten Inhalte auf einer Webseite bereit, über einfaches HTTP, ohne Verschlüsselung und ohne Passwort. Wer im selben Netzwerk die Adresse öffnet, kann sie herunterladen, solange das Teilen läuft. Es endet, wenn Sie „Teilen beenden“ tippen oder RoomSend verlassen.\n\n## Die zwei Berechtigungen\n\n- Lokales Netzwerk: um die Geräte in Ihrem WLAN zu finden und mit ihnen auszutauschen. Ohne sie kann RoomSend weder senden noch empfangen.\n- Fotos, nur Hinzufügen: um empfangene Fotos und Videos in Ihre Mediathek zu legen, wenn „Fotos in Fotos“ aktiviert ist. RoomSend kann Ihre Mediathek nicht lesen. Wenn Sie Fotos zum Senden auswählen, gibt die Auswahl von iOS nur die getippten weiter.\n\n## Was auf Ihrem iPhone bleibt\n\n- Der Name Ihres Geräts und Ihre Einstellungen.\n- Ihre Favoriten: Name, Fingerabdruck und lokale Adresse jedes markierten Geräts.\n- Der Verlauf der letzten 200 Übertragungen: Richtung, Gerät, Anzahl der Inhalte, Grösse und Datum. Dateinamen und Inhalte gehören nicht dazu.\n- Das Zertifikat des Geräts und sein privater Schlüssel, im iOS-Schlüsselbund.\n- Aus einer anderen App geteilte Inhalte, bis RoomSend sich öffnet. Danach werden sie gelöscht.\n\nNichts davon wird an uns gesendet. Es ist Teil Ihrer iPhone-Backups, wenn Sie diese aktiviert haben. Wer die App löscht, löscht ihre Einstellungen, ihren Verlauf und ihre Dateien. iOS kann das Zertifikat nach dem Löschen im Schlüsselbund behalten: Es trägt nur den Namen „RoomSend“. In Fotos gesicherte Fotos bleiben dort.\n\n## Diese Website\n\nDie Website wird von Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, USA, gehostet. Wenn Sie eine Seite öffnen, zeichnet Netlify in seinen technischen Protokollen Ihre IP-Adresse, die aufgerufene Seite, Datum und Uhrzeit sowie die Angaben Ihres Browsers (Typ, System) auf. Diese Protokolle dienen dazu, die Seiten auszuliefern und die Website vor Missbrauch zu schützen. Ohne sie kann Ihnen die Seite nicht gesendet werden. Rechtsgrundlage: unser berechtigtes Interesse an einer sicheren Website (Art. 6 Abs. 1 lit. f DSGVO).\n\nLaut seinen vertraglichen Zusagen bewahrt Netlify Verkehrsprotokolle 30 Tage online und bis zu 13 Monate im Archiv auf, Sicherheitsprotokolle bis zu ein Jahr online und sechs Jahre im Archiv. Diese Daten werden in den USA verarbeitet. Netlify ist nach dem Data Privacy Framework zwischen der EU und den USA sowie zwischen der Schweiz und den USA zertifiziert, das die Europäische Kommission am 10. Juli 2023 und der Bundesrat am 14. August 2024 als angemessen anerkannt haben.\n\nDie Website verwendet keine Cookies, keine Reichweitenmessung und keine Schriften oder Skripte fremder Websites. Sie speichert in Ihrem Browser nur die Sprache und das Erscheinungsbild, die Sie wählen, um sie beim nächsten Besuch wiederherzustellen. Sie löschen sie mit den Website-Daten in Ihrem Browser.\n\nWenn Sie uns schreiben, verwenden wir Ihre Adresse und Ihre Nachricht, um Ihnen zu antworten. Sie bleiben bei unserem E-Mail-Anbieter, solange Ihr Anliegen es erfordert.\n\n## Ihre Rechte\n\nSie können Auskunft über Ihre Daten, deren Berichtigung oder Löschung und die Einschränkung ihrer Verarbeitung verlangen, der Verarbeitung widersprechen und ihre Übertragung verlangen (Art. 15 bis 21 DSGVO, Art. 25 bis 32 DSG). Da die App uns nichts sendet, haben wir von Ihnen höchstens Ihre E-Mails; für die Protokolle der Website leiten wir Ihr Anliegen an Netlify weiter. Schreiben Sie an [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\nÜber Sie wird keine automatisierte Entscheidung getroffen. Sie können sich beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) in Bern beschweren oder, wenn Sie in der Europäischen Union leben, bei der Datenschutzbehörde Ihres Landes.\n\n## Änderungen\n\nÄndern die App oder die Website den Umgang mit Daten, aktualisieren wir diese Seite, hier und in der App, mit Datum."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend envía fotos, archivos y textos a los dispositivos de la misma red local. No hay cuenta ni servidor: lo que usted envía va directamente de su dispositivo al que elige, y no recibimos nada. Esta página describe lo que la app hace con sus datos y, después, lo que registra este sitio.\n\n## Responsable\n\nKiye Mateus, Ginebra, Suiza. Para cualquier pregunta sobre sus datos: [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\n## Lo que recibimos de la app\n\nNada. RoomSend no contiene medición de audiencia, publicidad, rastreadores ni servicios de terceros. La app no se conecta a internet: solo habla con los dispositivos de su red local. No pide cuenta, correo electrónico ni número de teléfono.\n\nSi aceptó en iOS compartir análisis con los desarrolladores, Apple puede enviarnos informes de fallos y estadísticas globales, sin su identidad. Se configura en Ajustes, Privacidad y seguridad, Análisis y mejoras.\n\n## Lo que ven los dispositivos de su red\n\nPara que lo encuentren, RoomSend anuncia en la red local el nombre de su dispositivo (puede cambiarlo en Ajustes), su modelo («iPhone»), la huella de su certificado y el puerto en el que escucha. Sigue el protocolo LocalSend. Los dispositivos compatibles de la misma red lo ven mientras «Visible en este Wi-Fi» esté activado.\n\nCon «Explorar la red» activado, RoomSend envía además estos datos a cada dirección de su subred, para encontrar los dispositivos que la búsqueda habitual no ve. En un Wi-Fi público, desactive «Visible en este Wi-Fi» para dejar de ser visto.\n\n## Lo que envía y recibe\n\nLas fotos, los archivos y los textos pasan directamente de un dispositivo a otro por su red local, nunca por nosotros ni por internet. Por defecto se cifran con HTTPS, y RoomSend comprueba que el certificado del otro dispositivo coincide con la huella que anunció. Si el cifrado está desactivado en uno de los dos, la transferencia usa HTTP simple, sin cifrado, y un candado abierto lo indica.\n\nLo que le envían solo se guarda cuando usted lo acepta, salvo que active «Aceptar automáticamente». También puede exigir un PIN. Los archivos recibidos van a la carpeta RoomSend de la app Archivos.\n\nEl dispositivo que recibe conserva lo que usted le envía y su propietario hace con ello lo que quiere: envíe solo a dispositivos que conozca.\n\n## Compartir por enlace\n\n«Compartir por enlace» sirve los elementos elegidos en una página web, por HTTP simple, sin cifrado ni contraseña. Cualquier persona de la misma red que abra la dirección puede descargarlos mientras el enlace siga activo. Se detiene cuando toca «Dejar de compartir» o sale de RoomSend.\n\n## Los dos permisos\n\n- Red local: para encontrar los dispositivos de su Wi-Fi e intercambiar con ellos. Sin él, RoomSend no puede enviar ni recibir.\n- Fotos, solo añadir: para guardar en su fototeca las fotos y los vídeos recibidos, si «Fotos en Fotos» está activado. RoomSend no puede leer su fototeca. Cuando elige fotos para enviar, el selector de iOS solo le entrega las que usted toca.\n\n## Lo que queda en su iPhone\n\n- El nombre de su dispositivo y sus ajustes.\n- Sus favoritos: el nombre, la huella y la dirección local de cada dispositivo marcado.\n- El historial de las últimas 200 transferencias: sentido, dispositivo, número de elementos, tamaño y fecha. No incluye ni el nombre ni el contenido de los archivos.\n- El certificado del dispositivo y su clave privada, en el llavero de iOS.\n- Los elementos compartidos desde otra app, hasta que se abre RoomSend. Después se borran.\n\nNada de esto se nos envía. Forma parte de las copias de seguridad del iPhone si las tiene activadas. Al eliminar la app se borran sus ajustes, su historial y sus archivos. iOS puede conservar el certificado en el llavero después: solo lleva el nombre «RoomSend». Las fotos guardadas en Fotos permanecen allí.\n\n## Este sitio\n\nEl sitio está alojado por Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, Estados Unidos. Cuando abre una página, Netlify registra en sus registros técnicos su dirección IP, la página pedida, la fecha y la hora, y lo que envía su navegador (su tipo, su sistema). Estos registros sirven para entregar las páginas y proteger el sitio contra abusos. Sin ellos, la página no se le puede enviar. Base jurídica: nuestro interés legítimo en un sitio seguro (art. 6, apdo. 1, letra f RGPD).\n\nSegún sus compromisos contractuales, Netlify conserva los registros de tráfico 30 días en línea y hasta 13 meses en archivo, y los de seguridad hasta un año en línea y seis años en archivo. Estos datos se tratan en Estados Unidos. Netlify está certificada según el Data Privacy Framework entre la UE y Estados Unidos y entre Suiza y Estados Unidos, declarados adecuados por la Comisión Europea el 10 de julio de 2023 y por el Consejo Federal suizo el 14 de agosto de 2024.\n\nEl sitio no usa cookies, ni medición de audiencia, ni fuentes o scripts de otros sitios. Solo guarda en su navegador el idioma y la apariencia que elige, para devolvérselos en la próxima visita. Los borra con los datos del sitio, en su navegador.\n\nSi nos escribe, usamos su dirección y su mensaje para responderle. Quedan en nuestro proveedor de correo el tiempo que requiera su solicitud.\n\n## Sus derechos\n\nPuede pedir el acceso a sus datos, su rectificación o supresión, la limitación de su tratamiento, oponerse a él y pedir su portabilidad (arts. 15 a 21 RGPD, arts. 25 a 32 de la ley suiza de protección de datos). Como la app no nos envía nada, solo tenemos sus posibles correos; para los registros del sitio, trasladamos su solicitud a Netlify. Escriba a [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\nNo se toma ninguna decisión automatizada sobre usted. Puede reclamar ante el Encargado Federal de Protección de Datos y Transparencia (PFPDT) de Suiza, en Berna, o, si vive en la Unión Europea, ante la autoridad de protección de datos de su país.\n\n## Cambios\n\nSi la app o el sitio cambian su forma de tratar los datos, actualizamos esta página, aquí y en la app, con su fecha."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RoomSend invia foto, file e testi ai dispositivi della stessa rete locale. Non ci sono account né server: ciò che invia va direttamente dal Suo dispositivo a quello che sceglie, e noi non riceviamo nulla. Questa pagina descrive cosa fa l'app con i Suoi dati, poi cosa registra questo sito.\n\n## Titolare\n\nKiye Mateus, Ginevra, Svizzera. Per qualsiasi domanda sui Suoi dati: [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\n## Cosa riceviamo dall'app\n\nNulla. RoomSend non contiene misurazione del pubblico, pubblicità, tracker né servizi di terzi. L'app non si collega a internet: parla solo con i dispositivi della Sua rete locale. Non chiede account, indirizzo e-mail né numero di telefono.\n\nSe in iOS ha accettato di condividere le analisi con gli sviluppatori, Apple può fornirci rapporti sugli arresti anomali e statistiche complessive, senza la Sua identità. Si imposta in Impostazioni, Privacy e sicurezza, Analisi e miglioramenti.\n\n## Cosa vedono i dispositivi della Sua rete\n\nPer essere trovato, RoomSend annuncia sulla rete locale il nome del Suo dispositivo (modificabile in Impostazioni), il modello («iPhone»), l'impronta del certificato e la porta su cui ascolta. Segue il protocollo LocalSend. I dispositivi compatibili della stessa rete vedono questi dati finché «Visibile su questa Wi-Fi» è attivo.\n\nCon «Scansiona la rete» attivo, RoomSend invia questi dati anche a ogni indirizzo della Sua sottorete, per trovare i dispositivi che la ricerca abituale non vede. Su una Wi-Fi pubblica, disattivi «Visibile su questa Wi-Fi» per non essere più visto.\n\n## Cosa invia e riceve\n\nFoto, file e testi passano direttamente da un dispositivo all'altro sulla Sua rete locale, mai attraverso di noi o internet. Per impostazione predefinita sono cifrati in HTTPS, e RoomSend verifica che il certificato dell'altro dispositivo corrisponda all'impronta annunciata. Se la cifratura è disattivata su uno dei due, il trasferimento avviene in HTTP semplice, senza cifratura, e un lucchetto aperto lo segnala.\n\nCiò che Le inviano viene salvato solo dopo che lo accetta, salvo se attiva «Accetta automaticamente». Può anche richiedere un PIN. I file ricevuti finiscono nella cartella RoomSend dell'app File.\n\nIl dispositivo che riceve conserva ciò che gli invia e il suo proprietario ne fa ciò che vuole: invii solo a dispositivi che conosce.\n\n## La condivisione con link\n\n«Condividi con link» mette gli elementi scelti su una pagina web, in HTTP semplice, senza cifratura né password. Chiunque nella stessa rete apra l'indirizzo può scaricarli finché la condivisione resta attiva. Si ferma quando tocca «Interrompi la condivisione» o esce da RoomSend.\n\n## I due permessi\n\n- Rete locale: per trovare i dispositivi della Sua Wi-Fi e scambiare con loro. Senza, RoomSend non può né inviare né ricevere.\n- Foto, solo aggiunta: per mettere nella Sua libreria le foto e i video ricevuti, se «Foto in Foto» è attivo. RoomSend non può leggere la Sua libreria. Quando sceglie le foto da inviare, il selettore di iOS gli consegna solo quelle che tocca.\n\n## Cosa resta sul Suo iPhone\n\n- Il nome del dispositivo e le Sue impostazioni.\n- I preferiti: nome, impronta e indirizzo locale di ogni dispositivo segnato.\n- La cronologia degli ultimi 200 trasferimenti: direzione, dispositivo, numero di elementi, dimensione e data. Non contiene né il nome né il contenuto dei file.\n- Il certificato del dispositivo e la sua chiave privata, nel portachiavi di iOS.\n- Gli elementi condivisi da un'altra app, finché RoomSend non si apre. Poi vengono cancellati.\n\nNulla di tutto ciò ci viene inviato. Fa parte dei backup dell'iPhone se li ha attivati. Eliminare l'app cancella impostazioni, cronologia e file. iOS può conservare il certificato nel portachiavi dopo l'eliminazione: porta solo il nome «RoomSend». Le foto salvate in Foto restano lì.\n\n## Questo sito\n\nIl sito è ospitato da Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, Stati Uniti. Quando apre una pagina, Netlify registra nei suoi log tecnici il Suo indirizzo IP, la pagina richiesta, data e ora, e ciò che invia il browser (tipo, sistema). Questi log servono a consegnare le pagine e a proteggere il sito dagli abusi. Senza, la pagina non può esserLe inviata. Base giuridica: il nostro legittimo interesse a un sito sicuro (art. 6, par. 1, lett. f GDPR).\n\nSecondo i suoi impegni contrattuali, Netlify conserva i log del traffico 30 giorni online e fino a 13 mesi in archivio, e quelli di sicurezza fino a un anno online e sei anni in archivio. Questi dati sono trattati negli Stati Uniti. Netlify è certificata secondo il Data Privacy Framework tra UE e Stati Uniti e tra Svizzera e Stati Uniti, riconosciuti adeguati dalla Commissione europea il 10 luglio 2023 e dal Consiglio federale svizzero il 14 agosto 2024.\n\nIl sito non usa cookie, misurazione del pubblico, font o script di altri siti. Conserva solo nel Suo browser la lingua e l'aspetto che sceglie, per riproporli alla visita successiva. Li cancella con i dati del sito, nel browser.\n\nSe ci scrive, usiamo il Suo indirizzo e il Suo messaggio per risponderLe. Restano presso il nostro fornitore di posta per il tempo necessario alla Sua richiesta.\n\n## I Suoi diritti\n\nPuò chiedere l'accesso ai Suoi dati, la rettifica o la cancellazione, la limitazione del trattamento, opporsi e chiederne la portabilità (artt. 15-21 GDPR, artt. 25-32 della legge svizzera sulla protezione dei dati). Poiché l'app non ci invia nulla, di Lei abbiamo al massimo le e-mail; per i log del sito, inoltriamo la richiesta a Netlify. Scriva a [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\nNessuna decisione automatizzata viene presa su di Lei. Può presentare reclamo all'Incaricato federale della protezione dei dati e della trasparenza (IFPDT) a Berna o, se vive nell'Unione europea, all'autorità di protezione dei dati del Suo paese.\n\n## Modifiche\n\nSe l'app o il sito cambiano il modo in cui trattano i dati, aggiorniamo questa pagina, qui e nell'app, con la data."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O RoomSend envia fotos, ficheiros e textos para os dispositivos da mesma rede local. Não há conta nem servidor: o que envia vai diretamente do seu dispositivo para o que escolher, e não recebemos nada. Esta página descreve o que a app faz com os seus dados e, depois, o que este site regista.\n\n## Responsável\n\nKiye Mateus, Genebra, Suíça. Para qualquer pergunta sobre os seus dados: [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\n## O que recebemos da app\n\nNada. O RoomSend não contém medição de audiência, publicidade, rastreadores nem serviços de terceiros. A app não se liga à internet: só fala com os dispositivos da sua rede local. Não pede conta, endereço de e-mail nem número de telefone.\n\nSe aceitou no iOS partilhar análises com os programadores, a Apple pode fornecer-nos relatórios de falhas e estatísticas globais, sem a sua identidade. Isto define-se em Definições, Privacidade e segurança, Análise e melhorias.\n\n## O que veem os dispositivos da sua rede\n\nPara ser encontrado, o RoomSend anuncia na rede local o nome do seu dispositivo (alterável nos Ajustes), o modelo («iPhone»), a impressão digital do certificado e a porta em que escuta. Segue o protocolo LocalSend. Os dispositivos compatíveis da mesma rede veem estes dados enquanto «Visível nesta Wi-Fi» estiver ativo.\n\nCom «Pesquisar a rede» ativo, o RoomSend envia também estes dados a cada endereço da sua sub-rede, para encontrar os dispositivos que a pesquisa habitual não vê. Numa Wi-Fi pública, desative «Visível nesta Wi-Fi» para deixar de ser visto.\n\n## O que envia e recebe\n\nAs fotos, os ficheiros e os textos passam diretamente de um dispositivo para o outro pela sua rede local, nunca por nós nem pela internet. Por predefinição são cifrados em HTTPS, e o RoomSend verifica se o certificado do outro dispositivo corresponde à impressão digital anunciada. Se a cifragem estiver desativada num dos dois, a transferência usa HTTP simples, sem cifragem, e um cadeado aberto indica-o.\n\nO que lhe enviam só é guardado depois de o aceitar, exceto se ativar «Aceitar automaticamente». Também pode exigir um PIN. Os ficheiros recebidos vão para a pasta RoomSend da app Ficheiros.\n\nO dispositivo que recebe guarda o que lhe envia e o seu dono faz com isso o que quiser: envie só para dispositivos que conhece.\n\n## A partilha por ligação\n\n«Partilhar por ligação» disponibiliza os elementos escolhidos numa página web, em HTTP simples, sem cifragem nem palavra-passe. Qualquer pessoa da mesma rede que abra o endereço pode descarregá-los enquanto a partilha estiver ativa. Termina quando toca em «Parar a partilha» ou sai do RoomSend.\n\n## As duas autorizações\n\n- Rede local: para encontrar os dispositivos da sua Wi-Fi e trocar dados com eles. Sem ela, o RoomSend não pode enviar nem receber.\n- Fotos, só adicionar: para guardar na sua fototeca as fotos e os vídeos recebidos, se «Fotos em Fotos» estiver ativo. O RoomSend não pode ler a sua fototeca. Quando escolhe fotos para enviar, o seletor do iOS só lhe entrega as que tocar.\n\n## O que fica no seu iPhone\n\n- O nome do dispositivo e as suas definições.\n- Os seus favoritos: o nome, a impressão digital e o endereço local de cada dispositivo marcado.\n- O histórico das últimas 200 transferências: sentido, dispositivo, número de elementos, tamanho e data. Não inclui o nome nem o conteúdo dos ficheiros.\n- O certificado do dispositivo e a sua chave privada, no porta-chaves do iOS.\n- Os elementos partilhados a partir de outra app, até o RoomSend abrir. Depois são apagados.\n\nNada disto nos é enviado. Faz parte das cópias de segurança do iPhone, se as tiver ativado. Apagar a app elimina as definições, o histórico e os ficheiros. O iOS pode manter o certificado no porta-chaves depois: só tem o nome «RoomSend». As fotos guardadas em Fotos ficam lá.\n\n## Este site\n\nO site é alojado pela Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, Estados Unidos. Quando abre uma página, a Netlify regista nos seus registos técnicos o seu endereço IP, a página pedida, a data e a hora, e o que o seu navegador envia (tipo, sistema). Estes registos servem para entregar as páginas e proteger o site contra abusos. Sem eles, a página não lhe pode ser enviada. Fundamento jurídico: o nosso interesse legítimo num site seguro (art. 6.º, n.º 1, alínea f, RGPD).\n\nSegundo os seus compromissos contratuais, a Netlify guarda os registos de tráfego 30 dias online e até 13 meses em arquivo, e os de segurança até um ano online e seis anos em arquivo. Estes dados são tratados nos Estados Unidos. A Netlify está certificada no Data Privacy Framework entre a UE e os Estados Unidos e entre a Suíça e os Estados Unidos, considerados adequados pela Comissão Europeia a 10 de julho de 2023 e pelo Conselho Federal suíço a 14 de agosto de 2024.\n\nO site não usa cookies, medição de audiência, nem tipos de letra ou scripts de outros sites. Só guarda no seu navegador o idioma e o aspeto que escolher, para os repor na visita seguinte. Apaga-os com os dados do site, no navegador.\n\nSe nos escrever, usamos o seu endereço e a sua mensagem para lhe responder. Ficam no nosso fornecedor de e-mail o tempo que o seu pedido exigir.\n\n## Os seus direitos\n\nPode pedir o acesso aos seus dados, a retificação ou o apagamento, a limitação do tratamento, opor-se a ele e pedir a portabilidade (arts. 15.º a 21.º RGPD, arts. 25 a 32 da lei suíça de proteção de dados). Como a app não nos envia nada, só temos os seus eventuais e-mails; quanto aos registos do site, transmitimos o pedido à Netlify. Escreva para [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\nNenhuma decisão automatizada é tomada sobre si. Pode apresentar queixa ao Encarregado Federal da Proteção de Dados e da Transparência (PFPDT) da Suíça, em Berna, ou, se vive na União Europeia, à autoridade de proteção de dados do seu país.\n\n## Alterações\n\nSe a app ou o site mudarem a forma como tratam os dados, atualizamos esta página, aqui e na app, com a data."
+          }
+        }
+      }
+    },
+    "legal.terms.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terms of Use"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conditions d'utilisation"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nutzungsbedingungen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condiciones de uso"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condizioni d'uso"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condições de utilização"
+          }
+        }
+      }
+    },
+    "legal.terms.updated": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last updated: 21 November 2026."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dernière mise à jour : 21 novembre 2026."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zuletzt aktualisiert: 21. November 2026."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Última actualización: 21 de noviembre de 2026."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ultimo aggiornamento: 21 novembre 2026."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Última atualização: 21 de novembro de 2026."
+          }
+        }
+      }
+    },
+    "legal.terms.body": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "These terms apply to the RoomSend app and to this site. By using RoomSend, you accept them.\n\n## The publisher\n\nKiye Mateus, Geneva, Switzerland. Contact: [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\n## The service\n\nRoomSend is a free iPhone app that sends photos, files and text to the devices on the same local network. It follows the public LocalSend protocol and works with the LocalSend apps for Android, Windows, macOS and Linux. It has no account, no subscription, no in-app purchase and no ads.\n\n## Licence\n\nRoomSend is licensed to you under [Apple's standard licence agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). These terms add to it. Where they conflict, Apple's agreement prevails.\n\n## Your use\n\nYou are responsible for what you send and for the devices you send it to. Only send what you have the right to share. Do not use RoomSend to pass on unlawful content, bother someone or reach a device without its owner's consent.\n\nOn a network you do not know, rather turn off \"Visible on this Wi-Fi\" and \"Accept automatically\".\n\n## Network and security\n\nRoomSend depends on your local network: a network that isolates devices, or a firewall, can block discovery or transfers. Transfers are encrypted by default. Sharing by link uses plain HTTP and can be read by people on the same network.\n\nA transfer can fail or be interrupted: keep a copy of your important files.\n\n## LocalSend\n\nRoomSend is an independent app. It is not published, endorsed or supported by the LocalSend project, whose name is used only to state compatibility. Other apps evolve: we do not guarantee compatibility with every one of their versions.\n\n## Availability and warranty\n\nThe app is provided free of charge, as is. We fix and improve it, without guaranteeing that it works without interruption or error, or that it fits a particular purpose. We may change it or stop distributing it.\n\n## Liability\n\nTo the extent the law allows, we accept no liability for damage linked to the use of RoomSend, in particular data loss or content received from another device. This limit does not apply to damage caused intentionally or by gross negligence (Art. 100 of the Swiss Code of Obligations), nor where the law forbids it.\n\n## Intellectual property\n\nThe RoomSend name, icon, design and code belong to the publisher. What you send remains yours: we never have access to it.\n\n## Changes\n\nWe may change these terms. The current version is published here and in the app, with its date. If you refuse a new version, stop using the app and delete it.\n\n## Governing law and jurisdiction\n\nThese terms are governed by Swiss law. The place of jurisdiction is the publisher's domicile. If you are a consumer, you keep the protection of the mandatory rules of your country of residence and may bring a claim before its courts."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ces conditions s'appliquent à l'app RoomSend et à ce site. En utilisant RoomSend, vous les acceptez.\n\n## L'éditeur\n\nKiye Mateus, Genève, Suisse. Contact : [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\n## Le service\n\nRoomSend est une app gratuite pour iPhone qui envoie des photos, des fichiers et des textes aux appareils du même réseau local. Elle suit le protocole public LocalSend et fonctionne avec les apps LocalSend d'Android, de Windows, de macOS et de Linux. Elle n'a ni compte, ni abonnement, ni achat intégré, ni publicité.\n\n## Licence\n\nRoomSend vous est concédée selon le [contrat de licence standard d'Apple](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Ces conditions le complètent. En cas de contradiction, le contrat d'Apple l'emporte.\n\n## Votre usage\n\nVous êtes responsable de ce que vous envoyez et des appareils à qui vous l'envoyez. N'envoyez que ce que vous avez le droit de partager. N'utilisez pas RoomSend pour transmettre des contenus illicites, importuner quelqu'un ou atteindre un appareil sans l'accord de son propriétaire.\n\nSur un réseau que vous ne connaissez pas, désactivez plutôt « Visible sur ce Wi-Fi » et « Accepter automatiquement ».\n\n## Réseau et sécurité\n\nRoomSend dépend de votre réseau local : un réseau qui isole les appareils ou un pare-feu peut empêcher la découverte ou les transferts. Les transferts sont chiffrés par défaut. Le partage par lien passe en HTTP simple et reste lisible par les personnes du même réseau.\n\nUn transfert peut échouer ou être interrompu : gardez une copie de vos fichiers importants.\n\n## LocalSend\n\nRoomSend est une app indépendante. Elle n'est ni éditée, ni approuvée, ni soutenue par le projet LocalSend, dont le nom n'est cité que pour indiquer la compatibilité. Les autres apps peuvent évoluer : nous ne garantissons pas la compatibilité avec chacune de leurs versions.\n\n## Disponibilité et garantie\n\nL'app est fournie gratuitement, en l'état. Nous la corrigeons et l'améliorons, sans garantir qu'elle fonctionne sans interruption ni erreur, ni qu'elle convienne à un usage particulier. Nous pouvons la modifier ou cesser de la distribuer.\n\n## Responsabilité\n\nDans la mesure permise par la loi, nous déclinons toute responsabilité pour les dommages liés à l'usage de RoomSend, notamment une perte de données ou un contenu reçu d'un autre appareil. Cette limite ne vaut pas pour un dommage causé intentionnellement ou par négligence grave (art. 100 du Code des obligations), ni là où la loi l'interdit.\n\n## Propriété intellectuelle\n\nLe nom RoomSend, son icône, son design et son code appartiennent à l'éditeur. Ce que vous envoyez reste à vous : nous n'y avons jamais accès.\n\n## Modifications\n\nNous pouvons modifier ces conditions. La version en vigueur est publiée ici et dans l'app, avec sa date. Si vous refusez une nouvelle version, cessez d'utiliser l'app et supprimez-la.\n\n## Droit applicable et for\n\nCes conditions sont soumises au droit suisse. Le for est au domicile de l'éditeur. Si vous êtes un consommateur, vous gardez la protection des règles impératives de votre pays de résidence et pouvez saisir ses tribunaux."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diese Bedingungen gelten für die App RoomSend und für diese Website. Wer RoomSend nutzt, nimmt sie an.\n\n## Herausgeber\n\nKiye Mateus, Genf, Schweiz. Kontakt: [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\n## Der Dienst\n\nRoomSend ist eine kostenlose iPhone-App, die Fotos, Dateien und Texte an die Geräte im selben lokalen Netzwerk sendet. Sie folgt dem öffentlichen LocalSend-Protokoll und funktioniert mit den LocalSend-Apps für Android, Windows, macOS und Linux. Sie hat kein Konto, kein Abo, keine In-App-Käufe und keine Werbung.\n\n## Lizenz\n\nRoomSend wird Ihnen nach dem [Standard-Lizenzvertrag von Apple](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) überlassen. Diese Bedingungen ergänzen ihn. Bei einem Widerspruch gilt der Vertrag von Apple.\n\n## Ihre Nutzung\n\nSie sind verantwortlich für das, was Sie senden, und für die Geräte, an die Sie es senden. Senden Sie nur, was Sie teilen dürfen. Nutzen Sie RoomSend nicht, um rechtswidrige Inhalte zu übermitteln, jemanden zu belästigen oder ein Gerät ohne Zustimmung seines Besitzers zu erreichen.\n\nIn einem Netzwerk, das Sie nicht kennen, deaktivieren Sie besser „In diesem WLAN sichtbar“ und „Automatisch annehmen“.\n\n## Netzwerk und Sicherheit\n\nRoomSend hängt von Ihrem lokalen Netzwerk ab: Ein Netzwerk, das Geräte voneinander trennt, oder eine Firewall kann die Suche oder Übertragungen verhindern. Übertragungen sind standardmässig verschlüsselt. Das Teilen per Link nutzt einfaches HTTP und ist für Personen im selben Netzwerk lesbar.\n\nEine Übertragung kann scheitern oder abbrechen: Bewahren Sie eine Kopie wichtiger Dateien auf.\n\n## LocalSend\n\nRoomSend ist eine unabhängige App. Sie wird vom Projekt LocalSend weder herausgegeben noch empfohlen noch unterstützt; sein Name steht hier nur, um die Kompatibilität anzugeben. Andere Apps entwickeln sich weiter: Wir garantieren keine Kompatibilität mit jeder ihrer Versionen.\n\n## Verfügbarkeit und Gewährleistung\n\nDie App wird kostenlos und so, wie sie ist, bereitgestellt. Wir korrigieren und verbessern sie, ohne zu garantieren, dass sie ohne Unterbrechung oder Fehler läuft oder sich für einen bestimmten Zweck eignet. Wir können sie ändern oder ihren Vertrieb einstellen.\n\n## Haftung\n\nSoweit das Gesetz es erlaubt, lehnen wir jede Haftung für Schäden aus der Nutzung von RoomSend ab, insbesondere für Datenverlust oder Inhalte, die Sie von einem anderen Gerät erhalten. Diese Grenze gilt nicht für absichtlich oder grobfahrlässig verursachte Schäden (Art. 100 des Obligationenrechts) und nicht dort, wo das Gesetz sie verbietet.\n\n## Geistiges Eigentum\n\nName, Symbol, Design und Code von RoomSend gehören dem Herausgeber. Was Sie senden, bleibt Ihres: Wir haben nie Zugriff darauf.\n\n## Änderungen\n\nWir können diese Bedingungen ändern. Die gültige Fassung steht mit Datum hier und in der App. Wenn Sie eine neue Fassung ablehnen, nutzen Sie die App nicht weiter und löschen Sie sie.\n\n## Anwendbares Recht und Gerichtsstand\n\nDiese Bedingungen unterstehen schweizerischem Recht. Gerichtsstand ist der Wohnsitz des Herausgebers. Als Verbraucher behalten Sie den Schutz der zwingenden Regeln Ihres Wohnsitzlandes und können dessen Gerichte anrufen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estas condiciones se aplican a la app RoomSend y a este sitio. Al usar RoomSend, las acepta.\n\n## El editor\n\nKiye Mateus, Ginebra, Suiza. Contacto: [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\n## El servicio\n\nRoomSend es una app gratuita para iPhone que envía fotos, archivos y textos a los dispositivos de la misma red local. Sigue el protocolo público LocalSend y funciona con las apps LocalSend de Android, Windows, macOS y Linux. No tiene cuenta, suscripción, compras dentro de la app ni publicidad.\n\n## Licencia\n\nRoomSend se le concede según el [contrato de licencia estándar de Apple](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Estas condiciones lo completan. En caso de contradicción, prevalece el contrato de Apple.\n\n## Su uso\n\nUsted es responsable de lo que envía y de los dispositivos a los que lo envía. Envíe solo lo que tiene derecho a compartir. No use RoomSend para transmitir contenidos ilícitos, molestar a alguien o llegar a un dispositivo sin el consentimiento de su propietario.\n\nEn una red que no conoce, mejor desactive «Visible en este Wi-Fi» y «Aceptar automáticamente».\n\n## Red y seguridad\n\nRoomSend depende de su red local: una red que aísla los dispositivos, o un cortafuegos, puede impedir la búsqueda o las transferencias. Las transferencias se cifran por defecto. Compartir por enlace usa HTTP simple y lo pueden leer las personas de la misma red.\n\nUna transferencia puede fallar o interrumpirse: guarde una copia de sus archivos importantes.\n\n## LocalSend\n\nRoomSend es una app independiente. No la publica, avala ni respalda el proyecto LocalSend, cuyo nombre se cita solo para indicar la compatibilidad. Las otras apps evolucionan: no garantizamos la compatibilidad con cada una de sus versiones.\n\n## Disponibilidad y garantía\n\nLa app se ofrece gratis, tal cual. La corregimos y mejoramos, sin garantizar que funcione sin interrupciones ni errores, ni que sirva para un uso concreto. Podemos modificarla o dejar de distribuirla.\n\n## Responsabilidad\n\nEn la medida en que la ley lo permita, no asumimos responsabilidad por daños ligados al uso de RoomSend, en especial pérdidas de datos o contenidos recibidos de otro dispositivo. Este límite no se aplica a daños causados intencionadamente o por negligencia grave (art. 100 del Código de Obligaciones suizo), ni donde la ley lo prohíba.\n\n## Propiedad intelectual\n\nEl nombre RoomSend, su icono, su diseño y su código pertenecen al editor. Lo que usted envía sigue siendo suyo: nunca tenemos acceso a ello.\n\n## Cambios\n\nPodemos modificar estas condiciones. La versión vigente se publica aquí y en la app, con su fecha. Si rechaza una nueva versión, deje de usar la app y elimínela.\n\n## Ley aplicable y jurisdicción\n\nEstas condiciones se rigen por el derecho suizo. El fuero es el domicilio del editor. Si es usted consumidor, conserva la protección de las normas imperativas de su país de residencia y puede acudir a sus tribunales."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Queste condizioni valgono per l'app RoomSend e per questo sito. Usando RoomSend, le accetta.\n\n## L'editore\n\nKiye Mateus, Ginevra, Svizzera. Contatto: [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\n## Il servizio\n\nRoomSend è un'app gratuita per iPhone che invia foto, file e testi ai dispositivi della stessa rete locale. Segue il protocollo pubblico LocalSend e funziona con le app LocalSend per Android, Windows, macOS e Linux. Non ha account, abbonamento, acquisti in-app né pubblicità.\n\n## Licenza\n\nRoomSend Le è concessa secondo il [contratto di licenza standard di Apple](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Queste condizioni lo completano. In caso di contrasto, prevale il contratto di Apple.\n\n## Il Suo uso\n\nLei è responsabile di ciò che invia e dei dispositivi a cui lo invia. Invii solo ciò che ha il diritto di condividere. Non usi RoomSend per trasmettere contenuti illeciti, molestare qualcuno o raggiungere un dispositivo senza il consenso del proprietario.\n\nSu una rete che non conosce, meglio disattivare «Visibile su questa Wi-Fi» e «Accetta automaticamente».\n\n## Rete e sicurezza\n\nRoomSend dipende dalla Sua rete locale: una rete che isola i dispositivi, o un firewall, può impedire la ricerca o i trasferimenti. I trasferimenti sono cifrati per impostazione predefinita. La condivisione con link usa HTTP semplice ed è leggibile dalle persone della stessa rete.\n\nUn trasferimento può fallire o interrompersi: conservi una copia dei file importanti.\n\n## LocalSend\n\nRoomSend è un'app indipendente. Non è pubblicata, approvata né sostenuta dal progetto LocalSend, il cui nome è citato solo per indicare la compatibilità. Le altre app evolvono: non garantiamo la compatibilità con ognuna delle loro versioni.\n\n## Disponibilità e garanzia\n\nL'app è fornita gratis, così com'è. La correggiamo e la miglioriamo, senza garantire che funzioni senza interruzioni o errori, né che sia adatta a un uso particolare. Possiamo modificarla o smettere di distribuirla.\n\n## Responsabilità\n\nNei limiti consentiti dalla legge, escludiamo ogni responsabilità per danni legati all'uso di RoomSend, in particolare perdite di dati o contenuti ricevuti da un altro dispositivo. Questo limite non vale per i danni causati intenzionalmente o per colpa grave (art. 100 del Codice delle obbligazioni svizzero), né dove la legge lo vieta.\n\n## Proprietà intellettuale\n\nIl nome RoomSend, la sua icona, il design e il codice appartengono all'editore. Ciò che invia resta Suo: non vi abbiamo mai accesso.\n\n## Modifiche\n\nPossiamo modificare queste condizioni. La versione in vigore è pubblicata qui e nell'app, con la data. Se rifiuta una nuova versione, smetta di usare l'app e la elimini.\n\n## Legge applicabile e foro\n\nQueste condizioni sono regolate dal diritto svizzero. Il foro è il domicilio dell'editore. Se è un consumatore, conserva la protezione delle norme imperative del Suo paese di residenza e può rivolgersi ai suoi tribunali."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estas condições aplicam-se à app RoomSend e a este site. Ao usar o RoomSend, aceita-as.\n\n## O editor\n\nKiye Mateus, Genebra, Suíça. Contacto: [mateus@kiye‑mateus.com](mailto:mateus@kiye-mateus.com).\n\n## O serviço\n\nO RoomSend é uma app gratuita para iPhone que envia fotos, ficheiros e textos para os dispositivos da mesma rede local. Segue o protocolo público LocalSend e funciona com as apps LocalSend para Android, Windows, macOS e Linux. Não tem conta, subscrição, compras na app nem publicidade.\n\n## Licença\n\nO RoomSend é-lhe licenciado segundo o [contrato de licença padrão da Apple](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Estas condições completam-no. Em caso de contradição, prevalece o contrato da Apple.\n\n## A sua utilização\n\nÉ responsável pelo que envia e pelos dispositivos para onde o envia. Envie só o que tem direito a partilhar. Não use o RoomSend para transmitir conteúdos ilícitos, incomodar alguém ou chegar a um dispositivo sem o consentimento do dono.\n\nNuma rede que não conhece, é melhor desativar «Visível nesta Wi-Fi» e «Aceitar automaticamente».\n\n## Rede e segurança\n\nO RoomSend depende da sua rede local: uma rede que isola os dispositivos, ou uma firewall, pode impedir a pesquisa ou as transferências. As transferências são cifradas por predefinição. A partilha por ligação usa HTTP simples e pode ser lida pelas pessoas da mesma rede.\n\nUma transferência pode falhar ou ser interrompida: guarde uma cópia dos seus ficheiros importantes.\n\n## LocalSend\n\nO RoomSend é uma app independente. Não é publicada, aprovada nem apoiada pelo projeto LocalSend, cujo nome só é citado para indicar a compatibilidade. As outras apps evoluem: não garantimos a compatibilidade com cada uma das suas versões.\n\n## Disponibilidade e garantia\n\nA app é fornecida gratuitamente, tal como está. Corrigimo-la e melhoramo-la, sem garantir que funcione sem interrupções nem erros, nem que sirva um uso específico. Podemos alterá-la ou deixar de a distribuir.\n\n## Responsabilidade\n\nNa medida em que a lei o permita, não assumimos responsabilidade por danos ligados ao uso do RoomSend, em particular perdas de dados ou conteúdos recebidos de outro dispositivo. Este limite não se aplica a danos causados intencionalmente ou por negligência grave (art. 100.º do Código das Obrigações suíço), nem onde a lei o proíba.\n\n## Propriedade intelectual\n\nO nome RoomSend, o ícone, o design e o código pertencem ao editor. O que envia continua a ser seu: nunca temos acesso a isso.\n\n## Alterações\n\nPodemos alterar estas condições. A versão em vigor é publicada aqui e na app, com a data. Se recusar uma nova versão, deixe de usar a app e apague-a.\n\n## Lei aplicável e foro\n\nEstas condições regem-se pelo direito suíço. O foro é o domicílio do editor. Se for consumidor, mantém a proteção das normas imperativas do seu país de residência e pode recorrer aos seus tribunais."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

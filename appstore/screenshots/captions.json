@@ -1,0 +1,58 @@
+{
+  "order": [
+    "01-room",
+    "02-send",
+    "03-incoming",
+    "04-progress",
+    "05-history",
+    "06-link"
+  ],
+  "en": {
+    "01-room": "See who's on your Wi-Fi",
+    "02-send": "Send to one, or to the whole room",
+    "03-incoming": "See who sends what, then accept",
+    "04-progress": "Watch it travel, stop anytime",
+    "05-history": "Every transfer, kept on your iPhone",
+    "06-link": "No app on their side? A QR code"
+  },
+  "fr": {
+    "01-room": "Vois qui est sur ton Wi-Fi",
+    "02-send": "À une personne, ou à toute la pièce",
+    "03-incoming": "Vois qui envoie quoi, puis accepte",
+    "04-progress": "Suis l'envoi, arrête quand tu veux",
+    "05-history": "Chaque envoi, gardé sur ton iPhone",
+    "06-link": "Pas l'app en face ? Un QR code suffit"
+  },
+  "de": {
+    "01-room": "Sieh, wer in deinem WLAN ist",
+    "02-send": "An ein Gerät oder den ganzen Raum",
+    "03-incoming": "Wer sendet was? Du entscheidest",
+    "04-progress": "Verfolge es live, stopp jederzeit",
+    "05-history": "Dein Verlauf bleibt auf dem iPhone",
+    "06-link": "Ohne App? Ein QR-Code genügt"
+  },
+  "es": {
+    "01-room": "Mira quién está en tu Wi-Fi",
+    "02-send": "Envía a uno o a toda la sala",
+    "03-incoming": "Sabes quién envía qué y aceptas",
+    "04-progress": "Sigue el envío, detenlo si quieres",
+    "05-history": "Cada transferencia, en tu iPhone",
+    "06-link": "¿No tiene la app? Basta un QR"
+  },
+  "it": {
+    "01-room": "Guarda chi c'è sulla tua Wi-Fi",
+    "02-send": "A una persona o a tutta la stanza",
+    "03-incoming": "Vedi chi invia cosa, poi accetta",
+    "04-progress": "Segui l'invio, interrompi se vuoi",
+    "05-history": "Ogni scambio resta sul tuo iPhone",
+    "06-link": "Non ha l'app? Basta un codice QR"
+  },
+  "pt": {
+    "01-room": "Vê quem está na tua Wi-Fi",
+    "02-send": "Envia para um ou para a sala toda",
+    "03-incoming": "Vê quem envia o quê e aceita",
+    "04-progress": "Vê o envio, para-o quando quiseres",
+    "05-history": "O histórico fica no teu iPhone",
+    "06-link": "Sem app do outro lado? Código QR"
+  }
+}

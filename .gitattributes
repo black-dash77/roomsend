@@ -1,0 +1,4 @@
+# The App Store kit's visual generators and the docs are not the app's code: keep the
+# language statistics about the app itself.
+appstore/** linguist-documentation
+docs/** linguist-documentation

@@ -1,0 +1,114 @@
+name: RoomSend
+options:
+  bundleIdPrefix: app.roomsend
+  createIntermediateGroups: true
+  developmentLanguage: en
+  deploymentTarget:
+    iOS: "26.0"
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+    SWIFT_APPROACHABLE_CONCURRENCY: YES
+    SWIFT_EMIT_LOC_STRINGS: YES
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: 4HTQ3SHZ5C
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+packages:
+  swift-certificates:
+    url: https://github.com/apple/swift-certificates.git
+    from: 1.5.0
+  swift-asn1:
+    url: https://github.com/apple/swift-asn1.git
+    from: 1.1.0
+targets:
+  RoomSend:
+    type: application
+    platform: iOS
+    entitlements:
+      path: RoomSend/Resources/RoomSend.entitlements
+      properties:
+        com.apple.security.application-groups: [group.app.roomsend.ios]
+    dependencies:
+      - target: RoomSendShare
+      - package: swift-certificates
+        product: X509
+      - package: swift-asn1
+        product: SwiftASN1
+    sources:
+      - path: RoomSend
+        excludes:
+          - "Resources/Info.plist"
+          - "Resources/AppIcon.icon"
+          - "Resources/RoomSend.entitlements"
+      - path: RoomSend/Resources/AppIcon.icon
+        type: file
+        buildPhase: resources
+    info:
+      path: RoomSend/Resources/Info.plist
+      properties:
+        CFBundleDisplayName: RoomSend
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDevelopmentRegion: en
+        CFBundleLocalizations: [en, fr, de, es, it, pt]
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSLocalNetworkUsageDescription: RoomSend finds the devices on your Wi-Fi to send them files.
+        NSPhotoLibraryAddUsageDescription: RoomSend adds the photos and videos you receive to your library.
+        UIFileSharingEnabled: true
+        LSSupportsOpeningDocumentsInPlace: true
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+        ITSAppUsesNonExemptEncryption: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.roomsend.ios
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: RoomSend/Resources/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+  RoomSendShare:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: RoomSendShare
+        excludes:
+          - "Info.plist"
+          - "RoomSendShare.entitlements"
+      - path: RoomSend/Core/Share/Inbox.swift
+      - path: RoomSend/Core/Log.swift
+      - path: RoomSend/Core/Design/Palette.swift
+      - path: RoomSend/Core/Design/Tokens.swift
+      - path: RoomSend/Resources/Localizable.xcstrings
+    info:
+      path: RoomSendShare/Info.plist
+      properties:
+        CFBundleDisplayName: RoomSend
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.share-services
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).ShareViewController
+          NSExtensionAttributes:
+            NSExtensionActivationRule:
+              NSExtensionActivationSupportsFileWithMaxCount: 50
+              NSExtensionActivationSupportsImageWithMaxCount: 50
+              NSExtensionActivationSupportsMovieWithMaxCount: 50
+              NSExtensionActivationSupportsText: true
+              NSExtensionActivationSupportsWebURLWithMaxCount: 1
+    entitlements:
+      path: RoomSendShare/RoomSendShare.entitlements
+      properties:
+        com.apple.security.application-groups: [group.app.roomsend.ios]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.roomsend.ios.share
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: RoomSendShare/Info.plist
+        SKIP_INSTALL: YES

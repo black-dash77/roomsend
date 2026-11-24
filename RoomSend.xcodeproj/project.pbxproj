@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000D87FED70ED538CF912513 /* IdentityPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3EB632DF202FC8EF49E6BE /* IdentityPattern.swift */; };
+		150B8DA237468F8C5EF81340 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = B787A6684F6EE086ADC92E92 /* AppIcon.icon */; };
+		154E84CCEF8E477DD4905AD6 /* ContentPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1FF4A615F7FD28E3E12312 /* ContentPickers.swift */; };
+		19F4ACCB4AC1C4FE297FC5EE /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B946AA8BFC6465B01B302F5A /* Tokens.swift */; };
+		1B568AFF6FDCDDAE4AC5BA44 /* AboutSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BEC14588DEF5173322D97 /* AboutSection.swift */; };
+		1E49FEB1F0C015892A3315D9 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0ADE6FCCCBDCB97241D950 /* HistoryStore.swift */; };
+		26A0D954E586715B09622F0A /* TLSIdentityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8FD81AC99E542A6786570E /* TLSIdentityStore.swift */; };
+		28D5332477CFE6C7DF48C24D /* LegalText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1DC6EF47E5F6028BD702DF /* LegalText.swift */; };
+		2B1FF88B292A17C46F6F2E02 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4D2ECDE80C75B75BC6ED1 /* Localized.swift */; };
+		2C7C16365543A933890FA2B9 /* RoomHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA8B113C137AA8C1C9BD82C /* RoomHeader.swift */; };
+		32D6F7A4491833C22CCFE9E5 /* HistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC40A7AF5580DA068A944D /* HistoryScreen.swift */; };
+		366868313F621093546364B0 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715E0C06EF4CB5BC24796AC /* AppLanguage.swift */; };
+		368E31BC2D015BF1E20AF92D /* ReceiveSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E20F5D5740868A17B35D01 /* ReceiveSettings.swift */; };
+		38CE78916B25736C20EC51AF /* SendSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B68B17E2FD413110D211B /* SendSheet.swift */; };
+		3F201BFEC0582710F55D7C97 /* LocalSendProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FD42309143EF2CEF49D79F /* LocalSendProtocol.swift */; };
+		44A68EED10765DBA0927745A /* DeviceIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6292111CB55C91575EB6145C /* DeviceIdentity.swift */; };
+		46467CC5896276E9C311E819 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6626A59D4483C909A09840 /* AppModel.swift */; };
+		484F8951350D0AC789D7DF23 /* Inbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF2A6CD0C962ED8D42D85ED /* Inbox.swift */; };
+		497F66208080055DEA714296 /* ManualAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CF639D533907AB5F0F7E4 /* ManualAddress.swift */; };
+		4B4F95D872385EFCDB99A0A8 /* SendObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634EB9EC1096153BD306C121 /* SendObject.swift */; };
+		4F8486E98FE8E1E1842D9568 /* AddDeviceSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D666FBC8895EA9476CA08 /* AddDeviceSheet.swift */; };
+		4FFBDD6B73E90AB09C754E24 /* ReceiveCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E96642AD337ED176E6ACB5 /* ReceiveCoordinator.swift */; };
+		51FAC5ADE1098FEF998C0DD2 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFB7CB7648B371E4BCB519 /* Palette.swift */; };
+		5281FC52AB8203C60E924875 /* LanguageSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A9FE29864537C5DBAE7D0 /* LanguageSection.swift */; };
+		55B2B4AC09BF5981047D67DC /* NearbyBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5289ECBF5AD49C54A27FB /* NearbyBlock.swift */; };
+		56B9A44530FA401FAE3A6A3A /* TransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E39AAFAEF661450F04422 /* TransferService.swift */; };
+		5B29AC821380428BE881ABB3 /* RoomSendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C61498DEAEED14020103FD /* RoomSendApp.swift */; };
+		5C1AA3789FC3525B3B189E5A /* IncomingOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6557A9BE62E9800DCE0C5E9D /* IncomingOffer.swift */; };
+		5C230EFB890BE0FD8DD041D8 /* ItemLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7420169BC377708636B4B /* ItemLoader.swift */; };
+		5E67619FF59BFE47E23351F5 /* SwiftASN1 in Frameworks */ = {isa = PBXBuildFile; productRef = A0F2CF1C5B9FE7036F37DC23 /* SwiftASN1 */; };
+		62F77245685635779E35D151 /* RoomSendShare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DE157FE0371D4E5C6201C7FA /* RoomSendShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		66C2BF2EDD6B34432A66E727 /* HTTPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCB7D87380D5C48D183E901 /* HTTPMessage.swift */; };
+		6D1FF263FE0D295B3284A0DA /* StatusBarScrim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3A60A62CDA179CD504277 /* StatusBarScrim.swift */; };
+		717FD239DE8114C04617DF14 /* PhotoSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C046FCBAAB10CB6F3941408D /* PhotoSaver.swift */; };
+		743111389662B07B5A83E1EF /* SendSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD74BDC0668ADC8CC80313FF /* SendSummary.swift */; };
+		75BA07ACF8990053E8ECD543 /* FingerprintTrust.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93E7BA3113736764B083E3A /* FingerprintTrust.swift */; };
+		79071F462D190CF2B95B934D /* SendFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F43F8A8845029A9D1E790 /* SendFlow.swift */; };
+		799FBBF413DF93E1B2675364 /* ShareLinkSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6EAFD119142D92A7C4083 /* ShareLinkSheet.swift */; };
+		7DE2BC08AB72C77B3641DEC8 /* X509 in Frameworks */ = {isa = PBXBuildFile; productRef = A34DF54A249F07B511DC2984 /* X509 */; };
+		80880B0C9B0E1D6766DF9A61 /* HTTPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3F011E0085405C929F58F0 /* HTTPServer.swift */; };
+		81557CE480FB098B40CA3FCF /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F9D161956208BF98C9FADBAB /* Localizable.xcstrings */; };
+		86EA3E4819CDB3340417D7AC /* NetworkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A80DFCC12B2A7F5AF89622 /* NetworkSettings.swift */; };
+		86F72B05D50098E7775E427A /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B4821F9D0BAFBABC27EFF /* Appearance.swift */; };
+		8A0C5E83D3C260C741CEECC3 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CBC7CF40C79CF76FC32F2 /* ShareViewController.swift */; };
+		8CB80DA6F45BA3F406A5E2B5 /* RegisterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4215CE4AF9E4271BE83F46 /* RegisterClient.swift */; };
+		8E573A26922B582CAFD76F1A /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE7E268B6A64A7D48C6122 /* Block.swift */; };
+		930BA1C323A8431ECFAEF172 /* LocalSendRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623C01792102D2F67D875026 /* LocalSendRouter.swift */; };
+		97295E05606BE3F605E08AEF /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFB7CB7648B371E4BCB519 /* Palette.swift */; };
+		973F3316D8A139B06AE2A89A /* IdentityAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86370CD5DD949CD1DBB844 /* IdentityAvatar.swift */; };
+		99A3BBF9B0C8954B7B3C4621 /* LegalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352B2E09E3014AA7110090E /* LegalScreen.swift */; };
+		9A02ECA0A441F8C6BE5AC33B /* DeviceSourceSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B797B98AE38FE675D60CF941 /* DeviceSourceSheet.swift */; };
+		9E6FA97803C89DE4D666943B /* AliasGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD1203144D7C935F5625C3 /* AliasGenerator.swift */; };
+		A12B2DB0D8019BC5EDF29930 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EFEEC247765FA4C0A57D04 /* Log.swift */; };
+		AA7448D732FB9C51230FE241 /* HTTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52054FA24C7CFD18AA837613 /* HTTPConnection.swift */; };
+		AB87A81AC11002FEC3DFD3F4 /* DiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA2F47F0180F340ED75581D /* DiscoveryService.swift */; };
+		ACAFCBBE20A2180BB2C6226B /* FavoritesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF414D7A7904C636AAD52C /* FavoritesStore.swift */; };
+		B99DF2577DC59806703F4615 /* TransferModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209A080769694A5431741E40 /* TransferModels.swift */; };
+		BB05879366B82B23DBA2EF63 /* Inbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF2A6CD0C962ED8D42D85ED /* Inbox.swift */; };
+		BE5F4E86314A15DBBDAC8ABE /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EFEEC247765FA4C0A57D04 /* Log.swift */; };
+		BF97F9C02E405322AB6BA885 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64548A4CA1AA7786BCE2371D /* SettingsScreen.swift */; };
+		CA3525CF2599EEE3DE6CF50A /* LocalAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBCB71BB175C7267F83716B /* LocalAddress.swift */; };
+		CAFD277F712C75628A34FEE7 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B946AA8BFC6465B01B302F5A /* Tokens.swift */; };
+		D12E27948C465CD6763641E8 /* NetworkSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD50369A2E4874111448BA4 /* NetworkSection.swift */; };
+		D4A85EC81CDE1A5857E85434 /* ShareLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA19C3594253D5D7AF3F12D /* ShareLink.swift */; };
+		D761F470E55503A7A8C5FD74 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F9D161956208BF98C9FADBAB /* Localizable.xcstrings */; };
+		DA0FC0E9539E13CF729BEEB2 /* RoomScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682EC7CA38C89CBEB7F7B308 /* RoomScreen.swift */; };
+		E2E782EEF315AAD0489F133B /* TextComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483B2BD07D211E1605FEB2F2 /* TextComposer.swift */; };
+		E458D64C6A45EDD8F978B2EA /* LanguageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A0779837C136611B61BF50 /* LanguageSettings.swift */; };
+		E83135AB574DE6D2B3521AF5 /* SourceTiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EF95AD8817D90C4A90E82 /* SourceTiles.swift */; };
+		EE1FF0DBF87005629BB6EA67 /* IncomingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C3321034FF5865E517763 /* IncomingSheet.swift */; };
+		F3E9CFECC929066C5BBD4569 /* RecipientCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3144A26564C7A12A5197EC /* RecipientCarousel.swift */; };
+		F7468C1305ACB2DC4DA29828 /* RoomCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5D866AAFE38DCFF800E14 /* RoomCount.swift */; };
+		F90DAEBF204AD23505142386 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2A913FA76CCF1141330F9FE9 /* InfoPlist.xcstrings */; };
+		FE3432EDD3143A44962AEE58 /* IdentityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE3B44312CAD5266EF009 /* IdentityStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4F2108713B35D7AD0D48556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A407FDD59B0AB818D78DF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 351992B710AE0A4BDE67FD93;
+			remoteInfo = RoomSendShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E6C9A54C5188E903BE13587C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				62F77245685635779E35D151 /* RoomSendShare.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02E5289ECBF5AD49C54A27FB /* NearbyBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyBlock.swift; sourceTree = "<group>"; };
+		0715E0C06EF4CB5BC24796AC /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		0A86370CD5DD949CD1DBB844 /* IdentityAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityAvatar.swift; sourceTree = "<group>"; };
+		1A6626A59D4483C909A09840 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		1B0CBC7CF40C79CF76FC32F2 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		209A080769694A5431741E40 /* TransferModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferModels.swift; sourceTree = "<group>"; };
+		26121C788F02F09B46DA82AF /* RoomSend.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RoomSend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A913FA76CCF1141330F9FE9 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		2BA19C3594253D5D7AF3F12D /* ShareLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLink.swift; sourceTree = "<group>"; };
+		31DD1203144D7C935F5625C3 /* AliasGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliasGenerator.swift; sourceTree = "<group>"; };
+		3A4215CE4AF9E4271BE83F46 /* RegisterClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterClient.swift; sourceTree = "<group>"; };
+		453B4821F9D0BAFBABC27EFF /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		483B2BD07D211E1605FEB2F2 /* TextComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextComposer.swift; sourceTree = "<group>"; };
+		52054FA24C7CFD18AA837613 /* HTTPConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPConnection.swift; sourceTree = "<group>"; };
+		623C01792102D2F67D875026 /* LocalSendRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSendRouter.swift; sourceTree = "<group>"; };
+		6292111CB55C91575EB6145C /* DeviceIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceIdentity.swift; sourceTree = "<group>"; };
+		634EB9EC1096153BD306C121 /* SendObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendObject.swift; sourceTree = "<group>"; };
+		64548A4CA1AA7786BCE2371D /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		6557A9BE62E9800DCE0C5E9D /* IncomingOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingOffer.swift; sourceTree = "<group>"; };
+		682EC7CA38C89CBEB7F7B308 /* RoomScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomScreen.swift; sourceTree = "<group>"; };
+		6BB3A60A62CDA179CD504277 /* StatusBarScrim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarScrim.swift; sourceTree = "<group>"; };
+		6BF5D866AAFE38DCFF800E14 /* RoomCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCount.swift; sourceTree = "<group>"; };
+		6C7CE3B44312CAD5266EF009 /* IdentityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityStore.swift; sourceTree = "<group>"; };
+		6E3EB632DF202FC8EF49E6BE /* IdentityPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityPattern.swift; sourceTree = "<group>"; };
+		6E3F011E0085405C929F58F0 /* HTTPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServer.swift; sourceTree = "<group>"; };
+		6E5C3321034FF5865E517763 /* IncomingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingSheet.swift; sourceTree = "<group>"; };
+		70FD42309143EF2CEF49D79F /* LocalSendProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSendProtocol.swift; sourceTree = "<group>"; };
+		726D666FBC8895EA9476CA08 /* AddDeviceSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceSheet.swift; sourceTree = "<group>"; };
+		73BC40A7AF5580DA068A944D /* HistoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreen.swift; sourceTree = "<group>"; };
+		7BDE7E268B6A64A7D48C6122 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		80A80DFCC12B2A7F5AF89622 /* NetworkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSettings.swift; sourceTree = "<group>"; };
+		81E96642AD337ED176E6ACB5 /* ReceiveCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveCoordinator.swift; sourceTree = "<group>"; };
+		82AFB7CB7648B371E4BCB519 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		87B4D2ECDE80C75B75BC6ED1 /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
+		8B3144A26564C7A12A5197EC /* RecipientCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientCarousel.swift; sourceTree = "<group>"; };
+		9AA8B113C137AA8C1C9BD82C /* RoomHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomHeader.swift; sourceTree = "<group>"; };
+		9C9CF639D533907AB5F0F7E4 /* ManualAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualAddress.swift; sourceTree = "<group>"; };
+		9DD50369A2E4874111448BA4 /* NetworkSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSection.swift; sourceTree = "<group>"; };
+		A0C6EAFD119142D92A7C4083 /* ShareLinkSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkSheet.swift; sourceTree = "<group>"; };
+		ABFF414D7A7904C636AAD52C /* FavoritesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesStore.swift; sourceTree = "<group>"; };
+		AEBCB71BB175C7267F83716B /* LocalAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAddress.swift; sourceTree = "<group>"; };
+		B35A9FE29864537C5DBAE7D0 /* LanguageSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSection.swift; sourceTree = "<group>"; };
+		B787A6684F6EE086ADC92E92 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = wrapper.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		B797B98AE38FE675D60CF941 /* DeviceSourceSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSourceSheet.swift; sourceTree = "<group>"; };
+		B946AA8BFC6465B01B302F5A /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokens.swift; sourceTree = "<group>"; };
+		BAA2F47F0180F340ED75581D /* DiscoveryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryService.swift; sourceTree = "<group>"; };
+		BBF2A6CD0C962ED8D42D85ED /* Inbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inbox.swift; sourceTree = "<group>"; };
+		BD74BDC0668ADC8CC80313FF /* SendSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendSummary.swift; sourceTree = "<group>"; };
+		BDF7420169BC377708636B4B /* ItemLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemLoader.swift; sourceTree = "<group>"; };
+		C046FCBAAB10CB6F3941408D /* PhotoSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSaver.swift; sourceTree = "<group>"; };
+		C7A0779837C136611B61BF50 /* LanguageSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSettings.swift; sourceTree = "<group>"; };
+		C93E7BA3113736764B083E3A /* FingerprintTrust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerprintTrust.swift; sourceTree = "<group>"; };
+		CB1DC6EF47E5F6028BD702DF /* LegalText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalText.swift; sourceTree = "<group>"; };
+		CE6E39AAFAEF661450F04422 /* TransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferService.swift; sourceTree = "<group>"; };
+		CF8EF95AD8817D90C4A90E82 /* SourceTiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceTiles.swift; sourceTree = "<group>"; };
+		D352B2E09E3014AA7110090E /* LegalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalScreen.swift; sourceTree = "<group>"; };
+		D7EFEEC247765FA4C0A57D04 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		DBCB7D87380D5C48D183E901 /* HTTPMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMessage.swift; sourceTree = "<group>"; };
+		DC0ADE6FCCCBDCB97241D950 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		DD1FF4A615F7FD28E3E12312 /* ContentPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPickers.swift; sourceTree = "<group>"; };
+		DE157FE0371D4E5C6201C7FA /* RoomSendShare.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = RoomSendShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E20F5D5740868A17B35D01 /* ReceiveSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveSettings.swift; sourceTree = "<group>"; };
+		E33B68B17E2FD413110D211B /* SendSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendSheet.swift; sourceTree = "<group>"; };
+		E8C61498DEAEED14020103FD /* RoomSendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSendApp.swift; sourceTree = "<group>"; };
+		EB5BEC14588DEF5173322D97 /* AboutSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSection.swift; sourceTree = "<group>"; };
+		EE8FD81AC99E542A6786570E /* TLSIdentityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLSIdentityStore.swift; sourceTree = "<group>"; };
+		F28F43F8A8845029A9D1E790 /* SendFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendFlow.swift; sourceTree = "<group>"; };
+		F9D161956208BF98C9FADBAB /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5492BEC553FE2300A19BF360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE2BC08AB72C77B3641DEC8 /* X509 in Frameworks */,
+				5E67619FF59BFE47E23351F5 /* SwiftASN1 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190D2861CC7CC778DE185E94 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				2BA19C3594253D5D7AF3F12D /* ShareLink.swift */,
+				A0C6EAFD119142D92A7C4083 /* ShareLinkSheet.swift */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		2E317D3CEF6DFD336C7CE3E3 = {
+			isa = PBXGroup;
+			children = (
+				D11BEE05836EE681C983BEFF /* RoomSend */,
+				3DBC5AD0C043AB31E7A41647 /* RoomSendShare */,
+				D439DE8B01B7CF9775C36DB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DBC5AD0C043AB31E7A41647 /* RoomSendShare */ = {
+			isa = PBXGroup;
+			children = (
+				1B0CBC7CF40C79CF76FC32F2 /* ShareViewController.swift */,
+			);
+			path = RoomSendShare;
+			sourceTree = "<group>";
+		};
+		3E548547BB9D56EC4A3E6408 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7BDE7E268B6A64A7D48C6122 /* Block.swift */,
+				0A86370CD5DD949CD1DBB844 /* IdentityAvatar.swift */,
+				6BB3A60A62CDA179CD504277 /* StatusBarScrim.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		479782AD3F96F8A923D7D3A5 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				52054FA24C7CFD18AA837613 /* HTTPConnection.swift */,
+				DBCB7D87380D5C48D183E901 /* HTTPMessage.swift */,
+				6E3F011E0085405C929F58F0 /* HTTPServer.swift */,
+				623C01792102D2F67D875026 /* LocalSendRouter.swift */,
+				EE8FD81AC99E542A6786570E /* TLSIdentityStore.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		48DD46B7992B35A366FB9700 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				0715E0C06EF4CB5BC24796AC /* AppLanguage.swift */,
+				87B4D2ECDE80C75B75BC6ED1 /* Localized.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		5EC95C9517A0C701D84ED17F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1A6626A59D4483C909A09840 /* AppModel.swift */,
+				E8C61498DEAEED14020103FD /* RoomSendApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		66D83CB6162E648E64C63867 /* Send */ = {
+			isa = PBXGroup;
+			children = (
+				DD1FF4A615F7FD28E3E12312 /* ContentPickers.swift */,
+				BDF7420169BC377708636B4B /* ItemLoader.swift */,
+				8B3144A26564C7A12A5197EC /* RecipientCarousel.swift */,
+				F28F43F8A8845029A9D1E790 /* SendFlow.swift */,
+				634EB9EC1096153BD306C121 /* SendObject.swift */,
+				E33B68B17E2FD413110D211B /* SendSheet.swift */,
+				BD74BDC0668ADC8CC80313FF /* SendSummary.swift */,
+				483B2BD07D211E1605FEB2F2 /* TextComposer.swift */,
+			);
+			path = Send;
+			sourceTree = "<group>";
+		};
+		760D6C842BA67256F6E7689D /* Receive */ = {
+			isa = PBXGroup;
+			children = (
+				6557A9BE62E9800DCE0C5E9D /* IncomingOffer.swift */,
+				6E5C3321034FF5865E517763 /* IncomingSheet.swift */,
+				C046FCBAAB10CB6F3941408D /* PhotoSaver.swift */,
+				81E96642AD337ED176E6ACB5 /* ReceiveCoordinator.swift */,
+				E1E20F5D5740868A17B35D01 /* ReceiveSettings.swift */,
+			);
+			path = Receive;
+			sourceTree = "<group>";
+		};
+		8EA0FE19CA5E2395A0785D24 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				453B4821F9D0BAFBABC27EFF /* Appearance.swift */,
+				82AFB7CB7648B371E4BCB519 /* Palette.swift */,
+				B946AA8BFC6465B01B302F5A /* Tokens.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		99F2AFED52E7A84D29917453 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				726D666FBC8895EA9476CA08 /* AddDeviceSheet.swift */,
+				B797B98AE38FE675D60CF941 /* DeviceSourceSheet.swift */,
+				ABFF414D7A7904C636AAD52C /* FavoritesStore.swift */,
+				02E5289ECBF5AD49C54A27FB /* NearbyBlock.swift */,
+				6BF5D866AAFE38DCFF800E14 /* RoomCount.swift */,
+				9AA8B113C137AA8C1C9BD82C /* RoomHeader.swift */,
+				682EC7CA38C89CBEB7F7B308 /* RoomScreen.swift */,
+				CF8EF95AD8817D90C4A90E82 /* SourceTiles.swift */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		A6A2C619DDF4DD9AF14AAD90 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BAA2F47F0180F340ED75581D /* DiscoveryService.swift */,
+				C93E7BA3113736764B083E3A /* FingerprintTrust.swift */,
+				AEBCB71BB175C7267F83716B /* LocalAddress.swift */,
+				70FD42309143EF2CEF49D79F /* LocalSendProtocol.swift */,
+				9C9CF639D533907AB5F0F7E4 /* ManualAddress.swift */,
+				80A80DFCC12B2A7F5AF89622 /* NetworkSettings.swift */,
+				3A4215CE4AF9E4271BE83F46 /* RegisterClient.swift */,
+				209A080769694A5431741E40 /* TransferModels.swift */,
+				CE6E39AAFAEF661450F04422 /* TransferService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B9588A37BCF69579D10474C0 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				BBF2A6CD0C962ED8D42D85ED /* Inbox.swift */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		D11BEE05836EE681C983BEFF /* RoomSend */ = {
+			isa = PBXGroup;
+			children = (
+				5EC95C9517A0C701D84ED17F /* App */,
+				EB89E21C1F915F2A068E0C40 /* Core */,
+				F14604D2FB632DFE9BDBB136 /* Features */,
+				F85C7ABBE57EBF9E85355CAA /* Resources */,
+			);
+			path = RoomSend;
+			sourceTree = "<group>";
+		};
+		D2A1BEAA0FBB02B2CDD13862 /* Identity */ = {
+			isa = PBXGroup;
+			children = (
+				31DD1203144D7C935F5625C3 /* AliasGenerator.swift */,
+				6292111CB55C91575EB6145C /* DeviceIdentity.swift */,
+				6E3EB632DF202FC8EF49E6BE /* IdentityPattern.swift */,
+				6C7CE3B44312CAD5266EF009 /* IdentityStore.swift */,
+			);
+			path = Identity;
+			sourceTree = "<group>";
+		};
+		D439DE8B01B7CF9775C36DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26121C788F02F09B46DA82AF /* RoomSend.app */,
+				DE157FE0371D4E5C6201C7FA /* RoomSendShare.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D86DD01E2795198AE76F6CF4 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				73BC40A7AF5580DA068A944D /* HistoryScreen.swift */,
+				DC0ADE6FCCCBDCB97241D950 /* HistoryStore.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		EB89E21C1F915F2A068E0C40 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D7EFEEC247765FA4C0A57D04 /* Log.swift */,
+				8EA0FE19CA5E2395A0785D24 /* Design */,
+				D2A1BEAA0FBB02B2CDD13862 /* Identity */,
+				48DD46B7992B35A366FB9700 /* Localization */,
+				A6A2C619DDF4DD9AF14AAD90 /* Network */,
+				479782AD3F96F8A923D7D3A5 /* Server */,
+				B9588A37BCF69579D10474C0 /* Share */,
+				3E548547BB9D56EC4A3E6408 /* UI */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EF7A5BBE49C41F9AE0D59DFD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EB5BEC14588DEF5173322D97 /* AboutSection.swift */,
+				B35A9FE29864537C5DBAE7D0 /* LanguageSection.swift */,
+				C7A0779837C136611B61BF50 /* LanguageSettings.swift */,
+				D352B2E09E3014AA7110090E /* LegalScreen.swift */,
+				CB1DC6EF47E5F6028BD702DF /* LegalText.swift */,
+				9DD50369A2E4874111448BA4 /* NetworkSection.swift */,
+				64548A4CA1AA7786BCE2371D /* SettingsScreen.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F14604D2FB632DFE9BDBB136 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D86DD01E2795198AE76F6CF4 /* History */,
+				760D6C842BA67256F6E7689D /* Receive */,
+				99F2AFED52E7A84D29917453 /* Room */,
+				66D83CB6162E648E64C63867 /* Send */,
+				EF7A5BBE49C41F9AE0D59DFD /* Settings */,
+				190D2861CC7CC778DE185E94 /* Share */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F85C7ABBE57EBF9E85355CAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B787A6684F6EE086ADC92E92 /* AppIcon.icon */,
+				2A913FA76CCF1141330F9FE9 /* InfoPlist.xcstrings */,
+				F9D161956208BF98C9FADBAB /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		351992B710AE0A4BDE67FD93 /* RoomSendShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C416CFB2E4FAB14E3F9460C4 /* Build configuration list for PBXNativeTarget "RoomSendShare" */;
+			buildPhases = (
+				2C6BDE6F50F36F9A55E077D3 /* Sources */,
+				12CB745DB095D869D1C933B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomSendShare;
+			packageProductDependencies = (
+			);
+			productName = RoomSendShare;
+			productReference = DE157FE0371D4E5C6201C7FA /* RoomSendShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		84F74377B0AA245833540E03 /* RoomSend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611AC3CD60FD6CFE85214F24 /* Build configuration list for PBXNativeTarget "RoomSend" */;
+			buildPhases = (
+				42A859E5F30BA3CF3AE6FA28 /* Sources */,
+				16D79AAB2025284E11E37182 /* Resources */,
+				5492BEC553FE2300A19BF360 /* Frameworks */,
+				E6C9A54C5188E903BE13587C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BDB1CA266A9EF6258E37FEB /* PBXTargetDependency */,
+			);
+			name = RoomSend;
+			packageProductDependencies = (
+				A34DF54A249F07B511DC2984 /* X509 */,
+				A0F2CF1C5B9FE7036F37DC23 /* SwiftASN1 */,
+			);
+			productName = RoomSend;
+			productReference = 26121C788F02F09B46DA82AF /* RoomSend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6A407FDD59B0AB818D78DF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					351992B710AE0A4BDE67FD93 = {
+						DevelopmentTeam = 4HTQ3SHZ5C;
+						ProvisioningStyle = Automatic;
+					};
+					84F74377B0AA245833540E03 = {
+						DevelopmentTeam = 4HTQ3SHZ5C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BE0B3B9EDA20EAF16C4A44E3 /* Build configuration list for PBXProject "RoomSend" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				de,
+				en,
+				es,
+				fr,
+				it,
+				pt,
+			);
+			mainGroup = 2E317D3CEF6DFD336C7CE3E3;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				91E9610415AE02D2B4B90D0E /* XCRemoteSwiftPackageReference "swift-asn1" */,
+				3CE94E39C7A1C4BE775FFC70 /* XCRemoteSwiftPackageReference "swift-certificates" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D439DE8B01B7CF9775C36DB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F74377B0AA245833540E03 /* RoomSend */,
+				351992B710AE0A4BDE67FD93 /* RoomSendShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12CB745DB095D869D1C933B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81557CE480FB098B40CA3FCF /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D79AAB2025284E11E37182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150B8DA237468F8C5EF81340 /* AppIcon.icon in Resources */,
+				F90DAEBF204AD23505142386 /* InfoPlist.xcstrings in Resources */,
+				D761F470E55503A7A8C5FD74 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C6BDE6F50F36F9A55E077D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484F8951350D0AC789D7DF23 /* Inbox.swift in Sources */,
+				BE5F4E86314A15DBBDAC8ABE /* Log.swift in Sources */,
+				97295E05606BE3F605E08AEF /* Palette.swift in Sources */,
+				8A0C5E83D3C260C741CEECC3 /* ShareViewController.swift in Sources */,
+				19F4ACCB4AC1C4FE297FC5EE /* Tokens.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A859E5F30BA3CF3AE6FA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B568AFF6FDCDDAE4AC5BA44 /* AboutSection.swift in Sources */,
+				4F8486E98FE8E1E1842D9568 /* AddDeviceSheet.swift in Sources */,
+				9E6FA97803C89DE4D666943B /* AliasGenerator.swift in Sources */,
+				366868313F621093546364B0 /* AppLanguage.swift in Sources */,
+				46467CC5896276E9C311E819 /* AppModel.swift in Sources */,
+				86F72B05D50098E7775E427A /* Appearance.swift in Sources */,
+				8E573A26922B582CAFD76F1A /* Block.swift in Sources */,
+				154E84CCEF8E477DD4905AD6 /* ContentPickers.swift in Sources */,
+				44A68EED10765DBA0927745A /* DeviceIdentity.swift in Sources */,
+				9A02ECA0A441F8C6BE5AC33B /* DeviceSourceSheet.swift in Sources */,
+				AB87A81AC11002FEC3DFD3F4 /* DiscoveryService.swift in Sources */,
+				ACAFCBBE20A2180BB2C6226B /* FavoritesStore.swift in Sources */,
+				75BA07ACF8990053E8ECD543 /* FingerprintTrust.swift in Sources */,
+				AA7448D732FB9C51230FE241 /* HTTPConnection.swift in Sources */,
+				66C2BF2EDD6B34432A66E727 /* HTTPMessage.swift in Sources */,
+				80880B0C9B0E1D6766DF9A61 /* HTTPServer.swift in Sources */,
+				32D6F7A4491833C22CCFE9E5 /* HistoryScreen.swift in Sources */,
+				1E49FEB1F0C015892A3315D9 /* HistoryStore.swift in Sources */,
+				973F3316D8A139B06AE2A89A /* IdentityAvatar.swift in Sources */,
+				000D87FED70ED538CF912513 /* IdentityPattern.swift in Sources */,
+				FE3432EDD3143A44962AEE58 /* IdentityStore.swift in Sources */,
+				BB05879366B82B23DBA2EF63 /* Inbox.swift in Sources */,
+				5C1AA3789FC3525B3B189E5A /* IncomingOffer.swift in Sources */,
+				EE1FF0DBF87005629BB6EA67 /* IncomingSheet.swift in Sources */,
+				5C230EFB890BE0FD8DD041D8 /* ItemLoader.swift in Sources */,
+				5281FC52AB8203C60E924875 /* LanguageSection.swift in Sources */,
+				E458D64C6A45EDD8F978B2EA /* LanguageSettings.swift in Sources */,
+				99A3BBF9B0C8954B7B3C4621 /* LegalScreen.swift in Sources */,
+				28D5332477CFE6C7DF48C24D /* LegalText.swift in Sources */,
+				CA3525CF2599EEE3DE6CF50A /* LocalAddress.swift in Sources */,
+				3F201BFEC0582710F55D7C97 /* LocalSendProtocol.swift in Sources */,
+				930BA1C323A8431ECFAEF172 /* LocalSendRouter.swift in Sources */,
+				2B1FF88B292A17C46F6F2E02 /* Localized.swift in Sources */,
+				A12B2DB0D8019BC5EDF29930 /* Log.swift in Sources */,
+				497F66208080055DEA714296 /* ManualAddress.swift in Sources */,
+				55B2B4AC09BF5981047D67DC /* NearbyBlock.swift in Sources */,
+				D12E27948C465CD6763641E8 /* NetworkSection.swift in Sources */,
+				86EA3E4819CDB3340417D7AC /* NetworkSettings.swift in Sources */,
+				51FAC5ADE1098FEF998C0DD2 /* Palette.swift in Sources */,
+				717FD239DE8114C04617DF14 /* PhotoSaver.swift in Sources */,
+				4FFBDD6B73E90AB09C754E24 /* ReceiveCoordinator.swift in Sources */,
+				368E31BC2D015BF1E20AF92D /* ReceiveSettings.swift in Sources */,
+				F3E9CFECC929066C5BBD4569 /* RecipientCarousel.swift in Sources */,
+				8CB80DA6F45BA3F406A5E2B5 /* RegisterClient.swift in Sources */,
+				F7468C1305ACB2DC4DA29828 /* RoomCount.swift in Sources */,
+				2C7C16365543A933890FA2B9 /* RoomHeader.swift in Sources */,
+				DA0FC0E9539E13CF729BEEB2 /* RoomScreen.swift in Sources */,
+				5B29AC821380428BE881ABB3 /* RoomSendApp.swift in Sources */,
+				79071F462D190CF2B95B934D /* SendFlow.swift in Sources */,
+				4B4F95D872385EFCDB99A0A8 /* SendObject.swift in Sources */,
+				38CE78916B25736C20EC51AF /* SendSheet.swift in Sources */,
+				743111389662B07B5A83E1EF /* SendSummary.swift in Sources */,
+				BF97F9C02E405322AB6BA885 /* SettingsScreen.swift in Sources */,
+				D4A85EC81CDE1A5857E85434 /* ShareLink.swift in Sources */,
+				799FBBF413DF93E1B2675364 /* ShareLinkSheet.swift in Sources */,
+				E83135AB574DE6D2B3521AF5 /* SourceTiles.swift in Sources */,
+				6D1FF263FE0D295B3284A0DA /* StatusBarScrim.swift in Sources */,
+				26A0D954E586715B09622F0A /* TLSIdentityStore.swift in Sources */,
+				E2E782EEF315AAD0489F133B /* TextComposer.swift in Sources */,
+				CAFD277F712C75628A34FEE7 /* Tokens.swift in Sources */,
+				B99DF2577DC59806703F4615 /* TransferModels.swift in Sources */,
+				56B9A44530FA401FAE3A6A3A /* TransferService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BDB1CA266A9EF6258E37FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 351992B710AE0A4BDE67FD93 /* RoomSendShare */;
+			targetProxy = A4F2108713B35D7AD0D48556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0647DB6D61598E5E4391F847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RoomSend/Resources/RoomSend.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RoomSend/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.roomsend.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3A46E5D977D8F28CF6187003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RoomSend/Resources/RoomSend.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RoomSend/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.roomsend.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		565DA90CF4D6B921D8E250EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4HTQ3SHZ5C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		8C6E8165506A73AE3410F010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RoomSendShare/RoomSendShare.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RoomSendShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.roomsend.ios.share;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9B8E1F179CE060A7DBB04D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4HTQ3SHZ5C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		AAE5A9AC02E5423377859460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RoomSendShare/RoomSendShare.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RoomSendShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.roomsend.ios.share;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		611AC3CD60FD6CFE85214F24 /* Build configuration list for PBXNativeTarget "RoomSend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A46E5D977D8F28CF6187003 /* Debug */,
+				0647DB6D61598E5E4391F847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BE0B3B9EDA20EAF16C4A44E3 /* Build configuration list for PBXProject "RoomSend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565DA90CF4D6B921D8E250EA /* Debug */,
+				9B8E1F179CE060A7DBB04D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C416CFB2E4FAB14E3F9460C4 /* Build configuration list for PBXNativeTarget "RoomSendShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE5A9AC02E5423377859460 /* Debug */,
+				8C6E8165506A73AE3410F010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3CE94E39C7A1C4BE775FFC70 /* XCRemoteSwiftPackageReference "swift-certificates" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-certificates.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		91E9610415AE02D2B4B90D0E /* XCRemoteSwiftPackageReference "swift-asn1" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-asn1.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A0F2CF1C5B9FE7036F37DC23 /* SwiftASN1 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91E9610415AE02D2B4B90D0E /* XCRemoteSwiftPackageReference "swift-asn1" */;
+			productName = SwiftASN1;
+		};
+		A34DF54A249F07B511DC2984 /* X509 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CE94E39C7A1C4BE775FFC70 /* XCRemoteSwiftPackageReference "swift-certificates" */;
+			productName = X509;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C6A407FDD59B0AB818D78DF1 /* Project object */;
+}
