@@ -1,0 +1,278 @@
+/* The controls of the app, on the web: pills, glass rounds, the language menu, the slider. */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  min-height: var(--pill-height);
+  padding: 0 var(--space-3xl);
+  border: 0;
+  border-radius: var(--radius-full);
+  font: 600 var(--size-row) / 1 var(--font);
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform var(--quick), opacity var(--quick), background-color var(--quick);
+  touch-action: manipulation;
+}
+
+.pill--primary {
+  background: var(--action-fill);
+  color: var(--action-label);
+}
+
+.pill--secondary {
+  background: var(--surface);
+  color: var(--text);
+}
+
+.pill:active {
+  transform: scale(var(--press-scale));
+  opacity: var(--press-opacity);
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.pills .pill {
+  flex: 1 1 0;
+}
+
+/* The round glass buttons of the app (shuffle, close), here for appearance and language. */
+.theme,
+.lang__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  min-width: var(--touch);
+  height: var(--touch);
+  padding: 0 var(--space-md);
+  border: 0;
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--text-2);
+  font: 500 var(--size-meta) / 1 var(--font);
+  cursor: pointer;
+  transition: color var(--quick), background-color var(--quick), transform var(--quick);
+}
+
+.theme {
+  padding: 0;
+}
+
+.theme:hover,
+.lang__button:hover,
+.lang[open] .lang__button {
+  color: var(--text);
+  background: var(--panel);
+}
+
+.theme:active,
+.lang__button:active {
+  transform: scale(var(--press-scale));
+}
+
+.theme__sun,
+:root[data-theme="dark"] .theme__moon {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme__sun {
+  display: block;
+}
+
+.lang {
+  position: relative;
+}
+
+.lang__button {
+  list-style: none;
+}
+
+.lang__button::-webkit-details-marker {
+  display: none;
+}
+
+.lang__menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + var(--space-sm));
+  z-index: 6;
+  min-width: 200px;
+  padding: var(--space-sm);
+  border-radius: var(--radius-tile);
+  background: var(--glass);
+  box-shadow: 0 0 0 1px var(--glass-edge), 0 24px 48px -16px rgb(0 0 0 / 0.28);
+  -webkit-backdrop-filter: blur(28px) saturate(1.8);
+  backdrop-filter: blur(28px) saturate(1.8);
+  transform-origin: top right;
+  animation: menu-in var(--settle);
+}
+
+.lang--up .lang__menu {
+  top: auto;
+  bottom: calc(100% + var(--space-sm));
+  transform-origin: bottom right;
+}
+
+.lang__menu a {
+  display: block;
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-inset);
+  color: var(--text);
+  font-size: var(--size-row);
+  text-decoration: none;
+}
+
+.lang__menu a:hover {
+  background: var(--surface);
+}
+
+.lang__menu a[aria-current="true"] {
+  font-weight: 650;
+}
+
+@keyframes menu-in {
+  from {
+    opacity: 0;
+    transform: scale(var(--entrance-scale));
+  }
+}
+
+/* « Coming soon »: a fact, not a button, with the app's green live dot. */
+.soon {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  min-height: var(--pill-height);
+  padding: 0 var(--space-2xl);
+  border-radius: var(--radius-full);
+  background: var(--panel);
+  font-weight: 600;
+}
+
+.soon__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-full);
+  background: var(--live);
+}
+
+.more {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.more:hover {
+  text-decoration: underline;
+}
+
+.hint {
+  color: var(--text-2);
+  font-size: var(--size-meta);
+  animation: hint-in var(--settle);
+}
+
+@keyframes hint-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* The slider, drawn like iOS: a track, its filled part, a white knob. */
+.slider {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.slider__label {
+  color: var(--text-2);
+  font-size: var(--size-label);
+  font-weight: 600;
+  letter-spacing: var(--track-label);
+}
+
+.slider__input {
+  --fill: 100%;
+  width: 100%;
+  height: var(--touch);
+  margin: 0;
+  background: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  touch-action: pan-y;
+}
+
+.slider__input::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(90deg, var(--text) var(--fill), var(--surface) var(--fill));
+}
+
+.slider__input::-moz-range-track {
+  height: 6px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(90deg, var(--text) var(--fill), var(--surface) var(--fill));
+}
+
+.slider__input::-webkit-slider-thumb {
+  width: 28px;
+  height: 28px;
+  margin-top: -11px;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: #FFFFFF;
+  box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.04), 0 3px 8px rgb(0 0 0 / 0.15), 0 3px 1px rgb(0 0 0 / 0.06);
+  -webkit-appearance: none;
+  appearance: none;
+  transition: transform var(--quick);
+}
+
+.slider__input::-moz-range-thumb {
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: #FFFFFF;
+  box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.04), 0 3px 8px rgb(0 0 0 / 0.15), 0 3px 1px rgb(0 0 0 / 0.06);
+}
+
+.slider__input:active::-webkit-slider-thumb {
+  transform: scale(1.12);
+}
+
+/* Choices written in their own language, three per row as in the app's Language block. */
+.choices {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-sm);
+}
+
+.choice {
+  width: 100%;
+  min-height: var(--touch);
+  padding: 0 var(--space-md);
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--surface);
+  color: var(--text);
+  font: 600 var(--size-row) / 1 var(--font);
+  cursor: pointer;
+  transition: background-color var(--quick), color var(--quick), transform var(--quick);
+}
+
+.choice[aria-pressed="true"] {
+  background: var(--action-fill);
+  color: var(--action-label);
+}
+
+.choice:active {
+  transform: scale(var(--press-scale));
+}

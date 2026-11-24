@@ -1,0 +1,117 @@
+/* The recipients' carousel of the send sheet: the centre is the choice, neighbours shrink and
+   fade with their distance, the row fades out at both sides instead of being cut. */
+.carousel {
+  position: relative;
+  min-width: 0;
+  margin-inline: calc(var(--space-lg) * -1);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 var(--edge-fade), #000 calc(100% - var(--edge-fade)), transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 var(--edge-fade), #000 calc(100% - var(--edge-fade)), transparent);
+}
+
+.carousel__track {
+  position: relative;
+  display: flex;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-inline: calc(50% - var(--recipient-width) / 2);
+  padding-block: var(--space-md);
+  cursor: grab;
+}
+
+.carousel__track::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel.is-dragging .carousel__track {
+  scroll-snap-type: none;
+  cursor: grabbing;
+}
+
+.recipient {
+  flex: none;
+  width: var(--recipient-width);
+  scroll-snap-align: center;
+}
+
+.recipient__button {
+  --near: 1;
+  display: grid;
+  justify-items: center;
+  gap: var(--space-sm);
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+  opacity: calc(var(--carousel-min-opacity) + (1 - var(--carousel-min-opacity)) * var(--near));
+  transform: scale(calc(var(--carousel-min-scale) + (1 - var(--carousel-min-scale)) * var(--near)));
+  transform-origin: center 36px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.avatar--recipient,
+.glyph {
+  width: var(--avatar-recipient);
+  height: var(--avatar-recipient);
+}
+
+.recipient__button[aria-pressed="true"] .avatar--recipient,
+.recipient__button[aria-pressed="true"] .glyph {
+  box-shadow: 0 0 0 3px var(--panel), 0 0 0 5px var(--text);
+}
+
+.recipient__name {
+  max-width: 100%;
+  overflow: hidden;
+  font-size: var(--size-meta);
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* « The whole room »: three of its devices stacked in one round. */
+.glyph {
+  position: relative;
+  display: block;
+  border-radius: var(--radius-full);
+  background: var(--surface);
+}
+
+.glyph .avatar {
+  position: absolute;
+  width: 46%;
+  height: 46%;
+  box-shadow: 0 0 0 2px var(--surface);
+}
+
+.glyph .avatar:nth-child(1) {
+  left: 12%;
+  top: 27%;
+}
+
+.glyph .avatar:nth-child(2) {
+  left: 27%;
+  top: 27%;
+}
+
+.glyph .avatar:nth-child(3) {
+  left: 42%;
+  top: 27%;
+}
+
+.carousel__status {
+  color: var(--text-2);
+  font-size: var(--size-meta);
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel__track {
+    scroll-behavior: auto;
+  }
+}

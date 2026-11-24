@@ -1,0 +1,228 @@
+/* The presentation page: one idea per section, one element far bigger than the rest. */
+.hero,
+.section {
+  max-width: var(--content);
+  margin: 0 auto;
+  padding-inline: var(--gutter);
+}
+
+.section {
+  display: grid;
+  gap: var(--space-huge);
+  margin-top: var(--section);
+}
+
+.section__head {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-lg);
+  text-align: center;
+}
+
+.title {
+  max-width: 16ch;
+  font-size: var(--size-title);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: var(--track-title);
+  text-wrap: balance;
+}
+
+.subtitle {
+  font-size: var(--size-subtitle);
+  font-weight: 700;
+  letter-spacing: var(--track-subtitle);
+}
+
+/* A panel holds a control on one side and the phone that answers it on the other. */
+.panel {
+  border-radius: var(--radius-panel);
+  background: var(--panel);
+}
+
+.room__panel,
+.choose__panel,
+.send__panel,
+.receive__panel,
+.languages__panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: clamp(32px, 6vw, 96px);
+  padding: clamp(24px, 5vw, 72px);
+}
+
+.room__side,
+.choose__side,
+.send__side,
+.receive__side,
+.languages__side {
+  display: grid;
+  gap: var(--space-2xl);
+  min-width: 0;
+}
+
+/* The room: the count, its devices, the slider that lets them in. */
+.room__count {
+  display: grid;
+}
+
+.room__number {
+  display: block;
+  height: 0.9em;
+  overflow: hidden;
+  font-size: var(--size-number);
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: var(--track-number);
+  font-variant-numeric: tabular-nums;
+}
+
+.room__digit {
+  display: block;
+  animation: digit-in var(--settle);
+}
+
+.room__digit--down {
+  animation-name: digit-in-down;
+}
+
+@keyframes digit-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.35em);
+  }
+}
+
+@keyframes digit-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(-0.35em);
+  }
+}
+
+.room__unit {
+  font-size: var(--size-subtitle);
+  font-weight: 600;
+  letter-spacing: var(--track-subtitle);
+}
+
+.room__faces {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md) var(--space-sm);
+}
+
+.room__face {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-xs);
+  width: calc(var(--avatar-face) + var(--space-xl));
+  opacity: var(--disabled-opacity);
+  transform: scale(var(--entrance-scale));
+  filter: grayscale(1);
+  transition: opacity var(--settle), transform var(--settle), filter var(--settle);
+}
+
+.room__face.is-in {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+
+.room__face .avatar {
+  width: var(--avatar-face);
+  height: var(--avatar-face);
+}
+
+.room__alias {
+  max-width: 100%;
+  overflow: hidden;
+  color: var(--text-2);
+  font-size: var(--size-label);
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.avatar {
+  display: block;
+  flex: none;
+  overflow: hidden;
+  border-radius: var(--radius-full);
+}
+
+.avatar svg {
+  width: 100%;
+  height: 100%;
+}
+
+.room .phone,
+.choose .phone,
+.send .phone,
+.receive .phone,
+.languages .phone {
+  --phone: clamp(240px, 26vw, 320px);
+}
+
+.privacy__panel {
+  display: grid;
+  gap: var(--space-2xl);
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto;
+  padding: clamp(24px, 4vw, 48px);
+}
+
+.facts__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-xs) var(--space-lg);
+  padding-block: var(--space-lg);
+  border-bottom: 1px solid var(--separator);
+  font-size: var(--size-row);
+}
+
+.facts__row dt {
+  color: var(--text-2);
+}
+
+.facts__row dd {
+  font-weight: 600;
+  text-align: right;
+}
+
+.compat__link {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 860px) {
+  .room__panel,
+  .choose__panel,
+  .send__panel,
+  .receive__panel,
+  .languages__panel {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+  }
+
+  .room__side,
+  .choose__side,
+  .send__side,
+  .receive__side,
+  .languages__side {
+    width: 100%;
+  }
+
+  .room__count,
+  .room__faces {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .room__face {
+    --avatar-face: var(--avatar-row);
+  }
+}

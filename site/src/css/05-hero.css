@@ -1,0 +1,92 @@
+/* The first screen: the name, the promise in one line, the real Room screen. */
+.hero {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-huge);
+  padding-top: clamp(48px, 8vw, 104px);
+  text-align: center;
+}
+
+.hero__text {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-2xl);
+}
+
+.hero__name {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-md);
+  font-size: var(--size-subtitle);
+  font-weight: 650;
+  letter-spacing: var(--track-subtitle);
+}
+
+.app-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.app-icon--dark,
+:root[data-theme="dark"] .app-icon--light {
+  display: none;
+}
+
+:root[data-theme="dark"] .app-icon--dark {
+  display: block;
+}
+
+.hero__title {
+  max-width: 12ch;
+  font-size: var(--size-hero);
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: var(--track-hero);
+  text-wrap: balance;
+}
+
+.hero__lead,
+.lead {
+  max-width: 34ch;
+  color: var(--text-2);
+  font-size: var(--size-lead);
+  line-height: 1.38;
+  text-wrap: pretty;
+}
+
+.hero__store {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md) var(--space-lg);
+}
+
+.hero__free {
+  color: var(--text-2);
+  font-size: var(--size-meta);
+}
+
+/* On a wide screen the phone stands beside the words, so both are seen on arrival. */
+@media (min-width: 1000px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    justify-items: start;
+    gap: var(--space-96);
+    padding-top: clamp(32px, 5vw, 72px);
+    text-align: left;
+  }
+
+  .hero__text {
+    justify-items: start;
+  }
+
+  .hero__store {
+    justify-content: flex-start;
+  }
+
+  .hero .phone--hero {
+    --phone: clamp(300px, 27vw, 360px);
+  }
+}

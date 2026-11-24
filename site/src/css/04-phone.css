@@ -1,0 +1,152 @@
+/* An iPhone 17 Pro drawn in proportion around a real capture: the screen keeps the capture's
+   ratio, its corners follow the device's (55 pt on 402 pt), the island sits where it does. */
+.phone {
+  --phone: 300px;
+  position: relative;
+  flex: none;
+  width: var(--phone);
+  max-width: 100%;
+}
+
+.phone__frame {
+  position: relative;
+  padding: calc(var(--phone) * 0.034);
+  border-radius: calc(var(--phone) * 0.162);
+  background: #0B0B0C;
+  box-shadow:
+    inset 0 0 0 calc(var(--phone) * 0.005) #48484A,
+    inset 0 0 0 calc(var(--phone) * 0.011) #1C1C1E,
+    var(--phone-shadow);
+}
+
+.phone__screen {
+  position: relative;
+  aspect-ratio: 720 / 1565;
+  overflow: hidden;
+  border-radius: calc(var(--phone) * 0.128);
+  background: var(--bg);
+  isolation: isolate;
+}
+
+.phone__island {
+  position: absolute;
+  top: calc(var(--phone) * 0.059);
+  left: 50%;
+  width: calc(var(--phone) * 0.29);
+  height: calc(var(--phone) * 0.086);
+  border-radius: var(--radius-full);
+  background: #000000;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.shot {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity var(--settle);
+}
+
+.shot.is-current {
+  opacity: 1;
+}
+
+.shot--dark {
+  display: none;
+}
+
+:root[data-theme="dark"] .shot--dark {
+  display: block;
+}
+
+:root[data-theme="dark"] .shot--light {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .shot--dark {
+    display: block;
+  }
+
+  :root:not([data-theme]) .shot--light {
+    display: none;
+  }
+}
+
+.phone--hero {
+  --phone: clamp(264px, 29vw, 360px);
+}
+
+.phone--doc {
+  --phone: 200px;
+}
+
+.phone--support {
+  --phone: clamp(220px, 24vw, 280px);
+}
+
+/* Light and dark side by side on one screen, split by a line the visitor drags. */
+.compare {
+  --split: 50%;
+  --x: 50%;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  touch-action: pan-y;
+  cursor: ew-resize;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.compare .phone {
+  --phone: clamp(264px, 30vw, 340px);
+}
+
+.compare__light,
+.compare__dark {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.compare__dark {
+  clip-path: inset(0 0 0 var(--split));
+}
+
+.compare__line {
+  position: absolute;
+  top: 4%;
+  bottom: 4%;
+  left: var(--x);
+  width: 2px;
+  margin-left: -1px;
+  border-radius: var(--radius-full);
+  background: #FFFFFF;
+  box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.25);
+  pointer-events: none;
+}
+
+.compare__handle {
+  position: absolute;
+  top: 50%;
+  left: var(--x);
+  width: var(--touch);
+  height: var(--touch);
+  border-radius: var(--radius-full);
+  background: var(--glass);
+  box-shadow: 0 0 0 1px var(--glass-edge), 0 8px 24px rgb(0 0 0 / 0.24);
+  -webkit-backdrop-filter: blur(16px) saturate(1.8);
+  backdrop-filter: blur(16px) saturate(1.8);
+  transform: translate(-50%, -50%);
+  cursor: grab;
+  transition: transform var(--quick);
+}
+
+.compare.is-dragging .compare__handle {
+  transform: translate(-50%, -50%) scale(1.08);
+  cursor: grabbing;
+}

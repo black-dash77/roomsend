@@ -1,0 +1,1524 @@
+/* RoomSend's tokens (RoomSend/Core/Design), carried to the web. The page ground is pure white
+   or pure black; the app's block and inset colors become the panels and what sits on them. */
+:root {
+  color-scheme: light;
+  --bg: #FFFFFF;
+  --panel: #F1F3F5;
+  --surface: #FFFFFF;
+  --separator: #E2E4E9;
+  --text: #09090B;
+  --text-2: #52525B;
+  --text-3: #A1A1AA;
+  --action-fill: #09090B;
+  --action-label: #FAFAFA;
+  --live: #10B981;
+  --glass: rgb(255 255 255 / 0.72);
+  --glass-edge: rgb(255 255 255 / 0.9);
+  --phone-shadow: 0 40px 80px -32px rgb(9 9 11 / 0.32);
+  --bar: rgb(255 255 255 / 0.78);
+
+  --space-2xs: 2px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+  --space-2xl: 24px;
+  --space-3xl: 32px;
+  --space-huge: 48px;
+  --space-64: 64px;
+  --space-96: 96px;
+  --gutter: clamp(16px, 5vw, 48px);
+  --section: clamp(96px, 13vw, 168px);
+
+  --radius-inset: 12px;
+  --radius-tile: 18px;
+  --radius-block: 24px;
+  --radius-panel: 36px;
+  --radius-full: 999px;
+
+  --touch: 44px;
+  --pill-height: 54px;
+  --avatar-row: 44px;
+  --avatar-face: 56px;
+  --avatar-recipient: 72px;
+  --recipient-width: 104px;
+  --bar-height: 52px;
+  --content: 1120px;
+  --reading: 680px;
+
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", "Segoe UI", Roboto, Arial, sans-serif;
+  --size-hero: clamp(44px, 8.4vw, 108px);
+  --size-number: clamp(128px, 19vw, 248px);
+  --size-title: clamp(36px, 5.8vw, 72px);
+  --size-subtitle: clamp(26px, 3.2vw, 34px);
+  --size-lead: clamp(19px, 1.9vw, 24px);
+  --size-row: 17px;
+  --size-body: 17px;
+  --size-meta: 14px;
+  --size-label: 12px;
+  --track-hero: -0.038em;
+  --track-title: -0.032em;
+  --track-subtitle: -0.02em;
+  --track-number: -0.055em;
+  --track-label: 0.02em;
+
+  --settle: 380ms cubic-bezier(0.22, 1, 0.36, 1);
+  --quick: 220ms cubic-bezier(0.3, 0.7, 0.4, 1);
+  --entrance-scale: 0.94;
+  --press-scale: 0.97;
+  --press-opacity: 0.72;
+  --disabled-opacity: 0.35;
+  --carousel-min-scale: 0.72;
+  --carousel-min-opacity: 0.4;
+  --edge-fade: 12%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #000000;
+    --panel: #0C0C0C;
+    --surface: #1A1A1A;
+    --separator: #1A1A1A;
+    --text: #FAFAFA;
+    --text-2: #A1A1AA;
+    --text-3: #71717A;
+    --action-fill: #FAFAFA;
+    --action-label: #09090B;
+    --live: #34D399;
+    --glass: rgb(40 40 44 / 0.62);
+    --glass-edge: rgb(255 255 255 / 0.18);
+    --phone-shadow: 0 0 0 1px rgb(255 255 255 / 0.06);
+    --bar: rgb(0 0 0 / 0.72);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #000000;
+  --panel: #0C0C0C;
+  --surface: #1A1A1A;
+  --separator: #1A1A1A;
+  --text: #FAFAFA;
+  --text-2: #A1A1AA;
+  --text-3: #71717A;
+  --action-fill: #FAFAFA;
+  --action-label: #09090B;
+  --live: #34D399;
+  --glass: rgb(40 40 44 / 0.62);
+  --glass-edge: rgb(255 255 255 / 0.18);
+  --phone-shadow: 0 0 0 1px rgb(255 255 255 / 0.06);
+  --bar: rgb(0 0 0 / 0.72);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --settle: 1ms linear;
+    --quick: 1ms linear;
+    --entrance-scale: 1;
+  }
+}
+
+/* The ground: type, links, focus, the bar on top and the footer. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--bar-height) + var(--space-2xl));
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: var(--size-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  transition: background-color var(--settle), color var(--settle);
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+:where(h1, h2, h3, p, ul, ol, dl, dd, figure) {
+  margin: 0;
+}
+
+:where(ul[role="list"], ol[role="list"]) {
+  list-style: none;
+  padding: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 3px;
+  border-radius: var(--radius-inset);
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.icon {
+  width: 1.15em;
+  height: 1.15em;
+  flex: none;
+}
+
+.skip {
+  position: absolute;
+  left: var(--space-lg);
+  top: -100px;
+  z-index: 10;
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-full);
+  background: var(--action-fill);
+  color: var(--action-label);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.skip:focus {
+  top: calc(env(safe-area-inset-top, 0px) + var(--space-md));
+}
+
+/* The bar: a material the page passes under, with a soft edge once the page has moved. */
+.bar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  padding-top: env(safe-area-inset-top, 0px);
+  background: var(--bar);
+  -webkit-backdrop-filter: blur(20px) saturate(1.8);
+  backdrop-filter: blur(20px) saturate(1.8);
+}
+
+.bar::after {
+  content: "";
+  position: absolute;
+  inset: 100% 0 auto;
+  height: var(--space-lg);
+  background: linear-gradient(var(--bar), transparent);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--quick);
+}
+
+.bar.is-scrolled::after {
+  opacity: 1;
+}
+
+.bar__inner,
+.foot__inner {
+  max-width: var(--content);
+  margin: 0 auto;
+  padding-inline: var(--gutter);
+}
+
+.bar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  height: var(--bar-height);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-weight: 650;
+  font-size: var(--size-row);
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
+.brand__icon {
+  width: 28px;
+  height: 28px;
+}
+
+.bar__nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.bar__link {
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-full);
+  font-size: var(--size-meta);
+  font-weight: 500;
+  color: var(--text-2);
+  text-decoration: none;
+  transition: color var(--quick), background-color var(--quick);
+}
+
+.bar__link:hover,
+.bar__link[aria-current="page"] {
+  color: var(--text);
+}
+
+/* The footer. */
+.foot {
+  margin-top: var(--section);
+  padding-block: var(--space-huge) calc(var(--space-huge) + env(safe-area-inset-bottom, 0px));
+  background: var(--panel);
+  color: var(--text-2);
+  font-size: var(--size-meta);
+}
+
+.foot__top,
+.foot__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+}
+
+.foot__top .brand {
+  color: var(--text);
+}
+
+.foot__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-2xl);
+}
+
+.foot__links a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.foot__links a:hover {
+  text-decoration: underline;
+}
+
+.foot__bottom {
+  margin-top: var(--space-3xl);
+  padding-top: var(--space-2xl);
+  border-top: 1px solid var(--separator);
+}
+
+.foot__bottom p {
+  max-width: 60ch;
+}
+
+.foot__controls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+/* The controls of the app, on the web: pills, glass rounds, the language menu, the slider. */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  min-height: var(--pill-height);
+  padding: 0 var(--space-3xl);
+  border: 0;
+  border-radius: var(--radius-full);
+  font: 600 var(--size-row) / 1 var(--font);
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform var(--quick), opacity var(--quick), background-color var(--quick);
+  touch-action: manipulation;
+}
+
+.pill--primary {
+  background: var(--action-fill);
+  color: var(--action-label);
+}
+
+.pill--secondary {
+  background: var(--surface);
+  color: var(--text);
+}
+
+.pill:active {
+  transform: scale(var(--press-scale));
+  opacity: var(--press-opacity);
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.pills .pill {
+  flex: 1 1 0;
+}
+
+/* The round glass buttons of the app (shuffle, close), here for appearance and language. */
+.theme,
+.lang__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  min-width: var(--touch);
+  height: var(--touch);
+  padding: 0 var(--space-md);
+  border: 0;
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--text-2);
+  font: 500 var(--size-meta) / 1 var(--font);
+  cursor: pointer;
+  transition: color var(--quick), background-color var(--quick), transform var(--quick);
+}
+
+.theme {
+  padding: 0;
+}
+
+.theme:hover,
+.lang__button:hover,
+.lang[open] .lang__button {
+  color: var(--text);
+  background: var(--panel);
+}
+
+.theme:active,
+.lang__button:active {
+  transform: scale(var(--press-scale));
+}
+
+.theme__sun,
+:root[data-theme="dark"] .theme__moon {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme__sun {
+  display: block;
+}
+
+.lang {
+  position: relative;
+}
+
+.lang__button {
+  list-style: none;
+}
+
+.lang__button::-webkit-details-marker {
+  display: none;
+}
+
+.lang__menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + var(--space-sm));
+  z-index: 6;
+  min-width: 200px;
+  padding: var(--space-sm);
+  border-radius: var(--radius-tile);
+  background: var(--glass);
+  box-shadow: 0 0 0 1px var(--glass-edge), 0 24px 48px -16px rgb(0 0 0 / 0.28);
+  -webkit-backdrop-filter: blur(28px) saturate(1.8);
+  backdrop-filter: blur(28px) saturate(1.8);
+  transform-origin: top right;
+  animation: menu-in var(--settle);
+}
+
+.lang--up .lang__menu {
+  top: auto;
+  bottom: calc(100% + var(--space-sm));
+  transform-origin: bottom right;
+}
+
+.lang__menu a {
+  display: block;
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-inset);
+  color: var(--text);
+  font-size: var(--size-row);
+  text-decoration: none;
+}
+
+.lang__menu a:hover {
+  background: var(--surface);
+}
+
+.lang__menu a[aria-current="true"] {
+  font-weight: 650;
+}
+
+@keyframes menu-in {
+  from {
+    opacity: 0;
+    transform: scale(var(--entrance-scale));
+  }
+}
+
+/* « Coming soon »: a fact, not a button, with the app's green live dot. */
+.soon {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  min-height: var(--pill-height);
+  padding: 0 var(--space-2xl);
+  border-radius: var(--radius-full);
+  background: var(--panel);
+  font-weight: 600;
+}
+
+.soon__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-full);
+  background: var(--live);
+}
+
+.more {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.more:hover {
+  text-decoration: underline;
+}
+
+.hint {
+  color: var(--text-2);
+  font-size: var(--size-meta);
+  animation: hint-in var(--settle);
+}
+
+@keyframes hint-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* The slider, drawn like iOS: a track, its filled part, a white knob. */
+.slider {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.slider__label {
+  color: var(--text-2);
+  font-size: var(--size-label);
+  font-weight: 600;
+  letter-spacing: var(--track-label);
+}
+
+.slider__input {
+  --fill: 100%;
+  width: 100%;
+  height: var(--touch);
+  margin: 0;
+  background: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  touch-action: pan-y;
+}
+
+.slider__input::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(90deg, var(--text) var(--fill), var(--surface) var(--fill));
+}
+
+.slider__input::-moz-range-track {
+  height: 6px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(90deg, var(--text) var(--fill), var(--surface) var(--fill));
+}
+
+.slider__input::-webkit-slider-thumb {
+  width: 28px;
+  height: 28px;
+  margin-top: -11px;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: #FFFFFF;
+  box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.04), 0 3px 8px rgb(0 0 0 / 0.15), 0 3px 1px rgb(0 0 0 / 0.06);
+  -webkit-appearance: none;
+  appearance: none;
+  transition: transform var(--quick);
+}
+
+.slider__input::-moz-range-thumb {
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: #FFFFFF;
+  box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.04), 0 3px 8px rgb(0 0 0 / 0.15), 0 3px 1px rgb(0 0 0 / 0.06);
+}
+
+.slider__input:active::-webkit-slider-thumb {
+  transform: scale(1.12);
+}
+
+/* Choices written in their own language, three per row as in the app's Language block. */
+.choices {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-sm);
+}
+
+.choice {
+  width: 100%;
+  min-height: var(--touch);
+  padding: 0 var(--space-md);
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--surface);
+  color: var(--text);
+  font: 600 var(--size-row) / 1 var(--font);
+  cursor: pointer;
+  transition: background-color var(--quick), color var(--quick), transform var(--quick);
+}
+
+.choice[aria-pressed="true"] {
+  background: var(--action-fill);
+  color: var(--action-label);
+}
+
+.choice:active {
+  transform: scale(var(--press-scale));
+}
+
+/* An iPhone 17 Pro drawn in proportion around a real capture: the screen keeps the capture's
+   ratio, its corners follow the device's (55 pt on 402 pt), the island sits where it does. */
+.phone {
+  --phone: 300px;
+  position: relative;
+  flex: none;
+  width: var(--phone);
+  max-width: 100%;
+}
+
+.phone__frame {
+  position: relative;
+  padding: calc(var(--phone) * 0.034);
+  border-radius: calc(var(--phone) * 0.162);
+  background: #0B0B0C;
+  box-shadow:
+    inset 0 0 0 calc(var(--phone) * 0.005) #48484A,
+    inset 0 0 0 calc(var(--phone) * 0.011) #1C1C1E,
+    var(--phone-shadow);
+}
+
+.phone__screen {
+  position: relative;
+  aspect-ratio: 720 / 1565;
+  overflow: hidden;
+  border-radius: calc(var(--phone) * 0.128);
+  background: var(--bg);
+  isolation: isolate;
+}
+
+.phone__island {
+  position: absolute;
+  top: calc(var(--phone) * 0.059);
+  left: 50%;
+  width: calc(var(--phone) * 0.29);
+  height: calc(var(--phone) * 0.086);
+  border-radius: var(--radius-full);
+  background: #000000;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.shot {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity var(--settle);
+}
+
+.shot.is-current {
+  opacity: 1;
+}
+
+.shot--dark {
+  display: none;
+}
+
+:root[data-theme="dark"] .shot--dark {
+  display: block;
+}
+
+:root[data-theme="dark"] .shot--light {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .shot--dark {
+    display: block;
+  }
+
+  :root:not([data-theme]) .shot--light {
+    display: none;
+  }
+}
+
+.phone--hero {
+  --phone: clamp(264px, 29vw, 360px);
+}
+
+.phone--doc {
+  --phone: 200px;
+}
+
+.phone--support {
+  --phone: clamp(220px, 24vw, 280px);
+}
+
+/* Light and dark side by side on one screen, split by a line the visitor drags. */
+.compare {
+  --split: 50%;
+  --x: 50%;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  touch-action: pan-y;
+  cursor: ew-resize;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.compare .phone {
+  --phone: clamp(264px, 30vw, 340px);
+}
+
+.compare__light,
+.compare__dark {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.compare__dark {
+  clip-path: inset(0 0 0 var(--split));
+}
+
+.compare__line {
+  position: absolute;
+  top: 4%;
+  bottom: 4%;
+  left: var(--x);
+  width: 2px;
+  margin-left: -1px;
+  border-radius: var(--radius-full);
+  background: #FFFFFF;
+  box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.25);
+  pointer-events: none;
+}
+
+.compare__handle {
+  position: absolute;
+  top: 50%;
+  left: var(--x);
+  width: var(--touch);
+  height: var(--touch);
+  border-radius: var(--radius-full);
+  background: var(--glass);
+  box-shadow: 0 0 0 1px var(--glass-edge), 0 8px 24px rgb(0 0 0 / 0.24);
+  -webkit-backdrop-filter: blur(16px) saturate(1.8);
+  backdrop-filter: blur(16px) saturate(1.8);
+  transform: translate(-50%, -50%);
+  cursor: grab;
+  transition: transform var(--quick);
+}
+
+.compare.is-dragging .compare__handle {
+  transform: translate(-50%, -50%) scale(1.08);
+  cursor: grabbing;
+}
+
+/* The first screen: the name, the promise in one line, the real Room screen. */
+.hero {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-huge);
+  padding-top: clamp(48px, 8vw, 104px);
+  text-align: center;
+}
+
+.hero__text {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-2xl);
+}
+
+.hero__name {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-md);
+  font-size: var(--size-subtitle);
+  font-weight: 650;
+  letter-spacing: var(--track-subtitle);
+}
+
+.app-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.app-icon--dark,
+:root[data-theme="dark"] .app-icon--light {
+  display: none;
+}
+
+:root[data-theme="dark"] .app-icon--dark {
+  display: block;
+}
+
+.hero__title {
+  max-width: 12ch;
+  font-size: var(--size-hero);
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: var(--track-hero);
+  text-wrap: balance;
+}
+
+.hero__lead,
+.lead {
+  max-width: 34ch;
+  color: var(--text-2);
+  font-size: var(--size-lead);
+  line-height: 1.38;
+  text-wrap: pretty;
+}
+
+.hero__store {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md) var(--space-lg);
+}
+
+.hero__free {
+  color: var(--text-2);
+  font-size: var(--size-meta);
+}
+
+/* On a wide screen the phone stands beside the words, so both are seen on arrival. */
+@media (min-width: 1000px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    justify-items: start;
+    gap: var(--space-96);
+    padding-top: clamp(32px, 5vw, 72px);
+    text-align: left;
+  }
+
+  .hero__text {
+    justify-items: start;
+  }
+
+  .hero__store {
+    justify-content: flex-start;
+  }
+
+  .hero .phone--hero {
+    --phone: clamp(300px, 27vw, 360px);
+  }
+}
+
+/* The presentation page: one idea per section, one element far bigger than the rest. */
+.hero,
+.section {
+  max-width: var(--content);
+  margin: 0 auto;
+  padding-inline: var(--gutter);
+}
+
+.section {
+  display: grid;
+  gap: var(--space-huge);
+  margin-top: var(--section);
+}
+
+.section__head {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-lg);
+  text-align: center;
+}
+
+.title {
+  max-width: 16ch;
+  font-size: var(--size-title);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: var(--track-title);
+  text-wrap: balance;
+}
+
+.subtitle {
+  font-size: var(--size-subtitle);
+  font-weight: 700;
+  letter-spacing: var(--track-subtitle);
+}
+
+/* A panel holds a control on one side and the phone that answers it on the other. */
+.panel {
+  border-radius: var(--radius-panel);
+  background: var(--panel);
+}
+
+.room__panel,
+.choose__panel,
+.send__panel,
+.receive__panel,
+.languages__panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: clamp(32px, 6vw, 96px);
+  padding: clamp(24px, 5vw, 72px);
+}
+
+.room__side,
+.choose__side,
+.send__side,
+.receive__side,
+.languages__side {
+  display: grid;
+  gap: var(--space-2xl);
+  min-width: 0;
+}
+
+/* The room: the count, its devices, the slider that lets them in. */
+.room__count {
+  display: grid;
+}
+
+.room__number {
+  display: block;
+  height: 0.9em;
+  overflow: hidden;
+  font-size: var(--size-number);
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: var(--track-number);
+  font-variant-numeric: tabular-nums;
+}
+
+.room__digit {
+  display: block;
+  animation: digit-in var(--settle);
+}
+
+.room__digit--down {
+  animation-name: digit-in-down;
+}
+
+@keyframes digit-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.35em);
+  }
+}
+
+@keyframes digit-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(-0.35em);
+  }
+}
+
+.room__unit {
+  font-size: var(--size-subtitle);
+  font-weight: 600;
+  letter-spacing: var(--track-subtitle);
+}
+
+.room__faces {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md) var(--space-sm);
+}
+
+.room__face {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-xs);
+  width: calc(var(--avatar-face) + var(--space-xl));
+  opacity: var(--disabled-opacity);
+  transform: scale(var(--entrance-scale));
+  filter: grayscale(1);
+  transition: opacity var(--settle), transform var(--settle), filter var(--settle);
+}
+
+.room__face.is-in {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+
+.room__face .avatar {
+  width: var(--avatar-face);
+  height: var(--avatar-face);
+}
+
+.room__alias {
+  max-width: 100%;
+  overflow: hidden;
+  color: var(--text-2);
+  font-size: var(--size-label);
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.avatar {
+  display: block;
+  flex: none;
+  overflow: hidden;
+  border-radius: var(--radius-full);
+}
+
+.avatar svg {
+  width: 100%;
+  height: 100%;
+}
+
+.room .phone,
+.choose .phone,
+.send .phone,
+.receive .phone,
+.languages .phone {
+  --phone: clamp(240px, 26vw, 320px);
+}
+
+.privacy__panel {
+  display: grid;
+  gap: var(--space-2xl);
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto;
+  padding: clamp(24px, 4vw, 48px);
+}
+
+.facts__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-xs) var(--space-lg);
+  padding-block: var(--space-lg);
+  border-bottom: 1px solid var(--separator);
+  font-size: var(--size-row);
+}
+
+.facts__row dt {
+  color: var(--text-2);
+}
+
+.facts__row dd {
+  font-weight: 600;
+  text-align: right;
+}
+
+.compat__link {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 860px) {
+  .room__panel,
+  .choose__panel,
+  .send__panel,
+  .receive__panel,
+  .languages__panel {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+  }
+
+  .room__side,
+  .choose__side,
+  .send__side,
+  .receive__side,
+  .languages__side {
+    width: 100%;
+  }
+
+  .room__count,
+  .room__faces {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .room__face {
+    --avatar-face: var(--avatar-row);
+  }
+}
+
+/* The recipients' carousel of the send sheet: the centre is the choice, neighbours shrink and
+   fade with their distance, the row fades out at both sides instead of being cut. */
+.carousel {
+  position: relative;
+  min-width: 0;
+  margin-inline: calc(var(--space-lg) * -1);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 var(--edge-fade), #000 calc(100% - var(--edge-fade)), transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 var(--edge-fade), #000 calc(100% - var(--edge-fade)), transparent);
+}
+
+.carousel__track {
+  position: relative;
+  display: flex;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-inline: calc(50% - var(--recipient-width) / 2);
+  padding-block: var(--space-md);
+  cursor: grab;
+}
+
+.carousel__track::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel.is-dragging .carousel__track {
+  scroll-snap-type: none;
+  cursor: grabbing;
+}
+
+.recipient {
+  flex: none;
+  width: var(--recipient-width);
+  scroll-snap-align: center;
+}
+
+.recipient__button {
+  --near: 1;
+  display: grid;
+  justify-items: center;
+  gap: var(--space-sm);
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+  opacity: calc(var(--carousel-min-opacity) + (1 - var(--carousel-min-opacity)) * var(--near));
+  transform: scale(calc(var(--carousel-min-scale) + (1 - var(--carousel-min-scale)) * var(--near)));
+  transform-origin: center 36px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.avatar--recipient,
+.glyph {
+  width: var(--avatar-recipient);
+  height: var(--avatar-recipient);
+}
+
+.recipient__button[aria-pressed="true"] .avatar--recipient,
+.recipient__button[aria-pressed="true"] .glyph {
+  box-shadow: 0 0 0 3px var(--panel), 0 0 0 5px var(--text);
+}
+
+.recipient__name {
+  max-width: 100%;
+  overflow: hidden;
+  font-size: var(--size-meta);
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* « The whole room »: three of its devices stacked in one round. */
+.glyph {
+  position: relative;
+  display: block;
+  border-radius: var(--radius-full);
+  background: var(--surface);
+}
+
+.glyph .avatar {
+  position: absolute;
+  width: 46%;
+  height: 46%;
+  box-shadow: 0 0 0 2px var(--surface);
+}
+
+.glyph .avatar:nth-child(1) {
+  left: 12%;
+  top: 27%;
+}
+
+.glyph .avatar:nth-child(2) {
+  left: 27%;
+  top: 27%;
+}
+
+.glyph .avatar:nth-child(3) {
+  left: 42%;
+  top: 27%;
+}
+
+.carousel__status {
+  color: var(--text-2);
+  font-size: var(--size-meta);
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel__track {
+    scroll-behavior: auto;
+  }
+}
+
+/* The legal documents, and the frame every page shares. */
+.doc,
+.page {
+  max-width: var(--content);
+  margin: 0 auto;
+  padding: clamp(40px, 7vw, 88px) var(--gutter) 0;
+}
+
+.doc__head,
+.page__head {
+  display: grid;
+  gap: var(--space-lg);
+  max-width: var(--reading);
+}
+
+.doc__title,
+.page__title {
+  font-size: var(--size-title);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: var(--track-title);
+}
+
+.doc__date {
+  color: var(--text-2);
+  font-size: var(--size-meta);
+}
+
+.doc__intro {
+  font-size: var(--size-lead);
+  line-height: 1.42;
+}
+
+.doc__layout {
+  display: grid;
+  grid-template-columns: 240px minmax(0, var(--reading));
+  gap: clamp(32px, 6vw, 96px);
+  margin-top: var(--space-64);
+}
+
+.doc__aside {
+  position: sticky;
+  top: calc(var(--bar-height) + var(--space-2xl));
+  display: grid;
+  align-content: start;
+  gap: var(--space-3xl);
+  height: fit-content;
+}
+
+.toc__label {
+  margin-bottom: var(--space-md);
+  color: var(--text-2);
+  font-size: var(--size-label);
+  font-weight: 600;
+  letter-spacing: var(--track-label);
+}
+
+.toc ol {
+  display: grid;
+  gap: var(--space-2xs);
+}
+
+.toc a {
+  display: block;
+  padding: var(--space-xs) 0 var(--space-xs) var(--space-md);
+  border-left: 2px solid var(--separator);
+  color: var(--text-2);
+  font-size: var(--size-meta);
+  text-decoration: none;
+  transition: color var(--quick), border-color var(--quick);
+}
+
+.toc a:hover,
+.toc a.is-current {
+  color: var(--text);
+  border-left-color: var(--text);
+}
+
+.doc__app {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.doc__caption {
+  color: var(--text-2);
+  font-size: var(--size-meta);
+}
+
+.doc__body {
+  display: grid;
+  gap: var(--space-huge);
+}
+
+.doc__section {
+  display: grid;
+  gap: var(--space-lg);
+}
+
+.doc__section h2 {
+  font-size: var(--size-subtitle);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: var(--track-subtitle);
+}
+
+.doc__section p,
+.doc__list li {
+  color: var(--text-2);
+  line-height: 1.6;
+}
+
+.doc__section a,
+.contact__email a {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.doc__list {
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.doc__list li {
+  padding: var(--space-lg);
+  border-radius: var(--radius-inset);
+  background: var(--panel);
+}
+
+@media (max-width: 860px) {
+  .doc__layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .doc__aside {
+    position: static;
+    order: 2;
+  }
+
+  .toc {
+    display: none;
+  }
+}
+
+.doc__section a[href^="mailto:"],
+.doc__intro a[href^="mailto:"] {
+  white-space: nowrap;
+}
+
+/* Help: the guided check, the questions, the address. */
+.page {
+  display: grid;
+  gap: var(--space-64);
+}
+
+.trouble {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: clamp(32px, 6vw, 96px);
+  padding: clamp(24px, 5vw, 64px);
+}
+
+.trouble__side {
+  display: grid;
+  gap: var(--space-2xl);
+}
+
+.trouble__title {
+  font-size: var(--size-subtitle);
+  font-weight: 700;
+  letter-spacing: var(--track-subtitle);
+}
+
+.steps {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.step {
+  display: grid;
+  gap: var(--space-md);
+  padding: var(--space-xl);
+  border-radius: var(--radius-block);
+  background: var(--surface);
+  animation: step-in var(--settle);
+}
+
+.step__question {
+  font-size: var(--size-row);
+  font-weight: 600;
+}
+
+.step__answer {
+  color: var(--text-2);
+}
+
+.step .pill {
+  min-height: var(--touch);
+}
+
+.step .pill--secondary {
+  background: var(--panel);
+}
+
+.step.is-answered .step__choices {
+  display: none;
+}
+
+.trouble.is-live .step__answer,
+.trouble.is-live .step--end {
+  display: none;
+}
+
+.trouble.is-live .step.is-no .step__answer,
+.trouble.is-live .step--end.is-shown {
+  display: block;
+}
+
+.trouble.is-live .step.is-waiting {
+  display: none;
+}
+
+@keyframes step-in {
+  from {
+    opacity: 0;
+    transform: scale(var(--entrance-scale));
+  }
+}
+
+.faq {
+  display: grid;
+  gap: var(--space-2xl);
+}
+
+.faq__list {
+  padding: var(--space-sm) clamp(16px, 3vw, 32px);
+}
+
+.faq__item {
+  border-bottom: 1px solid var(--separator);
+}
+
+.faq__item:last-child {
+  border-bottom: 0;
+}
+
+.faq__item summary {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  padding-block: var(--space-xl);
+  font-size: var(--size-row);
+  font-weight: 600;
+  list-style: none;
+  cursor: pointer;
+}
+
+.faq__item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq__item summary::after {
+  content: "+";
+  color: var(--text-2);
+  font-weight: 400;
+  transition: transform var(--quick);
+}
+
+.faq__item[open] summary::after {
+  transform: rotate(45deg);
+}
+
+.faq__item p {
+  max-width: 62ch;
+  padding-bottom: var(--space-xl);
+  color: var(--text-2);
+}
+
+.contact {
+  display: grid;
+  gap: var(--space-md);
+  padding: clamp(24px, 5vw, 56px);
+}
+
+.contact__email {
+  font-size: var(--size-subtitle);
+  letter-spacing: var(--track-subtitle);
+  overflow-wrap: anywhere;
+}
+
+.contact__lead {
+  max-width: 56ch;
+  color: var(--text-2);
+}
+
+.page--missing {
+  justify-items: center;
+  gap: var(--space-2xl);
+  padding-block: var(--section);
+  text-align: center;
+}
+
+.missing__code {
+  font-size: var(--size-number);
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: var(--track-number);
+}
+
+@media (max-width: 860px) {
+  .trouble {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+  }
+
+  .trouble__side {
+    width: 100%;
+  }
+}
+

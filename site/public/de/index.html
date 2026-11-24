@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RoomSend: an den ganzen Raum senden</title>
+<meta name="description" content="Sende Fotos, Dateien und Texte vom iPhone an alle Geräte in deinem WLAN. Ohne Konto, nichts geht über das Internet. Funktioniert mit LocalSend.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://roomsend.netlify.app/de/">
+<link rel="alternate" hreflang="en" href="https://roomsend.netlify.app/">
+<link rel="alternate" hreflang="fr" href="https://roomsend.netlify.app/fr/">
+<link rel="alternate" hreflang="de" href="https://roomsend.netlify.app/de/">
+<link rel="alternate" hreflang="es" href="https://roomsend.netlify.app/es/">
+<link rel="alternate" hreflang="it" href="https://roomsend.netlify.app/it/">
+<link rel="alternate" hreflang="pt" href="https://roomsend.netlify.app/pt/">
+<link rel="alternate" hreflang="x-default" href="https://roomsend.netlify.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RoomSend">
+<meta property="og:title" content="RoomSend: an den ganzen Raum senden">
+<meta property="og:description" content="Sende Fotos, Dateien und Texte vom iPhone an alle Geräte in deinem WLAN. Ohne Konto, nichts geht über das Internet. Funktioniert mit LocalSend.">
+<meta property="og:url" content="https://roomsend.netlify.app/de/">
+<meta property="og:image" content="https://roomsend.netlify.app/assets/og/de.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="de">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/assets/icons/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<script>(function(){var d=document.documentElement,g=function(k){try{return localStorage.getItem(k)}catch(e){return null}};d.dataset.theme=g('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');if(!('autoLang' in d.dataset)||g('lang'))return;var o=['fr','de','es','it','pt'],n=navigator.languages||[navigator.language];for(var i=0;i<n.length;i++){var k=String(n[i]).slice(0,2).toLowerCase();if(k==='en')return;if(o.indexOf(k)>-1){location.replace('/'+k+location.pathname+location.hash);return}}})();</script>
+<link rel="stylesheet" href="/assets/site.css">
+<script type="module" src="/assets/js/main.js"></script>
+</head>
+<body data-page="home">
+<a class="skip" href="#content">Zum Inhalt</a>
+<header class="bar">
+<div class="bar__inner">
+<a class="brand" href="/de/" aria-label="RoomSend Startseite">
+<img class="brand__icon" src="/assets/icons/icon-64.png" alt="" width="28" height="28">
+<span class="brand__name">RoomSend</span></a>
+<nav class="bar__nav">
+<a class="bar__link" href="/de/support/">Hilfe</a>
+<details class="lang ">
+<summary class="lang__button" aria-label="Sprache"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.9 5.6 3.9 9s-1.3 6.4-3.9 9M12 3c-2.6 2.6-3.9 5.6-3.9 9s1.3 6.4 3.9 9"/></svg><span>Deutsch</span></summary>
+<ul class="lang__menu" role="list"><li><a href="/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/de/" hreflang="de" lang="de" data-lang="de" aria-current="true">Deutsch</a></li><li><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">Português</a></li></ul>
+</details>
+<button class="theme" type="button" aria-label="Zum dunklen Erscheinungsbild wechseln" data-label-dark="Zum dunklen Erscheinungsbild wechseln" data-label-light="Zum hellen Erscheinungsbild wechseln"><svg class="icon theme__moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="icon theme__sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
+</nav>
+</div>
+</header>
+<main id="content">
+<section class="hero" aria-labelledby="hero-title">
+<div class="hero__text">
+<p class="hero__name"><img class="app-icon app-icon--light" src="/assets/icons/icon-128.png" alt="" width="56" height="56"><img class="app-icon app-icon--dark" src="/assets/icons/icon-dark-128.png" alt="" width="56" height="56">RoomSend</p>
+<h1 class="hero__title" id="hero-title">An den ganzen Raum senden.</h1>
+<p class="hero__lead">Fotos, Dateien und Texte an alle Geräte in deinem WLAN. Ohne Konto, und nichts geht über das Internet.</p>
+<div class="hero__store"><p class="soon "><span class="soon__dot" aria-hidden="true"></span>Bald im App Store</p><span class="hero__free">Kostenlos, für iPhone</span></div>
+</div>
+<figure class="phone phone--hero" role="img" aria-label="Der Raum-Bildschirm von RoomSend: vier Geräte in der Nähe, mit Avataren und Namen." data-states="{&quot;4&quot;:[&quot;/assets/shots/de/light/room-4.webp&quot;,&quot;/assets/shots/de/dark/room-4.webp&quot;]}" data-state="4"><div class="phone__frame"><div class="phone__screen"><img class="shot shot--light is-current" src="/assets/shots/de/light/room-4.webp" alt="" width="720" height="1565" decoding="async" fetchpriority="high" data-state="4"><img class="shot shot--dark is-current" src="/assets/shots/de/dark/room-4.webp" alt="" width="720" height="1565" decoding="async" fetchpriority="high" data-state="4"></div><span class="phone__island" aria-hidden="true"></span></div></figure>
+</section>
+<section class="section room" id="room" aria-labelledby="room-title">
+<div class="section__head">
+<h2 class="title" id="room-title">Der Raum füllt sich von selbst.</h2>
+<p class="lead">Öffne RoomSend und die Geräte in deinem WLAN erscheinen, auch die LocalSend-Apps für Android, Windows, macOS und Linux.</p>
+</div>
+<div class="panel room__panel" data-room data-base="2" data-alts="{&quot;0&quot;:&quot;Der Raum-Bildschirm mit 2 Geräten in der Nähe.&quot;,&quot;1&quot;:&quot;Der Raum-Bildschirm mit 3 Geräten in der Nähe.&quot;,&quot;2&quot;:&quot;Der Raum-Bildschirm mit 4 Geräten in der Nähe.&quot;,&quot;3&quot;:&quot;Der Raum-Bildschirm mit 5 Geräten in der Nähe.&quot;,&quot;4&quot;:&quot;Der Raum-Bildschirm mit 6 Geräten in der Nähe.&quot;}" data-lang="de">
+<div class="room__side">
+<p class="room__count"><span class="room__number" data-room-number>6</span>
+<span class="room__unit" data-room-unit data-one="Gerät in der Nähe" data-other="Geräte in der Nähe">Geräte in der Nähe</span></p>
+<ul class="room__faces" role="list"><li class="room__face is-in room__face--base" data-index="0"><span class="avatar " aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#FF5A36"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#9B5DE5" transform="translate(81.53 45.07) rotate(4.03)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#2EC4B6" transform="translate(37.58 82.18) rotate(281.00)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#B8F34A" transform="translate(28.40 23.22) rotate(78.08)"/></svg></span><span class="room__alias">Abricot Brave</span></li><li class="room__face is-in room__face--base" data-index="0"><span class="avatar " aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#3A86FF"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FF9F1C" transform="translate(84.60 48.68) rotate(151.69)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FFD23F" transform="translate(30.72 86.54) rotate(189.77)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#2EC4B6" transform="translate(30.75 19.41) rotate(261.10)"/></svg></span><span class="room__alias">Melon Calme</span></li><li class="room__face is-in " data-index="1"><span class="avatar " aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#9B5DE5"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#B8F34A" transform="translate(12.64 46.40) rotate(345.77)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FF5A36" transform="translate(70.33 21.51) rotate(293.45)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FFD23F" transform="translate(65.99 85.10) rotate(149.90)"/></svg></span><span class="room__alias">Witty Peach</span></li><li class="room__face is-in " data-index="2"><span class="avatar " aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#FFD23F"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#B8F34A" transform="translate(51.73 90.95) rotate(71.48)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#3A86FF" transform="translate(16.35 32.42) rotate(130.42)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#9B5DE5" transform="translate(81.84 29.78) rotate(190.89)"/></svg></span><span class="room__alias">Lucky Lime</span></li><li class="room__face is-in " data-index="3"><span class="avatar " aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#FF5A36"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#2EC4B6" transform="translate(37.55 85.27) rotate(312.53)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FF4D8D" transform="translate(22.70 18.10) rotate(281.46)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#9B5DE5" transform="translate(90.49 42.46) rotate(154.33)"/></svg></span><span class="room__alias">Bright Plum</span></li><li class="room__face is-in " data-index="4"><span class="avatar " aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#B8F34A"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FFD23F" transform="translate(72.75 70.77) rotate(51.20)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#9B5DE5" transform="translate(10.70 62.47) rotate(288.47)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FF4D8D" transform="translate(57.56 15.63) rotate(356.17)"/></svg></span><span class="room__alias">Sunny Fig</span></li></ul>
+<label class="slider">
+<span class="slider__label">Geräte im WLAN</span>
+<input class="slider__input" type="range" min="0" max="4" step="1" value="4" data-room-range>
+</label>
+<p class="hint" data-room-hint hidden>Du bist dran: Zieh, um Geräte hereinzuholen.</p>
+</div>
+<figure class="phone phone--room" role="img" aria-label="Der Raum-Bildschirm mit 6 Geräten in der Nähe." data-states="{&quot;0&quot;:[&quot;/assets/shots/de/light/room-0.webp&quot;,&quot;/assets/shots/de/dark/room-0.webp&quot;],&quot;1&quot;:[&quot;/assets/shots/de/light/room-1.webp&quot;,&quot;/assets/shots/de/dark/room-1.webp&quot;],&quot;2&quot;:[&quot;/assets/shots/de/light/room-2.webp&quot;,&quot;/assets/shots/de/dark/room-2.webp&quot;],&quot;3&quot;:[&quot;/assets/shots/de/light/room-3.webp&quot;,&quot;/assets/shots/de/dark/room-3.webp&quot;],&quot;4&quot;:[&quot;/assets/shots/de/light/room-4.webp&quot;,&quot;/assets/shots/de/dark/room-4.webp&quot;]}" data-state="4"><div class="phone__frame"><div class="phone__screen"><img class="shot shot--light is-current" src="/assets/shots/de/light/room-4.webp" alt="" width="720" height="1565" decoding="async" loading="lazy" data-state="4"><img class="shot shot--dark is-current" src="/assets/shots/de/dark/room-4.webp" alt="" width="720" height="1565" decoding="async" loading="lazy" data-state="4"></div><span class="phone__island" aria-hidden="true"></span></div></figure>
+</div>
+</section>
+<section class="section choose" id="choose" aria-labelledby="choose-title">
+<div class="section__head">
+<h2 class="title" id="choose-title">Wer in der Mitte steht, empfängt.</h2>
+<p class="lead">Schieb die Geräte. Das mittlere empfängt, oder gleich der ganze Raum.</p>
+</div>
+<div class="panel choose__panel">
+<div class="choose__side">
+<div class="carousel" data-carousel data-alts="{&quot;0&quot;:&quot;Das Senden-Fenster, drei Fotos für Der ganze Raum.&quot;,&quot;1&quot;:&quot;Das Senden-Fenster, drei Fotos für Abricot Brave.&quot;,&quot;2&quot;:&quot;Das Senden-Fenster, drei Fotos für Melon Calme.&quot;,&quot;3&quot;:&quot;Das Senden-Fenster, drei Fotos für Witty Peach.&quot;,&quot;4&quot;:&quot;Das Senden-Fenster, drei Fotos für Lucky Lime.&quot;,&quot;5&quot;:&quot;Das Senden-Fenster, drei Fotos für Bright Plum.&quot;,&quot;6&quot;:&quot;Das Senden-Fenster, drei Fotos für Sunny Fig.&quot;}" data-status="Empfänger: {name}">
+<ul class="carousel__track" role="list"><li class="recipient" data-index="0"><button class="recipient__button" type="button" aria-pressed="false" data-name="Der ganze Raum"><span class="glyph" aria-hidden="true"><span class="avatar " aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#FF5A36"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#9B5DE5" transform="translate(81.53 45.07) rotate(4.03)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#2EC4B6" transform="translate(37.58 82.18) rotate(281.00)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#B8F34A" transform="translate(28.40 23.22) rotate(78.08)"/></svg></span><span class="avatar " aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#3A86FF"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FF9F1C" transform="translate(84.60 48.68) rotate(151.69)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FFD23F" transform="translate(30.72 86.54) rotate(189.77)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#2EC4B6" transform="translate(30.75 19.41) rotate(261.10)"/></svg></span><span class="avatar " aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#9B5DE5"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#B8F34A" transform="translate(12.64 46.40) rotate(345.77)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FF5A36" transform="translate(70.33 21.51) rotate(293.45)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FFD23F" transform="translate(65.99 85.10) rotate(149.90)"/></svg></span></span><span class="recipient__name">Der ganze Raum</span></button></li><li class="recipient" data-index="1"><button class="recipient__button" type="button" aria-pressed="false" data-name="Abricot Brave"><span class="avatar avatar--recipient" aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#FF5A36"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#9B5DE5" transform="translate(81.53 45.07) rotate(4.03)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#2EC4B6" transform="translate(37.58 82.18) rotate(281.00)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#B8F34A" transform="translate(28.40 23.22) rotate(78.08)"/></svg></span><span class="recipient__name">Abricot Brave</span></button></li><li class="recipient" data-index="2"><button class="recipient__button" type="button" aria-pressed="false" data-name="Melon Calme"><span class="avatar avatar--recipient" aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#3A86FF"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FF9F1C" transform="translate(84.60 48.68) rotate(151.69)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FFD23F" transform="translate(30.72 86.54) rotate(189.77)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#2EC4B6" transform="translate(30.75 19.41) rotate(261.10)"/></svg></span><span class="recipient__name">Melon Calme</span></button></li><li class="recipient" data-index="3"><button class="recipient__button" type="button" aria-pressed="true" data-name="Witty Peach"><span class="avatar avatar--recipient" aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#9B5DE5"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#B8F34A" transform="translate(12.64 46.40) rotate(345.77)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FF5A36" transform="translate(70.33 21.51) rotate(293.45)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FFD23F" transform="translate(65.99 85.10) rotate(149.90)"/></svg></span><span class="recipient__name">Witty Peach</span></button></li><li class="recipient" data-index="4"><button class="recipient__button" type="button" aria-pressed="false" data-name="Lucky Lime"><span class="avatar avatar--recipient" aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#FFD23F"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#B8F34A" transform="translate(51.73 90.95) rotate(71.48)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#3A86FF" transform="translate(16.35 32.42) rotate(130.42)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#9B5DE5" transform="translate(81.84 29.78) rotate(190.89)"/></svg></span><span class="recipient__name">Lucky Lime</span></button></li><li class="recipient" data-index="5"><button class="recipient__button" type="button" aria-pressed="false" data-name="Bright Plum"><span class="avatar avatar--recipient" aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#FF5A36"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#2EC4B6" transform="translate(37.55 85.27) rotate(312.53)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FF4D8D" transform="translate(22.70 18.10) rotate(281.46)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#9B5DE5" transform="translate(90.49 42.46) rotate(154.33)"/></svg></span><span class="recipient__name">Bright Plum</span></button></li><li class="recipient" data-index="6"><button class="recipient__button" type="button" aria-pressed="false" data-name="Sunny Fig"><span class="avatar avatar--recipient" aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><rect width="100" height="100" fill="#B8F34A"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FFD23F" transform="translate(72.75 70.77) rotate(51.20)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#9B5DE5" transform="translate(10.70 62.47) rotate(288.47)"/><rect x="-39.00" y="-39.00" width="78.00" height="78.00" fill="#FF4D8D" transform="translate(57.56 15.63) rotate(356.17)"/></svg></span><span class="recipient__name">Sunny Fig</span></button></li></ul>
+</div>
+<p class="carousel__status" data-carousel-status aria-live="polite">Empfänger: Witty Peach</p>
+</div>
+<figure class="phone phone--choose" role="img" aria-label="Das Senden-Fenster, drei Fotos für Witty Peach." data-states="{&quot;0&quot;:[&quot;/assets/shots/de/light/choose-0.webp&quot;,&quot;/assets/shots/de/dark/choose-0.webp&quot;],&quot;1&quot;:[&quot;/assets/shots/de/light/choose-1.webp&quot;,&quot;/assets/shots/de/dark/choose-1.webp&quot;],&quot;2&quot;:[&quot;/assets/shots/de/light/choose-2.webp&quot;,&quot;/assets/shots/de/dark/choose-2.webp&quot;],&quot;3&quot;:[&quot;/assets/shots/de/light/choose-3.webp&quot;,&quot;/assets/shots/de/dark/choose-3.webp&quot;],&quot;4&quot;:[&quot;/assets/shots/de/light/choose-4.webp&quot;,&quot;/assets/shots/de/dark/choose-4.webp&quot;],&quot;5&quot;:[&quot;/assets/shots/de/light/choose-5.webp&quot;,&quot;/assets/shots/de/dark/choose-5.webp&quot;],&quot;6&quot;:[&quot;/assets/shots/de/light/choose-6.webp&quot;,&quot;/assets/shots/de/dark/choose-6.webp&quot;]}" data-state="3"><div class="phone__frame"><div class="phone__screen"><img class="shot shot--light is-current" src="/assets/shots/de/light/choose-3.webp" alt="" width="720" height="1565" decoding="async" loading="lazy" data-state="3"><img class="shot shot--dark is-current" src="/assets/shots/de/dark/choose-3.webp" alt="" width="720" height="1565" decoding="async" loading="lazy" data-state="3"></div><span class="phone__island" aria-hidden="true"></span></div></figure>
+</div>
+</section>
+<section class="section send" id="send" aria-labelledby="send-title">
+<div class="section__head">
+<h2 class="title" id="send-title">Sieh zu, wie es ankommt.</h2>
+<p class="lead">RoomSend zeigt, wer empfängt, die gesendeten Bytes und was noch fehlt. Du stoppst, wann du willst.</p>
+</div>
+<div class="panel send__panel" data-send data-frames="[700,1300,1300]" data-done="1500">
+<div class="send__side">
+<button class="pill pill--primary" type="button" data-send-button data-again="Nochmal senden">Senden</button>
+</div>
+<figure class="phone phone--send" role="img" aria-label="Drei Fotos werden an Sunny Fig gesendet." data-states="{&quot;ready&quot;:[&quot;/assets/shots/de/light/choose-6.webp&quot;,&quot;/assets/shots/de/dark/choose-6.webp&quot;],&quot;1&quot;:[&quot;/assets/shots/de/light/send-1.webp&quot;,&quot;/assets/shots/de/dark/send-1.webp&quot;],&quot;2&quot;:[&quot;/assets/shots/de/light/send-2.webp&quot;,&quot;/assets/shots/de/dark/send-2.webp&quot;],&quot;3&quot;:[&quot;/assets/shots/de/light/send-3.webp&quot;,&quot;/assets/shots/de/dark/send-3.webp&quot;],&quot;done&quot;:[&quot;/assets/shots/de/light/sent.webp&quot;,&quot;/assets/shots/de/dark/sent.webp&quot;]}" data-state="ready"><div class="phone__frame"><div class="phone__screen"><img class="shot shot--light is-current" src="/assets/shots/de/light/choose-6.webp" alt="" width="720" height="1565" decoding="async" loading="lazy" data-state="ready"><img class="shot shot--dark is-current" src="/assets/shots/de/dark/choose-6.webp" alt="" width="720" height="1565" decoding="async" loading="lazy" data-state="ready"></div><span class="phone__island" aria-hidden="true"></span></div></figure>
+</div>
+</section>
+<section class="section receive" id="receive" aria-labelledby="receive-title">
+<div class="section__head">
+<h2 class="title" id="receive-title">Nichts kommt ohne dich herein.</h2>
+<p class="lead">Ein Angebot zeigt, was ankommt und von wem. Nimm an oder lehne ab, verlange eine PIN oder lass alles automatisch herein.</p>
+</div>
+<div class="panel receive__panel" data-receive-panel data-frames="[700,1500]" data-done="1600">
+<div class="receive__side">
+<div class="pills" data-receive-choices>
+<button class="pill pill--secondary" type="button" data-receive="decline">Ablehnen</button>
+<button class="pill pill--primary" type="button" data-receive="accept">Annehmen</button>
+</div>
+<button class="pill pill--secondary" type="button" data-receive="reset" hidden>Angebot nochmal zeigen</button>
+</div>
+<figure class="phone phone--receive" role="img" aria-label="Witty Peach sendet dir drei Fotos." data-states="{&quot;offer&quot;:[&quot;/assets/shots/de/light/incoming.webp&quot;,&quot;/assets/shots/de/dark/incoming.webp&quot;],&quot;1&quot;:[&quot;/assets/shots/de/light/receive-1.webp&quot;,&quot;/assets/shots/de/dark/receive-1.webp&quot;],&quot;2&quot;:[&quot;/assets/shots/de/light/receive-2.webp&quot;,&quot;/assets/shots/de/dark/receive-2.webp&quot;],&quot;done&quot;:[&quot;/assets/shots/de/light/received.webp&quot;,&quot;/assets/shots/de/dark/received.webp&quot;],&quot;declined&quot;:[&quot;/assets/shots/de/light/room-4.webp&quot;,&quot;/assets/shots/de/dark/room-4.webp&quot;]}" data-state="offer"><div class="phone__frame"><div class="phone__screen"><img class="shot shot--light is-current" src="/assets/shots/de/light/incoming.webp" alt="" width="720" height="1565" decoding="async" loading="lazy" data-state="offer"><img class="shot shot--dark is-current" src="/assets/shots/de/dark/incoming.webp" alt="" width="720" height="1565" decoding="async" loading="lazy" data-state="offer"></div><span class="phone__island" aria-hidden="true"></span></div></figure>
+</div>
+</section>
+<section class="section appearance" id="appearance" aria-labelledby="appearance-title">
+<div class="section__head">
+<h2 class="title" id="appearance-title">Hell oder dunkel.</h2>
+<p class="lead">Auto folgt dem iPhone, oder du wählst in den Einstellungen. Zieh die Linie.</p>
+</div>
+<div class="compare" data-compare>
+<div class="phone phone--compare"><div class="phone__frame"><div class="phone__screen">
+<img class="compare__light" src="/assets/shots/de/light/room-4.webp" alt="Der Raum-Bildschirm im hellen Erscheinungsbild." width="720" height="1565" loading="lazy" decoding="async">
+<img class="compare__dark" src="/assets/shots/de/dark/room-4.webp" alt="Der Raum-Bildschirm im dunklen Erscheinungsbild." width="720" height="1565" loading="lazy" decoding="async">
+</div><span class="phone__island" aria-hidden="true"></span></div></div>
+<div class="compare__line" aria-hidden="true"></div>
+<div class="compare__handle" role="slider" tabindex="0" aria-label="Linie zwischen hell und dunkel verschieben" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50%"></div>
+</div>
+</section>
+<section class="section languages" id="languages" aria-labelledby="languages-title">
+<div class="section__head">
+<h2 class="title" id="languages-title">Sechs Sprachen, sofort.</h2>
+<p class="lead">Wähle eine Sprache in den Einstellungen und die ganze App wechselt auf der Stelle, ohne Neustart.</p>
+</div>
+<div class="panel languages__panel" data-languages data-alts="{&quot;en&quot;:&quot;Der Raum-Bildschirm auf English.&quot;,&quot;fr&quot;:&quot;Der Raum-Bildschirm auf Français.&quot;,&quot;de&quot;:&quot;Der Raum-Bildschirm auf Deutsch.&quot;,&quot;es&quot;:&quot;Der Raum-Bildschirm auf Español.&quot;,&quot;it&quot;:&quot;Der Raum-Bildschirm auf Italiano.&quot;,&quot;pt&quot;:&quot;Der Raum-Bildschirm auf Português.&quot;}">
+<div class="languages__side"><ul class="choices" role="list"><li><button class="choice" type="button" lang="en" data-language="en" aria-pressed="false">English</button></li><li><button class="choice" type="button" lang="fr" data-language="fr" aria-pressed="false">Français</button></li><li><button class="choice" type="button" lang="de" data-language="de" aria-pressed="true">Deutsch</button></li><li><button class="choice" type="button" lang="es" data-language="es" aria-pressed="false">Español</button></li><li><button class="choice" type="button" lang="it" data-language="it" aria-pressed="false">Italiano</button></li><li><button class="choice" type="button" lang="pt" data-language="pt" aria-pressed="false">Português</button></li></ul></div>
+<figure class="phone phone--languages" role="img" aria-label="Der Raum-Bildschirm auf Deutsch." data-states="{&quot;en&quot;:[&quot;/assets/shots/en/light/room-4.webp&quot;,&quot;/assets/shots/en/dark/room-4.webp&quot;],&quot;fr&quot;:[&quot;/assets/shots/fr/light/room-4.webp&quot;,&quot;/assets/shots/fr/dark/room-4.webp&quot;],&quot;de&quot;:[&quot;/assets/shots/de/light/room-4.webp&quot;,&quot;/assets/shots/de/dark/room-4.webp&quot;],&quot;es&quot;:[&quot;/assets/shots/es/light/room-4.webp&quot;,&quot;/assets/shots/es/dark/room-4.webp&quot;],&quot;it&quot;:[&quot;/assets/shots/it/light/room-4.webp&quot;,&quot;/assets/shots/it/dark/room-4.webp&quot;],&quot;pt&quot;:[&quot;/assets/shots/pt/light/room-4.webp&quot;,&quot;/assets/shots/pt/dark/room-4.webp&quot;]}" data-state="de"><div class="phone__frame"><div class="phone__screen"><img class="shot shot--light is-current" src="/assets/shots/de/light/room-4.webp" alt="" width="720" height="1565" decoding="async" loading="lazy" data-state="de"><img class="shot shot--dark is-current" src="/assets/shots/de/dark/room-4.webp" alt="" width="720" height="1565" decoding="async" loading="lazy" data-state="de"></div><span class="phone__island" aria-hidden="true"></span></div></figure>
+</div>
+</section>
+<section class="section privacy" id="privacy" aria-labelledby="privacy-title">
+<div class="section__head">
+<h2 class="title" id="privacy-title">Nichts geht über uns.</h2>
+<p class="lead">Dateien gehen direkt von einem Gerät zum anderen, standardmässig verschlüsselt. Wir sehen sie nie.</p>
+</div>
+<div class="panel privacy__panel">
+<dl class="facts"><div class="facts__row"><dt>Konto</dt><dd>Keins</dd></div><div class="facts__row"><dt>Server</dt><dd>Keiner</dd></div><div class="facts__row"><dt>Analyse und Werbung</dt><dd>Keine</dd></div><div class="facts__row"><dt>Verschlüsselung</dt><dd>HTTPS, Zertifikat geprüft</dd></div><div class="facts__row"><dt>Teilen per Link</dt><dd>Einfaches HTTP, nur in deinem WLAN</dd></div></dl>
+<a class="more" href="/de/privacy/">Datenschutzerklärung lesen<svg class="icon " viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a>
+</div>
+</section>
+<section class="section compat" id="compat" aria-labelledby="compat-title">
+<div class="section__head">
+<h2 class="title" id="compat-title">Spricht LocalSend.</h2>
+<p class="lead">RoomSend folgt dem offenen LocalSend-Protokoll. Es sendet an die LocalSend-Apps für Android, Windows, macOS und Linux und empfängt von ihnen, wie von anderen iPhones mit RoomSend.</p>
+</div>
+<p class="compat__link"><a class="more" href="https://localsend.org" rel="noopener">Über LocalSend<svg class="icon " viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+</section>
+</main>
+<footer class="foot">
+<div class="foot__inner">
+<div class="foot__top">
+<a class="brand" href="/de/" aria-label="RoomSend Startseite">
+<img class="brand__icon" src="/assets/icons/icon-64.png" alt="" width="28" height="28" loading="lazy">
+<span class="brand__name">RoomSend</span></a>
+<nav class="foot__links"><a href="/de/privacy/">Datenschutz</a><a href="/de/terms/">Bedingungen</a><a href="/de/support/">Hilfe</a></nav>
+</div>
+<div class="foot__bottom">
+<p>© 2026 Kiye Mateus. RoomSend ist eine unabhängige App, ohne Verbindung zum Projekt LocalSend.</p>
+<div class="foot__controls"><details class="lang lang--up">
+<summary class="lang__button" aria-label="Sprache"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.9 5.6 3.9 9s-1.3 6.4-3.9 9M12 3c-2.6 2.6-3.9 5.6-3.9 9s1.3 6.4 3.9 9"/></svg><span>Deutsch</span></summary>
+<ul class="lang__menu" role="list"><li><a href="/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/de/" hreflang="de" lang="de" data-lang="de" aria-current="true">Deutsch</a></li><li><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">Português</a></li></ul>
+</details><button class="theme" type="button" aria-label="Zum dunklen Erscheinungsbild wechseln" data-label-dark="Zum dunklen Erscheinungsbild wechseln" data-label-light="Zum hellen Erscheinungsbild wechseln"><svg class="icon theme__moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="icon theme__sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button></div>
+</div>
+</div>
+</footer>
+</body>
+</html>

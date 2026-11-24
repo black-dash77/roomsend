@@ -1,0 +1,121 @@
+/* RoomSend's tokens (RoomSend/Core/Design), carried to the web. The page ground is pure white
+   or pure black; the app's block and inset colors become the panels and what sits on them. */
+:root {
+  color-scheme: light;
+  --bg: #FFFFFF;
+  --panel: #F1F3F5;
+  --surface: #FFFFFF;
+  --separator: #E2E4E9;
+  --text: #09090B;
+  --text-2: #52525B;
+  --text-3: #A1A1AA;
+  --action-fill: #09090B;
+  --action-label: #FAFAFA;
+  --live: #10B981;
+  --glass: rgb(255 255 255 / 0.72);
+  --glass-edge: rgb(255 255 255 / 0.9);
+  --phone-shadow: 0 40px 80px -32px rgb(9 9 11 / 0.32);
+  --bar: rgb(255 255 255 / 0.78);
+
+  --space-2xs: 2px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+  --space-2xl: 24px;
+  --space-3xl: 32px;
+  --space-huge: 48px;
+  --space-64: 64px;
+  --space-96: 96px;
+  --gutter: clamp(16px, 5vw, 48px);
+  --section: clamp(96px, 13vw, 168px);
+
+  --radius-inset: 12px;
+  --radius-tile: 18px;
+  --radius-block: 24px;
+  --radius-panel: 36px;
+  --radius-full: 999px;
+
+  --touch: 44px;
+  --pill-height: 54px;
+  --avatar-row: 44px;
+  --avatar-face: 56px;
+  --avatar-recipient: 72px;
+  --recipient-width: 104px;
+  --bar-height: 52px;
+  --content: 1120px;
+  --reading: 680px;
+
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", "Segoe UI", Roboto, Arial, sans-serif;
+  --size-hero: clamp(44px, 8.4vw, 108px);
+  --size-number: clamp(128px, 19vw, 248px);
+  --size-title: clamp(36px, 5.8vw, 72px);
+  --size-subtitle: clamp(26px, 3.2vw, 34px);
+  --size-lead: clamp(19px, 1.9vw, 24px);
+  --size-row: 17px;
+  --size-body: 17px;
+  --size-meta: 14px;
+  --size-label: 12px;
+  --track-hero: -0.038em;
+  --track-title: -0.032em;
+  --track-subtitle: -0.02em;
+  --track-number: -0.055em;
+  --track-label: 0.02em;
+
+  --settle: 380ms cubic-bezier(0.22, 1, 0.36, 1);
+  --quick: 220ms cubic-bezier(0.3, 0.7, 0.4, 1);
+  --entrance-scale: 0.94;
+  --press-scale: 0.97;
+  --press-opacity: 0.72;
+  --disabled-opacity: 0.35;
+  --carousel-min-scale: 0.72;
+  --carousel-min-opacity: 0.4;
+  --edge-fade: 12%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #000000;
+    --panel: #0C0C0C;
+    --surface: #1A1A1A;
+    --separator: #1A1A1A;
+    --text: #FAFAFA;
+    --text-2: #A1A1AA;
+    --text-3: #71717A;
+    --action-fill: #FAFAFA;
+    --action-label: #09090B;
+    --live: #34D399;
+    --glass: rgb(40 40 44 / 0.62);
+    --glass-edge: rgb(255 255 255 / 0.18);
+    --phone-shadow: 0 0 0 1px rgb(255 255 255 / 0.06);
+    --bar: rgb(0 0 0 / 0.72);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #000000;
+  --panel: #0C0C0C;
+  --surface: #1A1A1A;
+  --separator: #1A1A1A;
+  --text: #FAFAFA;
+  --text-2: #A1A1AA;
+  --text-3: #71717A;
+  --action-fill: #FAFAFA;
+  --action-label: #09090B;
+  --live: #34D399;
+  --glass: rgb(40 40 44 / 0.62);
+  --glass-edge: rgb(255 255 255 / 0.18);
+  --phone-shadow: 0 0 0 1px rgb(255 255 255 / 0.06);
+  --bar: rgb(0 0 0 / 0.72);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --settle: 1ms linear;
+    --quick: 1ms linear;
+    --entrance-scale: 1;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "base": [
+    {"alias": "Abricot Brave", "type": "mobile", "fingerprint": "5c4b9aafe4cb73dfdbe3575e08d11c749b18bc85bd8bc01b44b0c163b5c3997e"},
+    {"alias": "Melon Calme", "type": "mobile", "fingerprint": "da388ad4a3a35f31e6262be16b563e442ec4f9e4d8eb67aab33365058af0d445"}
+  ],
+  "carousel": {
+    "en": ["everyone", "Melon Calme", "Abricot Brave", "Witty Peach", "Lucky Lime", "Bright Plum", "Sunny Fig"],
+    "fr": ["everyone", "Abricot Brave", "Melon Calme", "Witty Peach", "Lucky Lime", "Bright Plum", "Sunny Fig"],
+    "de": ["everyone", "Abricot Brave", "Melon Calme", "Witty Peach", "Lucky Lime", "Bright Plum", "Sunny Fig"],
+    "es": ["everyone", "Melon Calme", "Abricot Brave", "Witty Peach", "Lucky Lime", "Bright Plum", "Sunny Fig"],
+    "it": ["everyone", "Melon Calme", "Abricot Brave", "Witty Peach", "Lucky Lime", "Bright Plum", "Sunny Fig"],
+    "pt": ["everyone", "Abricot Brave", "Witty Peach", "Lucky Lime", "Bright Plum", "Sunny Fig"]
+  },
+  "carouselInitial": {"en": 3, "fr": 3, "de": 3, "es": 3, "it": 3, "pt": 2},
+  "sendRecipient": {"en": 6, "fr": 6, "de": 6, "es": 6, "it": 6, "pt": 5},
+  "sendFrames": [700, 1300, 1300],
+  "sendDone": 1500,
+  "receiveFrames": [700, 1500],
+  "receiveDone": 1600
+}

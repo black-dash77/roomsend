@@ -1,0 +1,147 @@
+/* The legal documents, and the frame every page shares. */
+.doc,
+.page {
+  max-width: var(--content);
+  margin: 0 auto;
+  padding: clamp(40px, 7vw, 88px) var(--gutter) 0;
+}
+
+.doc__head,
+.page__head {
+  display: grid;
+  gap: var(--space-lg);
+  max-width: var(--reading);
+}
+
+.doc__title,
+.page__title {
+  font-size: var(--size-title);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: var(--track-title);
+}
+
+.doc__date {
+  color: var(--text-2);
+  font-size: var(--size-meta);
+}
+
+.doc__intro {
+  font-size: var(--size-lead);
+  line-height: 1.42;
+}
+
+.doc__layout {
+  display: grid;
+  grid-template-columns: 240px minmax(0, var(--reading));
+  gap: clamp(32px, 6vw, 96px);
+  margin-top: var(--space-64);
+}
+
+.doc__aside {
+  position: sticky;
+  top: calc(var(--bar-height) + var(--space-2xl));
+  display: grid;
+  align-content: start;
+  gap: var(--space-3xl);
+  height: fit-content;
+}
+
+.toc__label {
+  margin-bottom: var(--space-md);
+  color: var(--text-2);
+  font-size: var(--size-label);
+  font-weight: 600;
+  letter-spacing: var(--track-label);
+}
+
+.toc ol {
+  display: grid;
+  gap: var(--space-2xs);
+}
+
+.toc a {
+  display: block;
+  padding: var(--space-xs) 0 var(--space-xs) var(--space-md);
+  border-left: 2px solid var(--separator);
+  color: var(--text-2);
+  font-size: var(--size-meta);
+  text-decoration: none;
+  transition: color var(--quick), border-color var(--quick);
+}
+
+.toc a:hover,
+.toc a.is-current {
+  color: var(--text);
+  border-left-color: var(--text);
+}
+
+.doc__app {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.doc__caption {
+  color: var(--text-2);
+  font-size: var(--size-meta);
+}
+
+.doc__body {
+  display: grid;
+  gap: var(--space-huge);
+}
+
+.doc__section {
+  display: grid;
+  gap: var(--space-lg);
+}
+
+.doc__section h2 {
+  font-size: var(--size-subtitle);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: var(--track-subtitle);
+}
+
+.doc__section p,
+.doc__list li {
+  color: var(--text-2);
+  line-height: 1.6;
+}
+
+.doc__section a,
+.contact__email a {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.doc__list {
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.doc__list li {
+  padding: var(--space-lg);
+  border-radius: var(--radius-inset);
+  background: var(--panel);
+}
+
+@media (max-width: 860px) {
+  .doc__layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .doc__aside {
+    position: static;
+    order: 2;
+  }
+
+  .toc {
+    display: none;
+  }
+}
+
+.doc__section a[href^="mailto:"],
+.doc__intro a[href^="mailto:"] {
+  white-space: nowrap;
+}

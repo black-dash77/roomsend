@@ -1,0 +1,22 @@
+[
+  {
+    "alias": "Witty Peach",
+    "type": "desktop",
+    "fingerprint": "36d0fa3410dccf159aadaf3bb978c60dd221a2a7eb094c21dbe5ae3c54501af3"
+  },
+  {
+    "alias": "Lucky Lime",
+    "type": "mobile",
+    "fingerprint": "a78d34eaf767af535d523a42c058e1c6f14db6aa5db00ebba81d5bed4da11a83"
+  },
+  {
+    "alias": "Bright Plum",
+    "type": "desktop",
+    "fingerprint": "d590279cfb44ffd5965e7137072fc1d965b57e3274e99c630aba198ae5a45179"
+  },
+  {
+    "alias": "Sunny Fig",
+    "type": "mobile",
+    "fingerprint": "c17683abc36848d4191f5dbc0c6fb69c188aad2998ab43e3151293cedb8864e1"
+  }
+]

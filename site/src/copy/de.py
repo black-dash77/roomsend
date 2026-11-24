@@ -1,0 +1,127 @@
+"""Die Wörter der Website auf Deutsch, per du wie die App."""
+
+COPY = {
+    "lang.name": "Deutsch",
+    "meta.home.title": "RoomSend: an den ganzen Raum senden",
+    "meta.home.description": "Sende Fotos, Dateien und Texte vom iPhone an alle Geräte in deinem WLAN. Ohne "
+    "Konto, nichts geht über das Internet. Funktioniert mit LocalSend.",
+    "meta.privacy.description": "Was RoomSend und seine Website mit deinen Daten machen: Die App sammelt nichts.",
+    "meta.terms.description": "Die Nutzungsbedingungen der App RoomSend und dieser Website.",
+    "meta.support.title": "RoomSend Hilfe",
+    "meta.support.description": "Niemand im Raum? Wo landen empfangene Dateien? Die Antworten und wie du uns "
+    "erreichst.",
+    "nav.home": "RoomSend Startseite",
+    "nav.support": "Hilfe",
+    "nav.privacy": "Datenschutz",
+    "nav.terms": "Bedingungen",
+    "nav.language": "Sprache",
+    "nav.theme.dark": "Zum dunklen Erscheinungsbild wechseln",
+    "nav.theme.light": "Zum hellen Erscheinungsbild wechseln",
+    "nav.skip": "Zum Inhalt",
+    "store.soon": "Bald im App Store",
+    "store.get": "Im App Store laden",
+    "store.free": "Kostenlos, für iPhone",
+    "hero.title": "An den ganzen Raum senden.",
+    "hero.lead": "Fotos, Dateien und Texte an alle Geräte in deinem WLAN. Ohne Konto, und nichts geht über "
+    "das Internet.",
+    "hero.alt": "Der Raum-Bildschirm von RoomSend: vier Geräte in der Nähe, mit Avataren und Namen.",
+    "room.title": "Der Raum füllt sich von selbst.",
+    "room.lead": "Öffne RoomSend und die Geräte in deinem WLAN erscheinen, auch die LocalSend-Apps für "
+    "Android, Windows, macOS und Linux.",
+    "room.control": "Geräte im WLAN",
+    "room.unit.one": "Gerät in der Nähe",
+    "room.unit.other": "Geräte in der Nähe",
+    "room.hint": "Du bist dran: Zieh, um Geräte hereinzuholen.",
+    "room.alt": "Der Raum-Bildschirm mit {count} Geräten in der Nähe.",
+    "choose.title": "Wer in der Mitte steht, empfängt.",
+    "choose.lead": "Schieb die Geräte. Das mittlere empfängt, oder gleich der ganze Raum.",
+    "choose.everyone": "Der ganze Raum",
+    "choose.selected": "Empfänger: {name}",
+    "choose.alt": "Das Senden-Fenster, drei Fotos für {name}.",
+    "send.title": "Sieh zu, wie es ankommt.",
+    "send.lead": "RoomSend zeigt, wer empfängt, die gesendeten Bytes und was noch fehlt. Du stoppst, wann "
+    "du willst.",
+    "send.action": "Senden",
+    "send.again": "Nochmal senden",
+    "send.alt": "Drei Fotos werden an {name} gesendet.",
+    "receive.title": "Nichts kommt ohne dich herein.",
+    "receive.lead": "Ein Angebot zeigt, was ankommt und von wem. Nimm an oder lehne ab, verlange eine PIN "
+    "oder lass alles automatisch herein.",
+    "receive.decline": "Ablehnen",
+    "receive.accept": "Annehmen",
+    "receive.reset": "Angebot nochmal zeigen",
+    "receive.alt": "Witty Peach sendet dir drei Fotos.",
+    "appearance.title": "Hell oder dunkel.",
+    "appearance.lead": "Auto folgt dem iPhone, oder du wählst in den Einstellungen. Zieh die Linie.",
+    "appearance.handle": "Linie zwischen hell und dunkel verschieben",
+    "appearance.alt.light": "Der Raum-Bildschirm im hellen Erscheinungsbild.",
+    "appearance.alt.dark": "Der Raum-Bildschirm im dunklen Erscheinungsbild.",
+    "languages.title": "Sechs Sprachen, sofort.",
+    "languages.lead": "Wähle eine Sprache in den Einstellungen und die ganze App wechselt auf der Stelle, "
+    "ohne Neustart.",
+    "languages.alt": "Der Raum-Bildschirm auf {language}.",
+    "privacy.title": "Nichts geht über uns.",
+    "privacy.lead": "Dateien gehen direkt von einem Gerät zum anderen, standardmässig verschlüsselt. Wir "
+    "sehen sie nie.",
+    "privacy.account": "Konto",
+    "privacy.account.value": "Keins",
+    "privacy.server": "Server",
+    "privacy.server.value": "Keiner",
+    "privacy.tracking": "Analyse und Werbung",
+    "privacy.tracking.value": "Keine",
+    "privacy.encryption": "Verschlüsselung",
+    "privacy.encryption.value": "HTTPS, Zertifikat geprüft",
+    "privacy.link": "Teilen per Link",
+    "privacy.link.value": "Einfaches HTTP, nur in deinem WLAN",
+    "privacy.more": "Datenschutzerklärung lesen",
+    "compat.title": "Spricht LocalSend.",
+    "compat.lead": "RoomSend folgt dem offenen LocalSend-Protokoll. Es sendet an die LocalSend-Apps für "
+    "Android, Windows, macOS und Linux und empfängt von ihnen, wie von anderen iPhones mit RoomSend.",
+    "compat.link": "Über LocalSend",
+    "footer.notice": "RoomSend ist eine unabhängige App, ohne Verbindung zum Projekt LocalSend.",
+    "legal.toc": "Auf dieser Seite",
+    "legal.inapp": "Derselbe Text steht in der App, unter Einstellungen, Info.",
+    "support.title": "Hilfe",
+    "support.lead": "Die häufigsten Fragen zu RoomSend. Für alles andere schreib uns.",
+    "trouble.title": "Niemand im Raum?",
+    "trouble.yes": "Ja",
+    "trouble.no": "Nein",
+    "trouble.restart": "Von vorn",
+    "trouble.q1": "Sind beide Geräte im selben WLAN?",
+    "trouble.a1": "Verbinde sie mit demselben Netzwerk. Ein Gastnetz zählt als anderes Netzwerk.",
+    "trouble.q2": "Ist RoomSend oder LocalSend auf dem anderen Gerät geöffnet?",
+    "trouble.a2": "Öffne es. Geräte antworten nur, solange die App im Vordergrund ist.",
+    "trouble.q3": "Darf RoomSend das lokale Netzwerk nutzen?",
+    "trouble.a3": "Öffne auf dem iPhone Einstellungen, Datenschutz & Sicherheit, Lokales Netzwerk, und "
+    "aktiviere RoomSend.",
+    "trouble.end": "Manche Netzwerke trennen Geräte voneinander, in Hotels, Büros oder Schulen. Lass "
+    "Netzwerk durchsuchen in den Einstellungen von RoomSend an, oder füge das Gerät mit der Taste + im "
+    "Raum-Bildschirm per Adresse hinzu.",
+    "faq.title": "Fragen",
+    "faq.files.q": "Wo landen empfangene Dateien?",
+    "faq.files.a": "In der App Dateien, unter Auf meinem iPhone, RoomSend. Fotos und Videos landen auch in "
+    "Fotos, wenn Fotos in Fotos aktiviert ist.",
+    "faq.apps.q": "An welche Apps kann ich senden?",
+    "faq.apps.a": "An LocalSend für Android, Windows, macOS, Linux und iOS, und an RoomSend auf anderen "
+    "iPhones, solange sie im selben WLAN sind.",
+    "faq.pin.q": "Das andere Gerät verlangt eine PIN.",
+    "faq.pin.a": "Gib die PIN ein, die auf diesem Gerät steht. Um selbst eine zu verlangen: Einstellungen, "
+    "PIN verlangen.",
+    "faq.secure.q": "Sind Übertragungen verschlüsselt?",
+    "faq.secure.a": "Ja, standardmässig: HTTPS, und RoomSend prüft das Zertifikat des anderen Geräts gegen "
+    "den angekündigten Fingerabdruck. Ein offenes Schloss zeigt ein Gerät ohne Verschlüsselung. Teilen "
+    "per Link nutzt einfaches HTTP.",
+    "faq.link.q": "Wie funktioniert Teilen per Link?",
+    "faq.link.a": "Im Senden-Fenster zeigt Per Link teilen eine Adresse und einen QR-Code. Jeder Browser im "
+    "selben WLAN öffnet sie und lädt die Dateien, solange RoomSend offen bleibt.",
+    "faq.room.q": "Kann ich an mehrere Geräte auf einmal senden?",
+    "faq.room.a": "Ja. Wähle im Karussell des Senden-Fensters Der ganze Raum.",
+    "faq.name.q": "Wie ändere ich den Namen meines Geräts?",
+    "faq.name.a": "Tippe in den Einstellungen auf den Namen, um einen neuen einzugeben, oder auf die "
+    "Mischen-Taste, um einen zu ziehen.",
+    "contact.title": "Schreib uns",
+    "contact.lead": "Nenne dein iPhone-Modell, seine iOS-Version, die Version von RoomSend (Einstellungen, "
+    "Info) und die App auf dem anderen Gerät.",
+    "notfound.title": "Diese Seite gibt es nicht.",
+    "notfound.back": "Zurück zu RoomSend",
+}

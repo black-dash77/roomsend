@@ -117,16 +117,31 @@ Two Swift packages are pulled in by Xcode:
 |---|---|
 | [`RoomSend/`](RoomSend) | The app, in SwiftUI and Swift 6: `Core` (design system, network, HTTP server, identity, localization) and `Features` (room, send, receive, history, settings, share link) |
 | [`RoomSendShare/`](RoomSendShare) | The share extension |
+| [`site/`](site) | The website: a static generator in Python, 4 pages in 6 languages, demos driven by real captures, the tools that capture them |
 | [`appstore/`](appstore) | Everything for the App Store: name, subtitle, description and keywords in 6 languages, 6 screenshots per language at both required sizes, header and search visuals, review notes, privacy manifest |
 | [`docs/`](docs) | The plan, the design decisions, the lessons learned, the icon source |
-| [`tools/`](tools) | String tables, translations, and the legal texts shown in the app |
+| [`tools/`](tools) | String tables, translations, and the legal texts shared by the app and the site |
 
 ## The website
 
-The website, [roomsend.netlify.app](https://roomsend.netlify.app), is not part of this repository. It
-is a static site in six languages with interactive demos driven by real captures of the app. If you
-would like its source, write to me at
-[mateus@kiye-mateus.com](mailto:mateus@kiye-mateus.com).
+[roomsend.netlify.app](https://roomsend.netlify.app) presents the app in six languages, with
+interactive demos driven by real captures of the app: the room filling up as you drag a slider, the
+recipient carousel, a transfer in progress, an offer to accept, light and dark side by side. Its
+source is in [`site/`](site): a static generator in Python, a strict content security policy, no
+cookies and no analytics.
+
+<table>
+  <tr>
+    <td><img src="docs/website/home-dark.jpg" alt="The RoomSend website in dark appearance"></td>
+    <td><img src="docs/website/home-light.jpg" alt="The RoomSend website in light appearance"></td>
+  </tr>
+</table>
+
+```bash
+cd site
+python3 build.py
+python3 tools/serve.py public 8766
+```
 
 ## Status
 
